@@ -1,0 +1,6 @@
+{
+  "parent": "item/generate",
+  "textures": {
+    "layer0": "awt:item/artrium"
+  }
+}

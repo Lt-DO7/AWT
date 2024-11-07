@@ -1,5 +1,6 @@
 package net.awt.awt;
 
+import net.awt.awt.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,6 +14,7 @@ public class AWT implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 
 		LOGGER.info("Hello Fabric world!");
 	}
