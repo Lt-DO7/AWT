@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "awt",
+	"version": "${version}",
+	"name": "AWT",
+	"description": "An Adventures in Time Addon That Improves The Tardis's ",
+	"authors": [
+		"Taygamerlol"
+	],
+	"contact": {
+		"homepage": "https://discord.gg/h28wkJeaGM",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/awt/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.awt.awt.AWT"
+		],
+		"client": [
+			"net.awt.awt.AWTClient"
+		],
+		"fabric-datagen": [
+			"net.awt.awt.AWTDataGenerator"
+		]
+	},
+	"mixins": [
+		"awt.mixins.json",
+		{
+			"config": "awt.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
