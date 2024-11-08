@@ -1,5 +1,6 @@
 package net.awt.awt;
 
+import net.awt.awt.block.ModBlocks;
 import net.awt.awt.item.ModItemGroups;
 import net.awt.awt.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -17,7 +18,8 @@ public class AWT implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
-		LOGGER.info("Hello Fabric world!");
+
 	}
 }
