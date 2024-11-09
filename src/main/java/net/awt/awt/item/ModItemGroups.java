@@ -17,6 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.artrium)).entries((displayContext, entries) -> {
                         entries.add(ModItems.artrium);
                         entries.add(ModBlocks.artrium_ore);
+                        entries.add(ModBlocks.time_grower);
 
                     }).build());
 
