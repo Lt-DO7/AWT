@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "awt:artrium"
+    },
+    "b": {
+      "item": "ait:artron_collector"
+    },
+    "c": {
+      "item": "ait:engine_core_block"
+    },
+    "d": {
+      "item": "ait:zeiton_block"
+    },
+    "e": {
+      "item": "awt:artrium_ore"
+    }
+  },
+  "result": {
+    "item": "awt:time_grower",
+    "count": 1
+  }
+}
