@@ -18,6 +18,7 @@ public class ModItemGroups {
                         entries.add(ModItems.artrium);
                         entries.add(ModBlocks.artrium_ore);
                         entries.add(ModBlocks.time_grower);
+                        entries.add(ModBlocks.artrium_block);
 
                     }).build());
 
