@@ -1,7 +1,10 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube_top",
   "textures": {
-    "all": "awt:block/time_grower_top"
+    "top": "awt:block/time_grower_top",
+    "side": "awt:block/time_grower_side",
+    "bottom": "awt:block/time_grower_side"
 
-  }
+  },
+  "particle": "blocks/time_grower_side"
 }
