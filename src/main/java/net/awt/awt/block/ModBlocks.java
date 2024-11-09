@@ -17,6 +17,8 @@ public class ModBlocks {
            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).sounds(BlockSoundGroup.STONE)));
     public static final Block time_grower = registerBlock("time_grower",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
+    public static final Block artrium_block = registerBlock("artrium_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
 
 
     private static Block registerBlock(String name, Block block) {
