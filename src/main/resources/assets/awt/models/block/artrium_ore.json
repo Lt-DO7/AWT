@@ -3,5 +3,5 @@
   "textures": {
     "all": "awt:block/artrium_ore"
   },
-  "particle": "blocks/artrium_ore",
+  "particle": "blocks/artrium_ore"
 }
