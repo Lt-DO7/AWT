@@ -23,10 +23,8 @@
 		],
 		"fabric-datagen": [
 			"net.awt.awt.AWTDataGenerator"
-		],
-		"ait-main": [
-			"net.awt.awt.AITModInitializer"
 		]
+
 	},
 	"mixins": [
 		"awt.mixins.json",
