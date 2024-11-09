@@ -33,6 +33,6 @@ public class ModBlocks {
         AWT.LOGGER.info("Registering ModBlocks for" + AWT.MOD_ID);
 
 
-
+//Dino was here
     }
 }
