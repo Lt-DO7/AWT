@@ -1,20 +1,20 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "aaa",
+    "aaa",
+    "aaa"
   ],
   "key": {
-    "#": {
+    "a": {
       "item": "awt:artrium"
-    },
+    }
+  },
     "result": {
       "item": "awt:artrium_block",
       "count": 1
     }
-  }
 }
 
 
