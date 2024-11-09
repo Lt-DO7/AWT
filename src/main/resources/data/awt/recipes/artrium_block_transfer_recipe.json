@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredient":{
+      "item": "awt:artrium_block"
+    },
+    "result": {
+      "item": "awt:artrium",
+      "count": 9
+    }
+}
