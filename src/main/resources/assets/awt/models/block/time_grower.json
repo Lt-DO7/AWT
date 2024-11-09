@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "awt:block/time_grower_top"
-
+    "down": "awt:block/time_grower_side",
+    "up": "awt:block/time_grower_top",
+    "north": "awt:block/time_grower_side",
+    "south": "awt:block/time_grower_side",
+    "west": "awt:block/time_grower_side",
+    "east": "awt:block/time_grower_side",
+    "particles": "awt:block/time_grower_side"
   }
 }
