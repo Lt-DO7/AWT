@@ -1,6 +1,7 @@
 package net.awt.awt.item;
 
 import net.awt.awt.AWT;
+import net.awt.awt.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -15,6 +16,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.artrium"))
                     .icon(() -> new ItemStack(ModItems.artrium)).entries((displayContext, entries) -> {
                         entries.add(ModItems.artrium);
+                        entries.add(ModBlocks.artrium_ore);
 
                     }).build());
 
