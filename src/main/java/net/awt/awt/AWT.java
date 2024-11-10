@@ -1,6 +1,7 @@
 package net.awt.awt;
 
 import net.awt.awt.block.ModBlocks;
+import net.awt.awt.datagen.ModLootTableProvider;
 import net.awt.awt.datagen.ModWorldGenerator;
 import net.awt.awt.item.ModItemGroups;
 import net.awt.awt.item.ModItems;
@@ -22,6 +23,5 @@ public class AWT implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModWorldGeneration.generateModWorldGen();
-
 	}
 }

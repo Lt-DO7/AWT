@@ -1,6 +1,7 @@
 package net.awt.awt;
 
 import net.awt.awt.datagen.ModBlockTagProvider;
+import net.awt.awt.datagen.ModLootTableProvider;
 import net.awt.awt.datagen.ModWorldGenerator;
 import net.awt.awt.world.ModConfiguredFeatures;
 import net.awt.awt.world.ModPlacedFeatures;
@@ -17,6 +18,7 @@ public class AWTDataGenerator implements DataGeneratorEntrypoint {
 
 		pack.addProvider(ModBlockTagProvider::new);
 		pack.addProvider(ModWorldGenerator::new);
+		pack.addProvider(ModLootTableProvider::new);
 
 	}
 	@Override

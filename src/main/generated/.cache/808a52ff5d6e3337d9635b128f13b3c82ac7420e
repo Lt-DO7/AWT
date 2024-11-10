@@ -1,11 +1,11 @@
-// 1.20.1	2024-11-10T02:16:51.6481782	AWT/Tags for minecraft:block
-e0fcba60d69e5dfcf56ccfa397aeb866ee4aa825 data\minecraft\tags\blocks\needs_iron_tool.json
+// 1.20.1	2024-11-10T02:58:41.7331429	AWT/Tags for minecraft:block
+4656bbc8ccb0864c7fea1fe6bee2f80332f81ec1 data\minecraft\tags\blocks\needs_iron_tool.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_4.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\walls.json
-e0fcba60d69e5dfcf56ccfa397aeb866ee4aa825 data\minecraft\tags\blocks\mineable\pickaxe.json
-41a42e2837342d14d9cf579f4bb6adb5d3494062 data\minecraft\tags\blocks\needs_stone_tool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_stone_tool.json
+b48914b5bc3482d8869e03fa397498b6fd5425f7 data\minecraft\tags\blocks\mineable\pickaxe.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_5.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\logs_that_burn.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\fence_gates.json
-c4aec63b1e9edcfd9fc5e9f7c5a87e5130d1b0c8 data\minecraft\tags\blocks\needs_diamond_tool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_diamond_tool.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\fences.json
