@@ -2,8 +2,8 @@
     "id": "awt:billcipher",
     "category": "ait:exterior/police_box",
     "parent": "ait:exterior/police_box/coral",
-    "texture": "ed:textures/police_box_coralbillcipher.png",
-    "emission": "ed:textures/police_box_coralbillcipher_emission.png",
+    "texture": "awt:textures/police_box_coralbillcipher.png",
+    "emission": "awt:textures/police_box_coralbillcipher_emission.png",
     "overrides": {
         "snowy": "ait:textures/blockentities/exteriors/police_box/police_box_coral_snowy.png",
         "sculk": "ait:textures/blockentities/exteriors/police_box/police_box_sculk.png",
