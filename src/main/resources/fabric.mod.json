@@ -1,15 +1,18 @@
 {
 	"schemaVersion": 1,
 	"id": "awt",
-	"version": "${version}",
+	"version": "0.1",
 	"name": "AWT",
 	"description": "An Adventures in Time Addon That Improves The Tardis's ",
 	"authors": [
-		"Taygamerlol(Main Dev)","Dino(Texturer)","D07(Interior Designer)"
+		"Taygamerlol(Main Dev,Founder)",
+		"Dino(Texturer,Dev)",
+		"D07(Interior Designer,Wiki Creator)"
 	],
 	"contact": {
-		"homepage": "https://discord.gg/h28wkJeaGM",
-		"sources": "https://github.com/Taygamer/awt-1.20.1"
+		"discord": "https://discord.gg/h28wkJeaGM",
+		"sources": "https://github.com/Taygamer/awt-1.20.1",
+		"wiki": "https://github.com/Taygamer/awt-1.20.1/wiki/AWT-Home-Page"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/awt/icon.png",

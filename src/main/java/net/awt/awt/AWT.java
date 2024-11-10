@@ -22,5 +22,4 @@ public class AWT implements ModInitializer {
 
 
 	}
-	//We should add like a 10 way tardis upgrade system with like a 10 gig mod and 1 tardis upgrade point will require you to get 10 different ores which you will need to combine in to 10 different ores which you will need blocks off and combine for 0.01 upgrade point
 }
