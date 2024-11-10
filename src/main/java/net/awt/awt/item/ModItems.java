@@ -11,20 +11,21 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item artrium = registerItem("artrium", new Item(new FabricItemSettings()));
+	public static final Item ARTRIUM = registerItem("artrium", new Item(new FabricItemSettings()));
 
- private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
-     entries.add(artrium);
- }
+	private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
+		entries.add(ARTRIUM);
+	}
 
-private static Item registerItem(String name, Item item){
-    return Registry.register(Registries.ITEM, new Identifier(AWT.MOD_ID, name), item);
+	private static Item registerItem(String name, Item item) {
+		return Registry.register(Registries.ITEM, new Identifier(AWT.MOD_ID, name), item);
+	}
+
+	public static void registerModItems() {
+		AWT.LOGGER.info("Registering Mod Items for" + AWT.MOD_ID);
+
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
+	}
+
+
 }
-    public static void registerModItems() {
-        AWT.LOGGER.info("Registering Mod Items for" + AWT.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
-}
-
-
-    }

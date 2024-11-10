@@ -11,24 +11,20 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    public static final ItemGroup artrium_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(AWT.MOD_ID,"artrium"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.artrium"))
-                    .icon(() -> new ItemStack(ModItems.artrium)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.artrium);
-                        entries.add(ModBlocks.artrium_ore);
-                        entries.add(ModBlocks.artrium_block);
-                        entries.add(ModBlocks.deepslate_artrium_ore);
-                        entries.add(ModBlocks.time_grower);
+	public static final ItemGroup ARTRIUM_GROUP = Registry.register(Registries.ITEM_GROUP,
+			new Identifier(AWT.MOD_ID, "artrium"),
+			FabricItemGroup.builder().displayName(Text.translatable("itemgroup.artrium"))
+					.icon(() -> new ItemStack(ModItems.ARTRIUM)).entries((displayContext, entries) -> {
+						entries.add(ModItems.ARTRIUM);
+						entries.add(ModBlocks.ARTRIUM_ORE);
+						entries.add(ModBlocks.ARTRIUM_BLOCK);
+						entries.add(ModBlocks.DEEPSLATE_ARTRIUM_ORE);
+						entries.add(ModBlocks.TIME_GROWER);
 
-                    }).build());
-
-
+					}).build());
 
 
-
-
-    public static void registerItemGroups() {
-        AWT.LOGGER.info("Registering Item Groups for" +AWT.MOD_ID);
-    }
-    }
+	public static void registerItemGroups() {
+		AWT.LOGGER.info("Registering Item Groups for" + AWT.MOD_ID);
+	}
+}
