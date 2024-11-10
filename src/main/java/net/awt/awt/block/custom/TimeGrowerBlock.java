@@ -1,5 +1,6 @@
 package net.awt.awt.block.custom;
 
+import loqor.ait.core.blocks.CoralPlantBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CropBlock;
@@ -23,26 +24,31 @@ public class TimeGrowerBlock extends Block {
 
 		// Iterate over each block position within the defined area
 		for (BlockPos blockPos : BlockPos.iterate(
-				new BlockPos((int) growthArea.minX, (int) growthArea.minY, (int) growthArea.minZ),
-				new BlockPos((int) growthArea.maxX, (int) growthArea.maxY, (int) growthArea.maxZ))) {
+				new BlockPos((int) growthArea.minX,(int) growthArea.minY, (int) growthArea.minZ),
+				new BlockPos((int) growthArea.maxX, (int) growthArea.maxY,(int) growthArea.maxZ))) {
 
 			BlockState blockState = world.getBlockState(blockPos);
 			Block block = blockState.getBlock();
 
-			// Check if the block is a CropBlock
+			// Check if the block is a CropBlock or CoralPlantBlock
 			if (block instanceof CropBlock cropBlock) {
-				IntProperty ageProperty = CropBlock.AGE; // Assuming this property is accessible for standard crops
-				int currentAge = blockState.get(ageProperty);
-				int maxAge = cropBlock.getMaxAge();
-
-				// Increase the crop's age if it's not fully grown
-				if (currentAge < maxAge) {
-					world.setBlockState(blockPos, blockState.with(ageProperty, Math.min(currentAge + 100, maxAge)), 4);
-				}
+				updateBlockAge(world, blockPos, blockState, cropBlock.getMaxAge(), CropBlock.AGE);
+			} else if (block instanceof CoralPlantBlock coralPlantBlock) {
+				updateBlockAge(world, blockPos, blockState, coralPlantBlock.getMaxAge(), CoralPlantBlock.AGE);
 			}
 		}
 
 		// Schedule the next tick for periodic crop growth acceleration
 		world.scheduleBlockTick(pos, this, 10); // Adjust the tick rate if needed (20 ticks = 1 second)
+	}
+
+	private static void updateBlockAge(ServerWorld world, BlockPos pos, BlockState state, int maxAge, IntProperty ageProperty) {
+		int age = state.get(ageProperty);
+
+		// Check if the block is not fully grown
+		if (age < maxAge) {
+			// Increment the block age by an amount
+			world.setBlockState(pos, state.with(ageProperty, Math.min(age + 100, maxAge)));
+		}
 	}
 }
