@@ -26,6 +26,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.artrium_ore, copperLikeOreDrops(ModBlocks.artrium_ore, ModItems.artrium));
         addDrop(ModBlocks.deepslate_artrium_ore, copperLikeOreDrops(ModBlocks.deepslate_artrium_ore, ModItems.artrium));
+        addDrop(ModBlocks.artrium_block, drops(ModBlocks.artrium_block));
 
 
     }
