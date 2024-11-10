@@ -19,7 +19,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
     public static final Block artrium_block = registerBlock("artrium_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
-    public static final Block deepslate_artrium_block = registerBlock("deepslate_artrium_block",
+    public static final Block deepslate_artrium_ore = registerBlock("deepslate_artrium_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).sounds(BlockSoundGroup.DEEPSLATE)));
 
 
