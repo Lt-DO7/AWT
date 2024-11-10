@@ -1,0 +1,13 @@
+{
+  "id": "awt:tardis",
+  "models": {
+    "inactive": "awt:item/sonic/tardis",
+    "interaction": "awt:item/sonic/tardis_interaction",
+    "overload": "awt:item/sonic/tardis_overload",
+    "scanning": "awt:item/sonic/tardis_scanning",
+    "tardis": "awt:item/sonic/tardis_tardis"
+  },
+  "loyalty": {
+    "type": "NEUTRAL"
+  }
+}
