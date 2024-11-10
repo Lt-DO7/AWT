@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "awt:block/deepslate_artrium_ore"
-  },
-  "particle": "blocks/deepslate_artrium_ore"
-}
