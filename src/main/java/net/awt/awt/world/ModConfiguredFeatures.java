@@ -29,7 +29,7 @@ public class ModConfiguredFeatures {
                 List.of(OreFeatureConfig.createTarget(stoneReplacables, ModBlocks.artrium_ore.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplacables, ModBlocks.deepslate_artrium_ore.getDefaultState()));
 
-        register(context, ARTRIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldRubyOres, 12));
+        register(context, ARTRIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldRubyOres, 2));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
