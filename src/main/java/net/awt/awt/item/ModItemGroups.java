@@ -16,7 +16,6 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.artrium"))
                     .icon(() -> new ItemStack(ModItems.artrium)).entries((displayContext, entries) -> {
                         entries.add(ModItems.artrium);
-                        entries.add(ModItems.blunt);
                         entries.add(ModBlocks.artrium_ore);
                         entries.add(ModBlocks.artrium_block);
                         entries.add(ModBlocks.deepslate_artrium_ore);
