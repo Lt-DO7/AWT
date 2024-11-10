@@ -37,12 +37,12 @@ public class TimeGrowerBlock extends Block {
 
 				// Increase the crop's age if it's not fully grown
 				if (currentAge < maxAge) {
-					world.setBlockState(blockPos, blockState.with(ageProperty, Math.min(currentAge + 5, maxAge)), 2);
+					world.setBlockState(blockPos, blockState.with(ageProperty, Math.min(currentAge + 100, maxAge)), 4);
 				}
 			}
 		}
 
 		// Schedule the next tick for periodic crop growth acceleration
-		world.scheduleBlockTick(pos, this, 20); // Adjust the tick rate if needed (20 ticks = 1 second)
+		world.scheduleBlockTick(pos, this, 10); // Adjust the tick rate if needed (20 ticks = 1 second)
 	}
 }
