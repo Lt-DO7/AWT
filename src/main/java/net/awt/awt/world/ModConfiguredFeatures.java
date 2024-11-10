@@ -2,12 +2,10 @@ package net.awt.awt.world;
 
 import net.awt.awt.AWT;
 import net.awt.awt.block.ModBlocks;
-import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.BlockTags;
-import net.minecraft.structure.rule.BlockMatchRuleTest;
 import net.minecraft.structure.rule.RuleTest;
 import net.minecraft.structure.rule.TagMatchRuleTest;
 import net.minecraft.util.Identifier;
@@ -26,10 +24,10 @@ public class ModConfiguredFeatures {
         RuleTest deepslateReplacables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
         List<OreFeatureConfig.Target> overworldRubyOres =
-                List.of(OreFeatureConfig.createTarget(stoneReplacables, ModBlocks.artrium_ore.getDefaultState()),
-                        OreFeatureConfig.createTarget(deepslateReplacables, ModBlocks.deepslate_artrium_ore.getDefaultState()));
+                List.of(OreFeatureConfig.createTarget(stoneReplacables, ModBlocks.ARTRIUM_ORE.getDefaultState()),
+                        OreFeatureConfig.createTarget(deepslateReplacables, ModBlocks.DEEPSLATE_ARTRIUM_ORE.getDefaultState()));
 
-        register(context, ARTRIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldRubyOres, 2));
+        register(context, ARTRIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldRubyOres, 4));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

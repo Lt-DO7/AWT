@@ -21,7 +21,7 @@ public class ModPlacedFeatures {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context, ARTRIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.ARTRIUM_ORE_KEY),
-                ModOreGeneration.modifiersWithCount(5, // Veins per Chunk
+                ModOreGeneration.modifiersWithCount(3, // Veins per Chunk
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(-80), YOffset.fixed(80))));
     }
 

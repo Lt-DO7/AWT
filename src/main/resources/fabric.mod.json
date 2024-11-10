@@ -14,9 +14,6 @@
 		"sources": "https://github.com/Taygamer/awt-1.20.1",
 		"wiki": "https://github.com/Taygamer/awt-1.20.1/wiki/AWT-Home-Page"
 	},
-	"ait-main": [
-		"net.awt.awt.AWT"
-	],
 	"license": "CC0-1.0",
 	"icon": "assets/awt/icon.png",
 	"environment": "*",
@@ -29,9 +26,10 @@
 		],
 		"fabric-datagen": [
 			"net.awt.awt.AWTDataGenerator"
+		],
+		"ait-main": [
+			"net.awt.awt.util.AITUtil"
 		]
-
-
 	},
 	"mixins": [
 		"awt.mixins.json",
