@@ -6,5 +6,10 @@
   "block.awt.artrium_block": "Block of Artrium",
   "sonic.awt.blunt": "Blunt",
   "sonic.awt.tardis": "Tardis",
-  "itemgroup.artrium":"AWT"
+  "itemgroup.artrium":"AWT",
+  "desktop.awt.hell": "Hell",
+  "desktop.awt.chizeled": "Chizeled",
+  "desktop.awt.paradox": "Time Paradox",
+  "desktop.awt.coppercoral": "Copper Coral",
+  "desktop.awt.toywardian": "Toywardian"
 }
