@@ -1,0 +1,13 @@
+{
+  "id": "awt:toywardian",
+  "models": {
+    "inactive": "awt:item/sonic/toywardian_inactive",
+    "interaction": "awt:item/sonic/toywardian_interaction",
+    "overload": "awt:item/sonic/toywardian_overload",
+    "scanning": "awt:item/sonic/toywardian_scanning",
+    "tardis": "awt:item/sonic/toywardian_tardis"
+  },
+  "loyalty": {
+    "type": "NEUTRAL"
+  }
+}
