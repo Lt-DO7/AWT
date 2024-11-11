@@ -1,16 +1,27 @@
 {
   "item.awt.artrium":"Artrium",
+
   "block.awt.artrium_ore": "Artrium Ore",
   "block.awt.deepslate_artrium_ore": "Deepslate Artrium Ore",
   "block.awt.time_grower": "Time Grower",
   "block.awt.artrium_block": "Block of Artrium",
+
+  "itemgroup.artrium":"AWT",
+
+  "exterior.awt.billcipher": "Bill Cipher",
+  "exterior.awt.toywardianbooth": "Toywardian Booth",
+  "exterior.awt.toywardianbox": "Toywardian Box",
+  "exterior.awt.toywardianfaded": "Toywardian OG",
+
   "sonic.awt.blunt": "Blunt",
   "sonic.awt.tardis": "Tardis",
   "sonic.awt.toywardian": "Toywardian",
-  "itemgroup.artrium":"AWT",
+
   "desktop.awt.hell": "Hell",
   "desktop.awt.darkrock": "DarkRock",
   "desktop.awt.blackwool": "BlackWool",
+  "desktop.awt.missy": "Missy",
+  "desktop.awt.rosewood": "Rosewood Hollow",
   "desktop.awt.chizeled": "Chizeled",
   "desktop.awt.paradox": "Time Paradox",
   "desktop.awt.coppercoral": "Copper Coral",
