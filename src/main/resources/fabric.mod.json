@@ -27,11 +27,11 @@
 		],
 		"fabric-datagen": [
 			"net.awt.awt.AWTDataGenerator"
-		],
-		"ait-main": [
-			"net.awt.awt.util.AITUtil"
 		]
 	},
+	"ait-main": [
+		"net.awt.awt.util.AITUtil"
+	],
 	"mixins": [
 		"awt.mixins.json",
 		{

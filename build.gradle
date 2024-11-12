@@ -49,7 +49,8 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	// Adventures in Time
-	modImplementation "curse.maven:adventures-in-time-856138:5857697"
+	// modImplementation "curse.maven:adventures-in-time-856138:5857697"
+	modImplementation files("libs/ait.jar")
 
 	// owolib
 	modImplementation "io.wispforest:owo-lib:${project.owo_version}"
