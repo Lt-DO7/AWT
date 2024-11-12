@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ddwa:block/dalekanium_block",
+    "particle": "ddwa:block/dalekanium_block"
+  },
+  "render_type": "solid"
+}

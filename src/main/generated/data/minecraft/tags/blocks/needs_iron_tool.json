@@ -1,9 +1,8 @@
 {
   "replace": false,
   "values": [
-    "ait:landing_pad",
-    "ait:zeiton_block",
-    "ait:budding_zeiton",
-    "ait:zeiton_cluster"
+    "awt:artrium_block",
+    "awt:deepslate_artrium_ore",
+    "awt:artrium_ore"
   ]
 }

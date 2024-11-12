@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "ddwa:block/wasted_planks"
+  },
+  "render_type": "solid"
+}

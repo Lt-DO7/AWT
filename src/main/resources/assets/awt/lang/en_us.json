@@ -1,4 +1,6 @@
 {
+  "AWT": "awt lang here",
+
   "item.awt.artrium":"Artrium",
   "item.awt.lightsaber":"Lightsaber",
 
@@ -8,6 +10,10 @@
   "block.awt.artrium_block": "Block of Artrium",
 
   "itemgroup.artrium":"AWT",
+
+  "DDWA": "ddwa lang here",
+
+  "datapacks": "datapack lang here",
 
   "exterior.awt.billcipher": "Bill Cipher",
   "exterior.awt.toywardianbooth": "Toywardian Booth",
@@ -28,5 +34,7 @@
   "desktop.awt.paradox": "Time Paradox",
   "desktop.awt.coppercoral": "Copper Coral",
   "desktop.awt.toywardian": "Toywardian",
-  "desktop.awt.abandoned_wardian": "Abandoned Wardian"
+  "desktop.awt.abandoned_wardian": "Abandoned Wardian",
+  "desktop.awt.antiquitor": "Antiquitor",
+  "desktop.awt.renegade": "Renegade"
 }

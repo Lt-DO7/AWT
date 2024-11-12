@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ddwa:block/chromite_ore"
+    }
+  }
+}

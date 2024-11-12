@@ -1,0 +1,10 @@
+{
+  "parent": "ddwa:custom/dardis_wip",
+  "textures": {
+    "all": "ddwa:block/tesfd",
+    "particle": "ddwa:block/tesfd",
+    "0": "ddwa:block/tesfd",
+    "missing": "ddwa:block/tesfd"
+  },
+  "render_type": "solid"
+}

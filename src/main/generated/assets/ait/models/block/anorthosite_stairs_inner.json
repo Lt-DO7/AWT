@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "ait:block/anorthosite",
-    "side": "ait:block/anorthosite",
-    "top": "ait:block/anorthosite"
-  }
-}

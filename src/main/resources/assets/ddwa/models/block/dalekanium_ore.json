@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ddwa:block/dalekore",
+    "particle": "ddwa:block/dalekore"
+  },
+  "render_type": "solid"
+}
