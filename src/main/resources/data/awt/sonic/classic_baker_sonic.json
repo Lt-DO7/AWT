@@ -1,0 +1,13 @@
+{
+  "id": "awt:classic_baker_sonic",
+  "models": {
+    "inactive": "awt:item/sonic/classic_baker_sonic",
+    "interaction": "awt:item/sonic/classic_baker_sonic",
+    "overload": "awt:item/sonic/classic_baker_sonic",
+    "scanning": "awt:item/sonic/classic_baker_sonic",
+    "tardis": "awt:item/sonic/classic_baker_sonic"
+  },
+  "loyalty": {
+    "type": "NEUTRAL"
+  }
+}

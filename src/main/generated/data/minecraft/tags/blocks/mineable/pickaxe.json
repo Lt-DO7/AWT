@@ -1,8 +1,16 @@
 {
   "replace": false,
   "values": [
-    "awt:artrium_block",
-    "awt:artrium_ore",
-    "awt:deepslate_artrium_ore"
+    "ait:door_block",
+    "ait:landing_pad",
+    "ait:console_generator",
+    "ait:artron_collector_block",
+    "ait:monitor_block",
+    "ait:zeiton_block",
+    "ait:budding_zeiton",
+    "ait:zeiton_cluster",
+    "ait:large_zeiton_bud",
+    "ait:medium_zeiton_bud",
+    "ait:small_zeiton_bud"
   ]
 }
