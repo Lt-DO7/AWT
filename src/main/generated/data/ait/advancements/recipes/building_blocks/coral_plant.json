@@ -1,0 +1,100 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_charged_zeiton_crystal": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ait:charged_zeiton_crystal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_console_generator": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ait:console_generator"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dead_brain_coral": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dead_brain_coral"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ait:coral_plant"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_zeiton_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ait:zeiton_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_zeiton_cluster": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ait:zeiton_cluster"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_zeiton_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ait:zeiton_shard"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_zeiton_block",
+      "has_charged_zeiton_crystal",
+      "has_zeiton_cluster",
+      "has_dead_brain_coral",
+      "has_zeiton_shard",
+      "has_console_generator",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ait:coral_plant"
+    ]
+  },
+  "sends_telemetry_event": false
+}

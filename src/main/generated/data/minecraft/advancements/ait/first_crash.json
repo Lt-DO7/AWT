@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:ait/first_demat",
+  "criteria": {
+    "first_crash": {
+      "conditions": {},
+      "trigger": "ait:tardis_crash"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Embrace the chaos of time and space by unintentionally crashing your TARDIS for the first time."
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:tnt"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Temporal Turbulence"
+    }
+  },
+  "requirements": [
+    [
+      "first_crash"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
