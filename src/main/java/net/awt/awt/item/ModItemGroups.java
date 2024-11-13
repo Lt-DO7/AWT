@@ -23,6 +23,14 @@ public class ModItemGroups {
 
 					}).build());
 
+	public static final ItemGroup DALEKANIUM_GROUP = Registry.register(Registries.ITEM_GROUP,
+			new Identifier(AWT.MOD_ID, "skaro"),
+			FabricItemGroup.builder().displayName(Text.translatable("item_group.awt.planet_skaro"))
+					.icon(() -> new ItemStack(ModBlocks.DALEKANIUM_BLOCK)).entries((displayContext, entries) -> {
+						entries.add(ModBlocks.DALEKANIUM_BLOCK);
+
+					}).build());
+
 
 	public static void registerItemGroups() {
 		AWT.LOGGER.info("Registering Item Groups for" + AWT.MOD_ID);

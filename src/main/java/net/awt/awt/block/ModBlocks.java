@@ -14,6 +14,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
+	//AWT
 	public static final Block ARTRIUM_ORE = registerBlock("artrium_ore",
 			new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).sounds(BlockSoundGroup.STONE)));
 	public static final Block TIME_GROWER = registerBlock("time_grower",
@@ -22,6 +23,10 @@ public class ModBlocks {
 			new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
 	public static final Block DEEPSLATE_ARTRIUM_ORE = registerBlock("deepslate_artrium_ore",
 			new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).sounds(BlockSoundGroup.DEEPSLATE)));
+
+	//DDWA
+	public static final Block DALEKANIUM_BLOCK = registerBlock("dalekanium_block",
+			new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
 
 
 	private static Block registerBlock(String name, Block block) {

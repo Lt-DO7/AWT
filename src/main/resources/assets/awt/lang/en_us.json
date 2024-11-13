@@ -1,5 +1,4 @@
 {
-  "AWT": "awt lang here",
 
   "item.awt.artrium":"Artrium",
   "item.awt.lightsaber":"Lightsaber",
@@ -11,9 +10,6 @@
 
   "itemgroup.artrium":"AWT",
 
-  "DDWA": "ddwa lang here",
-
-  "datapacks": "datapack lang here",
 
   "exterior.awt.billcipher": "Bill Cipher",
   "exterior.awt.toywardianbooth": "Toywardian Booth",
@@ -38,4 +34,6 @@
   "desktop.awt.abandoned_wardian": "Abandoned Wardian",
   "desktop.awt.antiquitor": "Antiquitor",
   "desktop.awt.renegade": "Renegade"
+
+
 }
