@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "ddwa:block/wasted_planks"
+  },
+  "render_type": "solid"
+}

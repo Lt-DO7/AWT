@@ -17,6 +17,8 @@ public class AITUtil implements AITModInitializer {
 	public void onInitializeAIT() {
 		// this is called when AIT is ready to be registered to and used with, ait related logic should be placed here
 		// fixme, ait is a mess so this is a lie ^
+		if (isAITLoaded()) return;
+
 		instance = this;
 
 		AWTDoors.init();
@@ -24,6 +26,8 @@ public class AITUtil implements AITModInitializer {
 	}
 
 	public static void init(Registries registries, Registries.InitType type) {
+		if (isAITLoaded()) return;
+
 		instance = new AITUtil();
 		instance.onInitializeAIT();
 	}

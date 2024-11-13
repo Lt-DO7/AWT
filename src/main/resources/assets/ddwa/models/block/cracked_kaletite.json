@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ddwa:block/cracked_kaletite",
+    "particle": "ddwa:block/cracked_kaletite"
+  },
+  "render_type": "solid"
+}

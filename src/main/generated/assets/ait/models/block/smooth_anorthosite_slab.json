@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "ait:block/smooth_anorthosite",
-    "side": "ait:block/smooth_anorthosite",
-    "top": "ait:block/smooth_anorthosite"
-  }
-}

@@ -1,4 +1,6 @@
 {
+  "AWT": "awt lang here",
+
   "item.awt.artrium":"Artrium",
   "item.awt.lightsaber":"Lightsaber",
 
@@ -9,6 +11,10 @@
 
   "itemgroup.artrium":"AWT",
 
+  "DDWA": "ddwa lang here",
+
+  "datapacks": "datapack lang here",
+
   "exterior.awt.billcipher": "Bill Cipher",
   "exterior.awt.toywardianbooth": "Toywardian Booth",
   "exterior.awt.toywardianbox": "Toywardian Box",
@@ -18,6 +24,7 @@
   "sonic.awt.blunt": "Blunt",
   "sonic.awt.tardis": "Tardis",
   "sonic.awt.toywardian": "Toywardian",
+  "sonic.awt.classic_baker_sonic": "Classic:Baker",
 
   "desktop.awt.hell": "Hell",
   "desktop.awt.darkrock": "DarkRock",
@@ -28,5 +35,7 @@
   "desktop.awt.paradox": "Time Paradox",
   "desktop.awt.coppercoral": "Copper Coral",
   "desktop.awt.toywardian": "Toywardian",
-  "desktop.awt.abandoned_wardian": "Abandoned Wardian"
+  "desktop.awt.abandoned_wardian": "Abandoned Wardian",
+  "desktop.awt.antiquitor": "Antiquitor",
+  "desktop.awt.renegade": "Renegade"
 }

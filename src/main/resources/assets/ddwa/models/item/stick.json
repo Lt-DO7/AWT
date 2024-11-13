@@ -1,0 +1,7 @@
+{
+  "parent": "ddwa:custom/stick",
+  "textures": {
+    "missing": "ddwa:block/",
+    "particle": "ddwa:item/dalekanium_block"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "ddwa:custom/toyshelf",
+  "textures": {
+    "all": "ddwa:block/toy_shelf",
+    "particle": "ddwa:block/toy_shelf",
+    "1": "ddwa:block/toy_shelf"
+  },
+  "render_type": "solid"
+}

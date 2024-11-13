@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ddwa:block/wasted_planks",
+    "particle": "ddwa:block/wasted_planks"
+  },
+  "render_type": "solid"
+}

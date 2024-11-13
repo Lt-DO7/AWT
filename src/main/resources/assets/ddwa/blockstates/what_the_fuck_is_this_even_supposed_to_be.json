@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ddwa:block/what_the_fuck_is_this_even_supposed_to_be"
+    },
+    "facing=east": {
+      "model": "ddwa:block/what_the_fuck_is_this_even_supposed_to_be",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ddwa:block/what_the_fuck_is_this_even_supposed_to_be",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ddwa:block/what_the_fuck_is_this_even_supposed_to_be",
+      "y": 270
+    }
+  }
+}

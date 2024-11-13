@@ -1,8 +1,0 @@
-// 1.20.1	2024-11-12T17:12:41.0219737	Adventures In Time/Tags for minecraft:block
-0f59dff44499f66f93c908260aed9e453d307488 data\minecraft\tags\blocks\needs_iron_tool.json
-9c99cfc3a4b019d5b7fa03a979a9b89d3f392635 data\minecraft\tags\blocks\walls.json
-80caace68e4d8a53e288651347235fb8acd21d27 data\ait\tags\blocks\sonic_interactable.json
-4cfe58ed1e6d5c888f690049ab0669694feb7548 data\minecraft\tags\blocks\mineable\pickaxe.json
-29ad654f7fcb1b55d4eaefc8ab70bf9c26ba640e data\minecraft\tags\blocks\needs_stone_tool.json
-8a119e451749a82fabf736b5d8583da21c6782bc data\minecraft\tags\blocks\dragon_immune.json
-8a119e451749a82fabf736b5d8583da21c6782bc data\minecraft\tags\blocks\wither_immune.json
