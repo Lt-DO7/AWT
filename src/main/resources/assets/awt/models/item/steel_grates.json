@@ -1,5 +1,5 @@
 {
-  "parent": "ddwa:block/steel_grates",
+  "parent": "awt:block/steel_grates",
   "display": {
     "thirdperson": {
       "rotation": [

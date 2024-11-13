@@ -1,5 +1,5 @@
 {
-  "parent": "ddwa:custom/vmupdated",
+  "parent": "awt:custom/vmupdated",
   "textures": {
     "0": "ddwa:block/vortex_manipulator",
     "particle": "ddwa:item/vortex_manipulator"

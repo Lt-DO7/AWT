@@ -1,5 +1,5 @@
 {
-  "parent": "ddwa:block/wasted_dirt",
+  "parent": "awt:block/wasted_dirt",
   "display": {
     "thirdperson": {
       "rotation": [

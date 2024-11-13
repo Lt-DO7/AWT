@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=north": {
-      "model": "ddwa:block/candy_cane_pillar"
+      "model": "awt:block/candy_cane_pillar"
     },
     "facing=east": {
-      "model": "ddwa:block/candy_cane_pillar",
+      "model": "awt:block/candy_cane_pillar",
       "y": 90
     },
     "facing=south": {
-      "model": "ddwa:block/candy_cane_pillar",
+      "model": "awt:block/candy_cane_pillar",
       "y": 180
     },
     "facing=west": {
-      "model": "ddwa:block/candy_cane_pillar",
+      "model": "awt:block/candy_cane_pillar",
       "y": 270
     }
   }

@@ -1,5 +1,5 @@
 {
-  "parent": "ddwa:block/steel_block",
+  "parent": "awt:block/steel_block",
   "display": {
     "thirdperson": {
       "rotation": [

@@ -27,6 +27,16 @@ public class ModBlocks {
 	//DDWA
 	public static final Block DALEKANIUM_BLOCK = registerBlock("dalekanium_block",
 			new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
+	public static final Block DALEKANIUM_ORE = registerBlock("dalekanium_ore",
+			new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).sounds(BlockSoundGroup.STONE)));
+	public static final Block KALETITE = registerBlock("kaletite",
+			new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+	public static final Block KALETITE_BRICKS = registerBlock("kaletite_bricks",
+			new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS).sounds(BlockSoundGroup.STONE)));
+	public static final Block CRACKED_KALETITE = registerBlock("cracked_kaletite",
+			new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+	public static final Block COBBLED_KALETITE = registerBlock("cobbled_kaletite",
+			new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
 
 
 	private static Block registerBlock(String name, Block block) {

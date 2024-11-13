@@ -1,5 +1,5 @@
 {
-  "parent": "ddwa:block/kaletite",
+  "parent": "awt:block/kaletite",
   "display": {
     "thirdperson": {
       "rotation": [

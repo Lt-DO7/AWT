@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "ddwa:block/wasted_plank_slab"
+      "model": "awt:block/wasted_plank_slab"
     },
     "type=top": {
-      "model": "ddwa:block/wasted_plank_slab_top"
+      "model": "awt:block/wasted_plank_slab_top"
     },
     "type=double": {
-      "model": "ddwa:block/wasted_plank_slab_full"
+      "model": "awt:block/wasted_plank_slab_full"
     }
   }
 }

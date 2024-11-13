@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "ddwa:block/good_heavens"
+      "model": "awt:block/good_heavens"
     }
   }
 }

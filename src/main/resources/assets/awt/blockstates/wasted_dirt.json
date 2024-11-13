@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "ddwa:block/wasted_dirt"
+      "model": "awt:block/wasted_dirt"
     }
   }
 }

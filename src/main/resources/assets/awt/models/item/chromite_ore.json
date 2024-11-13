@@ -1,5 +1,5 @@
 {
-  "parent": "ddwa:block/chromite_ore",
+  "parent": "awt:block/chromite_ore",
   "display": {
     "thirdperson": {
       "rotation": [

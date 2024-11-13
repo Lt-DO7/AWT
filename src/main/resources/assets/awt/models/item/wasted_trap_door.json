@@ -1,5 +1,5 @@
 {
-  "parent": "ddwa:block/wasted_trap_door",
+  "parent": "awt:block/wasted_trap_door",
   "display": {
     "thirdperson": {
       "rotation": [

@@ -1,5 +1,5 @@
 {
-  "parent": "ddwa:block/exquisite_cat",
+  "parent": "awt:block/exquisite_cat",
   "display": {
     "thirdperson": {
       "rotation": [

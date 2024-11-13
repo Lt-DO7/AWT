@@ -1,5 +1,5 @@
 {
-  "parent": "ddwa:block/what_the_fuck_is_this_even_supposed_to_be",
+  "parent": "awt:block/what_the_fuck_is_this_even_supposed_to_be",
   "display": {
     "thirdperson": {
       "rotation": [

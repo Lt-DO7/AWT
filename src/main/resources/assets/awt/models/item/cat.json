@@ -1,5 +1,5 @@
 {
-  "parent": "ddwa:block/cat",
+  "parent": "awt:block/cat",
   "display": {
     "thirdperson": {
       "rotation": [

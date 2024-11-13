@@ -1,10 +1,10 @@
 {
   "variants": {
     "powered=false": {
-      "model": "ddwa:block/wasted_pressure_plate"
+      "model": "awt:block/wasted_pressure_plate"
     },
     "powered=true": {
-      "model": "ddwa:block/wasted_pressure_plate_down"
+      "model": "awt:block/wasted_pressure_plate_down"
     }
   }
 }

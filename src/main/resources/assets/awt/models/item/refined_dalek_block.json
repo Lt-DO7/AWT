@@ -1,5 +1,5 @@
 {
-  "parent": "ddwa:block/refined_dalek_block",
+  "parent": "awt:block/refined_dalek_block",
   "display": {
     "thirdperson": {
       "rotation": [

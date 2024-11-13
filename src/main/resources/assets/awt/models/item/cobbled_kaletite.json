@@ -1,5 +1,5 @@
 {
-  "parent": "ddwa:block/cobbled_kaletite",
+  "parent": "awt:block/cobbled_kaletite",
   "display": {
     "thirdperson": {
       "rotation": [

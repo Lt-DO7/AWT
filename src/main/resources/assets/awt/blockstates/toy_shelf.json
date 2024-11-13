@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=north": {
-      "model": "ddwa:block/toy_shelf"
+      "model": "awt:block/toy_shelf"
     },
     "facing=east": {
-      "model": "ddwa:block/toy_shelf",
+      "model": "awt:block/toy_shelf",
       "y": 90
     },
     "facing=south": {
-      "model": "ddwa:block/toy_shelf",
+      "model": "awt:block/toy_shelf",
       "y": 180
     },
     "facing=west": {
-      "model": "ddwa:block/toy_shelf",
+      "model": "awt:block/toy_shelf",
       "y": 270
     }
   }

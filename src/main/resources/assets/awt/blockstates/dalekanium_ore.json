@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "ddwa:block/dalekanium_ore"
+      "model": "awt:block/dalekanium_ore"
     }
   }
 }

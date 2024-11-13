@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "ddwa:block/wastedgrass"
+      "model": "awt:block/wastedgrass"
     }
   }
 }

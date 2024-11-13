@@ -1,5 +1,5 @@
 {
-  "parent": "ddwa:block/dalekanium_ore",
+  "parent": "awt:block/dalekanium_ore",
   "display": {
     "thirdperson": {
       "rotation": [

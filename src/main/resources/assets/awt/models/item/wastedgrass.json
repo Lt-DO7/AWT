@@ -1,5 +1,5 @@
 {
-  "parent": "ddwa:block/wastedgrass",
+  "parent": "awt:block/wastedgrass",
   "display": {
     "thirdperson": {
       "rotation": [

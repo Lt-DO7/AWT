@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "ddwa:block/cat"
+      "model": "awt:block/cat"
     }
   }
 }

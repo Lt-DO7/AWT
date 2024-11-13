@@ -26,9 +26,24 @@ public class ModItemGroups {
 	public static final ItemGroup DALEKANIUM_GROUP = Registry.register(Registries.ITEM_GROUP,
 			new Identifier(AWT.MOD_ID, "skaro"),
 			FabricItemGroup.builder().displayName(Text.translatable("item_group.awt.planet_skaro"))
-					.icon(() -> new ItemStack(ModBlocks.DALEKANIUM_BLOCK)).entries((displayContext, entries) -> {
+					.icon(() -> new ItemStack(ModItems.DALEKANIUM)).entries((displayContext, entries) -> {
+						entries.add(ModItems.DALEKANIUM);
+						entries.add(ModItems.DALEKANIUM_SCRAP);
+						entries.add(ModItems.METALERT_DUST);
+						entries.add(ModItems.CHROMITE);
 						entries.add(ModBlocks.DALEKANIUM_BLOCK);
+						entries.add(ModBlocks.DALEKANIUM_ORE);
+						entries.add(ModBlocks.KALETITE);
+						entries.add(ModBlocks.KALETITE_BRICKS);
+						entries.add(ModBlocks.CRACKED_KALETITE);
+						entries.add(ModBlocks.COBBLED_KALETITE);
+					}).build());
 
+	public static final ItemGroup STEEL_GROUP = Registry.register(Registries.ITEM_GROUP,
+			new Identifier(AWT.MOD_ID, "mondas"),
+			FabricItemGroup.builder().displayName(Text.translatable("item_group.awt.planet_mondas"))
+					.icon(() -> new ItemStack(ModItems.STEEL)).entries((displayContext, entries) -> {
+						entries.add(ModItems.STEEL);
 					}).build());
 
 

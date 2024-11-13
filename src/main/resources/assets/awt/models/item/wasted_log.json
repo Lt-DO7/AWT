@@ -1,5 +1,5 @@
 {
-  "parent": "ddwa:block/wasted_log",
+  "parent": "awt:block/wasted_log",
   "display": {
     "thirdperson": {
       "rotation": [

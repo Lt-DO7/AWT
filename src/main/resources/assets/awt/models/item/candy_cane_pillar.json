@@ -1,5 +1,5 @@
 {
-  "parent": "ddwa:block/candy_cane_pillar",
+  "parent": "awt:block/candy_cane_pillar",
   "display": {
     "thirdperson": {
       "rotation": [

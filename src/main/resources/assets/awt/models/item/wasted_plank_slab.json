@@ -1,5 +1,5 @@
 {
-  "parent": "ddwa:block/wasted_plank_slab",
+  "parent": "awt:block/wasted_plank_slab",
   "display": {
     "thirdperson": {
       "rotation": [

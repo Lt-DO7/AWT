@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "ddwa:block/refined_dalek_block"
+      "model": "awt:block/refined_dalek_block"
     }
   }
 }
