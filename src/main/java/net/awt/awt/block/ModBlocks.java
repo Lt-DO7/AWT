@@ -38,6 +38,10 @@ public class ModBlocks {
 	public static final Block COBBLED_KALETITE = registerBlock("cobbled_kaletite",
 			new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
 
+	//roundel
+	public static final Block WHITE_CONCRETE_ROUNDEL = registerBlock("white_concrete_roundel",
+			new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+
 
 	private static Block registerBlock(String name, Block block) {
 		registerBlockItem(name, block);
