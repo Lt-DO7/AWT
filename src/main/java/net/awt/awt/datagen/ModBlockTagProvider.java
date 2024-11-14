@@ -21,6 +21,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 		getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
 				.add(ModBlocks.ARTRIUM_BLOCK)
 				.add(ModBlocks.ARTRIUM_ORE)
+				.add(ModBlocks.KALETITE)
+				.add(ModBlocks.COBBLED_KALETITE)
+				.add(ModBlocks.CRACKED_KALETITE)
+				.add(ModBlocks.KALETITE_BRICKS)
+				.add(ModBlocks.DALEKANIUM_ORE)
+				.add(ModBlocks.DALEKANIUM_BLOCK)
 				.add(ModBlocks.DEEPSLATE_ARTRIUM_ORE);
 
 
@@ -29,6 +35,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 		getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
 				.add(ModBlocks.ARTRIUM_BLOCK)
 				.add(ModBlocks.DEEPSLATE_ARTRIUM_ORE)
+				.add(ModBlocks.DALEKANIUM_ORE)
 				.add(ModBlocks.ARTRIUM_ORE);
 
 		getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL);

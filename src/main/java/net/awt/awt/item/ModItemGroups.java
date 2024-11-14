@@ -46,6 +46,14 @@ public class ModItemGroups {
 						entries.add(ModItems.STEEL);
 					}).build());
 
+	public static final ItemGroup ROUNDEL_GROUP = Registry.register(Registries.ITEM_GROUP,
+			new Identifier(AWT.MOD_ID, "roundel"),
+			FabricItemGroup.builder().displayName(Text.translatable("itemgroup.roundel"))
+					.icon(() -> new ItemStack(ModItems.ARTRIUM)).entries((displayContext, entries) -> {
+						
+
+					}).build());
+
 
 	public static void registerItemGroups() {
 		AWT.LOGGER.info("Registering Item Groups for" + AWT.MOD_ID);

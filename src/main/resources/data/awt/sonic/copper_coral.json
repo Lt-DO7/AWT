@@ -1,0 +1,13 @@
+{
+  "id": "awt:copper_coral",
+  "models": {
+    "inactive": "awt:item/sonic/copper_coral_inactive",
+    "interaction": "awt:item/sonic/copper_coral_interaction",
+    "overload": "awt:item/sonic/copper_coral_overload",
+    "scanning": "awt:item/sonic/copper_coral_scanning",
+    "tardis": "awt:item/sonic/copper_coral_tardis"
+  },
+  "loyalty": {
+    "type": "NEUTRAL"
+  }
+}

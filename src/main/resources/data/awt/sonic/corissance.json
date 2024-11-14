@@ -1,0 +1,13 @@
+{
+  "id": "awt:corissance",
+  "models": {
+    "inactive": "awt:item/sonic/corissance_inactive",
+    "interaction": "awt:item/sonic/corissance_interaction",
+    "overload": "awt:item/sonic/corissance_overload",
+    "scanning": "awt:item/sonic/corissance_scanning",
+    "tardis": "awt:item/sonic/corissance_tardis"
+  },
+  "loyalty": {
+    "type": "NEUTRAL"
+  }
+}
