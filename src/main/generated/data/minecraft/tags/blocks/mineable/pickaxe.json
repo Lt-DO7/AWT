@@ -3,6 +3,12 @@
   "values": [
     "awt:artrium_block",
     "awt:artrium_ore",
+    "awt:kaletite",
+    "awt:cobbled_kaletite",
+    "awt:cracked_kaletite",
+    "awt:kaletite_bricks",
+    "awt:dalekanium_ore",
+    "awt:dalekanium_block",
     "awt:deepslate_artrium_ore"
   ]
 }

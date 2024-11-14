@@ -1,10 +1,12 @@
 package net.awt.awt.block;
 
 import net.awt.awt.AWT;
+import net.awt.awt.block.custom.RoundelBlock;
 import net.awt.awt.block.custom.TimeGrowerBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -12,6 +14,8 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.Direction;
+import net.minecraft.world.WorldAccess;
 
 public class ModBlocks {
 	//AWT
@@ -40,7 +44,7 @@ public class ModBlocks {
 
 	//roundel
 	public static final Block WHITE_CONCRETE_ROUNDEL = registerBlock("white_concrete_roundel",
-			new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+			new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
 
 
 	private static Block registerBlock(String name, Block block) {
@@ -62,5 +66,6 @@ public class ModBlocks {
 //Dino was here
 // Tay was here also
 // duzo was here also also
+// go kys i'm not here -tendo
 	}
 }
