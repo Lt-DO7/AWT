@@ -36,7 +36,9 @@
   "desktop.awt.toywardian": "Toywardian",
   "desktop.awt.abandoned_wardian": "Abandoned Wardian",
   "desktop.awt.antiquitor": "Antiquitor",
-  "desktop.awt.renegade": "Renegade"
+  "desktop.awt.renegade": "Renegade",
+  "desktop.awt.stellaris": "Stellaris",
+  "desktop.awt.medieval": "Medieval"
 
 
 }
