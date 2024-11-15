@@ -24,7 +24,6 @@
   "sonic.awt.corissance": "Corissance",
   "sonic.awt.copper_coral": "Copper Coral",
   "sonic.awt.renegade_sonic": "Renegade",
-  "sonic.awt.garfield_sonic": "Garfield",
   "sonic.awt.eighth_sonic": "McGann",
 
   "desktop.awt.hell": "Hell",
@@ -44,5 +43,6 @@
   "desktop.awt.pikminyellow": "Yellow Onion",
   "desktop.awt.pikminblue": "Blue Onion",
   "desktop.awt.fortress": "Fortress"
+
 
 }
