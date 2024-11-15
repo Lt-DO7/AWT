@@ -27,6 +27,8 @@ public class ModBlocks {
 			new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
 	public static final Block DEEPSLATE_ARTRIUM_ORE = registerBlock("deepslate_artrium_ore",
 			new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).sounds(BlockSoundGroup.DEEPSLATE)));
+	public static final Block Unlocker = registerBlock("unlocker",
+			new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
 
 	//DDWA
 	public static final Block DALEKANIUM_BLOCK = registerBlock("dalekanium_block",
@@ -41,6 +43,32 @@ public class ModBlocks {
 			new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
 	public static final Block COBBLED_KALETITE = registerBlock("cobbled_kaletite",
 			new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+	public static final Block WASTED_BUSH_PLANT = registerBlock("wasted_bush_plant",
+			new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+	public static final Block WASTED_BUTTON = registerBlock("wasted_button",
+			new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+	public static final Block WASTED_DIRT = registerBlock("wasted_dirt",
+			new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+	public static final Block WASTED_DOOR = registerBlock("wasted_door",
+			new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+	public static final Block WASTED_LEAVES = registerBlock("wasted_leaves",
+			new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+	public static final Block WASTED_LOG = registerBlock("wasted_log",
+			new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+	public static final Block WASTED_PLANK_SLAB = registerBlock("wasted_plank_slab",
+			new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+	public static final Block WASTED_PLANK_STAIRS = registerBlock("wasted_plank_stairs",
+			new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+	public static final Block WASTED_PLANKS = registerBlock("wasted_planks",
+			new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+	public static final Block WASTED_PRESSURE_PLATE = registerBlock("wasted_pressure_plate",
+			new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+	public static final Block WASTED_TRAP_DOOR = registerBlock("wasted_trap_door",
+			new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+	public static final Block WASTEDGRASS = registerBlock("wastedgrass",
+			new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+
+
 
 	//roundel
 	public static final Block WHITE_CONCRETE_ROUNDEL = registerBlock("white_concrete_roundel",
