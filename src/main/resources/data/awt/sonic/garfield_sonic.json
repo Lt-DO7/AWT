@@ -1,0 +1,13 @@
+{
+  "id": "awt:garfield",
+  "models": {
+    "inactive": "awt:item/sonic/garfieldinactive",
+    "interaction": "awt:item/sonic/garfieldinteractive",
+    "overload": "awt:item/sonic/garfieldoverload",
+    "scanning": "awt:item/sonic/garfieldscanning",
+    "tardis": "awt:item/sonic/garfieldtardis"
+  },
+  "loyalty": {
+    "type": "NEUTRAL"
+  }
+}
