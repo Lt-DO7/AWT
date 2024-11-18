@@ -20,6 +20,7 @@ public class ModItemGroups {
 						entries.add(ModBlocks.ARTRIUM_BLOCK);
 						entries.add(ModBlocks.DEEPSLATE_ARTRIUM_ORE);
 						entries.add(ModBlocks.TIME_GROWER);
+						entries.add(ModBlocks.Unlocker);
 
 					}).build());
 
@@ -37,6 +38,17 @@ public class ModItemGroups {
 						entries.add(ModBlocks.KALETITE_BRICKS);
 						entries.add(ModBlocks.CRACKED_KALETITE);
 						entries.add(ModBlocks.COBBLED_KALETITE);
+						entries.add(ModBlocks.WASTED_BUTTON);
+						entries.add(ModBlocks.WASTED_PLANK_SLAB);
+						entries.add(ModBlocks.WASTED_PLANKS);
+						entries.add(ModBlocks.WASTED_PLANK_STAIRS);
+						entries.add(ModBlocks.WASTED_BUSH_PLANT);
+						entries.add(ModBlocks.WASTED_LOG);
+						entries.add(ModBlocks.WASTED_PRESSURE_PLATE);
+						entries.add(ModBlocks.WASTED_TRAP_DOOR);
+						entries.add(ModBlocks.WASTED_DIRT);
+						entries.add(ModBlocks.WASTED_DOOR);
+
 					}).build());
 
 	public static final ItemGroup STEEL_GROUP = Registry.register(Registries.ITEM_GROUP,

@@ -7,7 +7,7 @@
   "block.awt.deepslate_artrium_ore": "Deepslate Artrium Ore",
   "block.awt.time_grower": "Time Grower",
   "block.awt.artrium_block": "Block of Artrium",
-
+  "block.awt:unlocker": "UnLocker",
   "itemgroup.artrium":"AWT",
 
 
@@ -20,10 +20,11 @@
   "sonic.awt.blunt": "Blunt",
   "sonic.awt.tardis": "Tardis",
   "sonic.awt.toywardian": "Toywardian",
-  "sonic.awt.classic_baker_sonic": "Classic:Baker",
+  "sonic.awt.classic_baker_sonic": "Baker",
   "sonic.awt.corissance": "Corissance",
   "sonic.awt.copper_coral": "Copper Coral",
   "sonic.awt.renegade_sonic": "Renegade",
+  "sonic.awt.eighth_sonic": "McGann",
 
   "desktop.awt.hell": "Hell",
   "desktop.awt.darkrock": "DarkRock",
@@ -34,11 +35,14 @@
   "desktop.awt.paradox": "Time Paradox",
   "desktop.awt.coppercoral": "Copper Coral",
   "desktop.awt.toywardian": "Toywardian",
-  "desktop.awt.abandoned_wardian": "Abandoned Wardian",
   "desktop.awt.antiquitor": "Antiquitor",
   "desktop.awt.renegade": "Renegade",
   "desktop.awt.stellaris": "Stellaris",
-  "desktop.awt.medieval": "Medieval"
+  "desktop.awt.medieval": "Medieval",
+  "desktop.awt.pikminred": "Red Onion",
+  "desktop.awt.pikminyellow": "Yellow Onion",
+  "desktop.awt.pikminblue": "Blue Onion",
+  "desktop.awt.fortress": "Fortress"
 
 
 }
