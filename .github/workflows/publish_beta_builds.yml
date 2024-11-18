@@ -42,7 +42,7 @@ jobs:
     - name: Publish artifacts
       uses: DrTheodor/discord-webhook-upload-action@v1.2
       with:
-        url: https://discord.com/api/webhooks/1308153982220238898/pzNbBS-4MbJfaPsotaiLjzHasIHvKnazoF6ovWrq7QENrI7Ltpi8XR1l5LzmPXyzXfoP
+        url: ${{ secrets.DEV_BUILDS }}
         file: 'build/libs/*'
         username: ligmaballs sigmaton
         avatar: 'https://i.redd.it/j4xqd685tz341.jpg'
