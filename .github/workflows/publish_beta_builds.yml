@@ -22,8 +22,8 @@ jobs:
       - name: Grant Execute Permissions for Gradlew
         run: chmod +x ./gradlew
 
-      - name: Run data
-        run: ./gradlew runData
+      - name: Run datagen
+        run: ./gradlew runDatagen
 
       - name: Build
         run: ./gradlew build
