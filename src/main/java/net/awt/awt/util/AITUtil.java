@@ -25,7 +25,7 @@ public class AITUtil implements AITModInitializer {
 		AWTExteriors.init();
 	}
 
-	public static void init(Registries registries, Registries.InitType type) {
+	public static void init(Registries registries, boolean isClient) {
 		if (isAITLoaded()) return;
 
 		instance = new AITUtil();
