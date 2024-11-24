@@ -16,6 +16,9 @@
   "exterior.awt.toywardianbox": "Toywardian Box",
   "exterior.awt.toywardianfaded": "Toywardian OG",
   "exterior.awt.inverted_police": "Inverted",
+  "exterior.awt.mayhembox": "Mayhem Box",
+  "exterior.awt.purplebox": "Porple Box",
+  "exterior.awt.do7": "DO7 Box",
 
   "sonic.awt.blunt": "Blunt",
   "sonic.awt.tardis": "Tardis",
@@ -30,6 +33,7 @@
   "desktop.awt.darkrock": "DarkRock",
   "desktop.awt.blackwool": "BlackWool",
   "desktop.awt.missy": "Missy",
+  "desktop.awt.trenzaloremissy": "Trenzalore Missy",
   "desktop.awt.rosewood": "Rosewood Hollow",
   "desktop.awt.chizeled": "Chizeled",
   "desktop.awt.paradox": "Time Paradox",
