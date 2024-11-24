@@ -6,6 +6,7 @@ import loqor.ait.data.schema.exterior.ExteriorVariantSchema;
 import loqor.ait.registry.impl.exterior.ExteriorVariantRegistry;
 import net.awt.awt.AWT;
 import net.awt.awt.exterior.block.TardisLogExteriorVariant;
+import net.awt.awt.exterior.onion.RedOnionExteriorVariant;
 import net.minecraft.util.Identifier;
 
 import java.util.LinkedList;
@@ -24,6 +25,7 @@ public class AWTExteriors {
 
 	public static void init() {
 		register(new TardisLogExteriorVariant());
+		register(new RedOnionExteriorVariant());
 	}
 
 	public static void register(ExteriorVariantSchema schema) {
