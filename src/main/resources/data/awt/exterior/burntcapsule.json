@@ -1,0 +1,6 @@
+{
+    "id": "awt:burntcapsule",
+    "category":"ait:exterior/capsule",
+    "parent": "ait:exterior/capsule/default",
+    "texture": "awt:textures/exterior/burntv2_capsule_default.png"
+  }
