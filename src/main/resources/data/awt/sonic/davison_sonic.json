@@ -1,0 +1,13 @@
+{
+  "id": "awt:davison_sonic",
+  "models": {
+    "inactive": "awt:item/sonic/davison_sonic_inactive",
+    "interaction": "awt:item/sonic/davison_sonic_interactive",
+    "overload": "awt:item/sonic/davison_sonic_overload",
+    "scanning": "awt:item/sonic/davison_sonic_scanning",
+    "tardis": "awt:item/sonic/davison_sonic_tardis"
+  },
+  "loyalty": {
+    "type": "NEUTRAL"
+  }
+}

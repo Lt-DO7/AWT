@@ -1,0 +1,13 @@
+{
+  "id": "awt:war_sonic",
+  "models": {
+    "inactive": "awt:item/sonic/war_sonic_inactive",
+    "interaction": "awt:item/sonic/war_sonic_interactive",
+    "overload": "awt:item/sonic/war_sonic_overload",
+    "scanning": "awt:item/sonic/war_sonic_scanning",
+    "tardis": "awt:item/sonic/war_sonic_tardis"
+  },
+  "loyalty": {
+    "type": "NEUTRAL"
+  }
+}

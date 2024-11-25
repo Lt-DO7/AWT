@@ -1,0 +1,13 @@
+{
+  "id": "awt:eighth_sonic",
+  "models": {
+    "inactive": "awt:item/sonic/eighth_sonic",
+    "interaction": "awt:item/sonic/eighth_sonic",
+    "overload": "awt:item/sonic/eighth_sonic",
+    "scanning": "awt:item/sonic/eighth_sonic",
+    "tardis": "awt:item/sonic/eighth_sonic"
+  },
+  "loyalty": {
+    "type": "NEUTRAL"
+  }
+}

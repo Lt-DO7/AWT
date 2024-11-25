@@ -1,0 +1,13 @@
+{
+  "id": "awt:pertwee",
+  "models": {
+    "inactive": "awt:item/sonic/pertwee_sonic_inactive",
+    "interaction": "awt:item/sonic/pertwee_sonic_interactive",
+    "overload": "awt:item/sonic/pertwee_sonic_overload",
+    "scanning": "awt:item/sonic/pertwee_sonic_scanning",
+    "tardis": "awt:item/sonic/pertwee_sonic_tardis"
+  },
+  "loyalty": {
+    "type": "NEUTRAL"
+  }
+}
