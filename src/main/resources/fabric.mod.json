@@ -1,14 +1,23 @@
 {
 	"schemaVersion": 1,
 	"id": "awt",
-	"version": "1,0",
+	"version": "2.0.0",
 	"name": "AWT",
-	"description": "An Adventures in Time Addon That Improves The Tardis's ",
+	"description": "An Adventures in Time Addon That Improves The TARDISes ",
 	"authors": [
-		"Taygamerlol(Main Dev,Founder)",
-		"Dino(Texturer,Dev,Sonic Creator)",
-		"D07(Interior Designer,Wiki Creator,Exterior Creator)",
-		"TheTardisOwner(Creator of Chizeld Interior"
+		"Lego Batman (Bully(Motivator))",
+		"Taygamerlol:(Main Dev,Founder)",
+		"Dino:(Texturer,Dev,Sonic Creator)",
+		"D07:(Interior Designer,Wiki Creator,Exterior Creator)",
+		"Quantum (Handles Dev)",
+		"AIT Devs Help: Duzo, Maketendo, DrTheo",
+		"TheTardisOwner:(Contributer)",
+		"NathanGames2020:(Contributer)",
+		"Andromeda(Contributer)",
+		"AraFoxa(Contributer)",
+		"Ryhno(Contributer)",
+		"Cfproductions(Contributer)",
+		"Kapi(Contributer)"
 	],
 	"contact": {
 		"discord": "https://discord.gg/h28wkJeaGM",

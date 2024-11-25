@@ -86,6 +86,7 @@
   "block.awt.wasted_planks": "Wasted Planks",
   "block.awt.wastedgrass": "Wasted Grass",
   "block.awt.wasted_leaves": "Wasted Leaves",
+  "block.awt.white_concrete_roundel": "White Concrete Roundel",
 
   "biome.awt.skaro_waste_land": "Skaro Waste Land",
 
@@ -100,6 +101,6 @@
 
   "item_group.awt.planet_mondas": "Mondas",
   "item_group.awt.planet_skaro": "Skaro",
-  "item_group.awt.roundel": "Roundels"
+  "item_group.awt.Roundel": "Roundels"
 
 }
