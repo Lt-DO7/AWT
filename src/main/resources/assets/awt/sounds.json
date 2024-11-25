@@ -1,0 +1,12 @@
+{
+  "bloop": {
+    "category": "neutral",
+    "subtitle": "subtitles.bloop",
+    "sounds": [
+      {
+        "name": "awt:bloop",
+        "stream": false
+      }
+    ]
+  }
+}
