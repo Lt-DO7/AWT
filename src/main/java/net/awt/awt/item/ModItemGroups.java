@@ -60,7 +60,7 @@ public class ModItemGroups {
 
 	public static final ItemGroup ROUNDEL_GROUP = Registry.register(Registries.ITEM_GROUP,
 			new Identifier(AWT.MOD_ID, "roundel"),
-			FabricItemGroup.builder().displayName(Text.translatable("itemgroup.roundel"))
+			FabricItemGroup.builder().displayName(Text.translatable("item_group.awt.Roundel"))
 					.icon(() -> new ItemStack(ModBlocks.WHITE_CONCRETE_ROUNDEL)).entries((displayContext, entries) -> {
 						entries.add(ModBlocks.WHITE_CONCRETE_ROUNDEL);
 
