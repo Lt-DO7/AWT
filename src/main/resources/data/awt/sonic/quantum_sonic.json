@@ -1,0 +1,13 @@
+{
+  "id": "awt:quantum_sonic",
+  "models": {
+    "inactive": "awt:item/sonic/quantum_inactive",
+    "interaction": "awt:item/sonic/quantum_interactive",
+    "overload": "awt:item/sonic/quantum_overload",
+    "scanning": "awt:item/sonic/quantum_scanning",
+    "tardis": "awt:item/sonic/quantum_tardis"
+  },
+  "loyalty": {
+    "type": "NEUTRAL"
+  }
+}
