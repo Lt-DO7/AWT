@@ -39,6 +39,7 @@
   "sonic.awt.garfield": "Lasagna",
   "sonic.awt.quantum_sonic": "Robust",
   "sonic.awt.copper_cane": "Copper Cane",
+  "sonic.awt.toywardian_sonic": "Toywardian TARDIS",
 
   "desktop.awt.hell": "Hell",
   "desktop.awt.darkrock": "DarkRock",
@@ -50,6 +51,7 @@
   "desktop.awt.paradox": "Time Paradox",
   "desktop.awt.coppercoral": "Copper Coral",
   "desktop.awt.toywardian": "Toywardian",
+  "desktop.awt.toyardian": "Toyardian",
   "desktop.awt.antiquitor": "Antiquitor",
   "desktop.awt.renegade": "Renegade",
   "desktop.awt.stellaris": "Stellaris",
