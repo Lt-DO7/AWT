@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "awt:block/roundel/copper_roundel",
+    "up": "awt:block/roundel/copper_roundel",
+    "north": "awt:block/roundel/copper_roundel",
+    "east": "awt:block/roundel/copper_roundel_half",
+    "south": "awt:block/roundel/copper_roundel",
+    "west": "awt:block/roundel/copper_roundel_half",
+    "particle": "awt:block/roundel/copper_roundel"
+  },
+  "render_type": "solid"
+}
