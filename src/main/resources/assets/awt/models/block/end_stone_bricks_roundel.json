@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "awt:block/roundel/end_stone_bricks_roundel",
+    "up": "awt:block/roundel/end_stone_bricks_roundel",
+    "north": "awt:block/roundel/end_stone_bricks_roundel",
+    "east": "awt:block/roundel/end_stone_bricks_roundel_half",
+    "south": "awt:block/roundel/end_stone_bricks_roundel",
+    "west": "awt:block/roundel/end_stone_bricks_roundel_half",
+    "particle": "awt:block/roundel/end_stone_bricks_roundel"
+  },
+  "render_type": "solid"
+}

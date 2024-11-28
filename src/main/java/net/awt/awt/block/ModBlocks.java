@@ -77,9 +77,10 @@ public class ModBlocks {
 			new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
 	public static final Block CYAN_CONCRETE_ROUNDEL = registerBlock("cyan_concrete_roundel",
 			new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
-	public static final Block DIRT_CONCRETE_ROUNDEL = registerBlock("dirt_roundel",
+	public static final Block DIRT_ROUNDEL = registerBlock("dirt_roundel",
 			new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
-
+	public static final Block END_STONE_BRICKS_ROUNDEL = registerBlock("end_stone_bricks_roundel",
+			new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
 
 	private static Block registerBlock(String name, Block block) {
 		registerBlockItem(name, block);
