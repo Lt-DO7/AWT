@@ -80,6 +80,7 @@ public class ModItemGroups {
 						entries.add(ModBlocks.STRIPPED_BIRCH_LOG_ROUNDEL);
 						entries.add(ModBlocks.STRIPPED_CHERRY_LOG_ROUNDEL);
 						entries.add(ModBlocks.STRIPPED_DARK_OAK_LOG_ROUNDEL);
+						entries.add(ModBlocks.STRIPPED_JUNGLE_LOG_ROUNDEL);
 					}).build());
 
 
