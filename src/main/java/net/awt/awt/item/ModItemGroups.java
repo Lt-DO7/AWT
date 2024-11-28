@@ -70,6 +70,7 @@ public class ModItemGroups {
 						entries.add(ModBlocks.GRAY_CONCRETE_ROUNDEL);
 						entries.add(ModBlocks.GREEN_CONCRETE_ROUNDEL);
 						entries.add(ModBlocks.LIGHT_GRAY_CONCRETE_ROUNDEL);
+						entries.add(ModBlocks.POLISHED_ANDESITE_ROUNDEL);
 					}).build());
 
 

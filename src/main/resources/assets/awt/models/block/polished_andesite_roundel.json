@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "awt:block/roundel/polished_andesite_roundel_full",
+    "up": "awt:block/roundel/polished_andesite_roundel_full",
+    "north": "awt:block/roundel/polished_andesite_roundel_full",
+    "east": "awt:block/roundel/polished_andesite_roundel_half",
+    "south": "awt:block/roundel/polished_andesite_roundel_full",
+    "west": "awt:block/roundel/polished_andesite_roundel_half",
+    "particle": "awt:block/roundel/polished_andesite_roundel_full"
+  },
+  "render_type": "solid"
+}
