@@ -135,6 +135,8 @@ public class ModBlocks {
 			new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
 	public static final Block OXIDIZED_COPPER_ROUNDEL = registerBlock("oxidized_copper_roundel",
 			new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+	public static final Block PINK_CONCRETE_ROUNDEL = registerBlock("pink_concrete_roundel",
+			new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
 
 
 
