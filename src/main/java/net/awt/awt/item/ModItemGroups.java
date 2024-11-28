@@ -63,6 +63,8 @@ public class ModItemGroups {
 			FabricItemGroup.builder().displayName(Text.translatable("item_group.awt.Roundel"))
 					.icon(() -> new ItemStack(ModBlocks.WHITE_CONCRETE_ROUNDEL)).entries((displayContext, entries) -> {
 						entries.add(ModBlocks.WHITE_CONCRETE_ROUNDEL);
+						entries.add(ModBlocks.BLACK_CONCRETE_ROUNDEL);
+						entries.add(ModBlocks.CYAN_CONCRETE_ROUNDEL);
 
 					}).build());
 
