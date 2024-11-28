@@ -95,6 +95,7 @@ public class ModItemGroups {
 						entries.add(ModBlocks.ORANGE_CONCRETE_ROUNDEL);
 						entries.add(ModBlocks.OXIDIZED_COPPER_ROUNDEL);
 						entries.add(ModBlocks.PINK_CONCRETE_ROUNDEL);
+						entries.add(ModBlocks.PURPLE_CONCRETE_ROUNDEL);
 					}).build());
 
 
