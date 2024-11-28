@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "copper_cane_interactive"
+		"1": "awt:item/sonic_tools/copper_cane_interactive"
 	},
 	"elements": [
 		{
