@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "awt:block/yellow_concrete_roundel",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "awt:block/yellow_concrete_roundel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "awt:block/yellow_concrete_roundel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "awt:block/yellow_concrete_roundel",
+      "y": 270
+    }
+  }
+}
