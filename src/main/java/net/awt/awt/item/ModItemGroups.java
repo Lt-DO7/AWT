@@ -89,6 +89,7 @@ public class ModItemGroups {
 						entries.add(ModBlocks.COPPER_ROUNDEL);
 						entries.add(ModBlocks.EXPOSED_COPPER_ROUNDEL);
 						entries.add(ModBlocks.LIGHT_BLUE_CONCRETE_ROUNDEL);
+						entries.add(ModBlocks.LIME_CONCRETE_ROUNDEL);
 					}).build());
 
 

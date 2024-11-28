@@ -125,6 +125,8 @@ public class ModBlocks {
 			new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
 	public static final Block LIGHT_BLUE_CONCRETE_ROUNDEL = registerBlock("light_blue_concrete_roundel",
 			new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+	public static final Block LIME_CONCRETE_ROUNDEL = registerBlock("lime_concrete_roundel",
+			new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
 
 
 
