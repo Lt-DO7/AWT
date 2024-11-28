@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "awt:block/roundel/stripped_acacia_log_roundel_full",
+    "up": "awt:block/roundel/stripped_acacia_log_roundel_full",
+    "north": "awt:block/roundel/stripped_acacia_log_roundel_full",
+    "east": "awt:block/roundel/stripped_acacia_log_roundel_half",
+    "south": "awt:block/roundel/stripped_acacia_log_roundel_full",
+    "west": "awt:block/roundel/stripped_acacia_log_roundel_half",
+    "particle": "awt:block/roundel/stripped_acacia_log_roundel_full"
+  },
+  "render_type": "solid"
+}
