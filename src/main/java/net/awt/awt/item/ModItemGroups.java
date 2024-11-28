@@ -77,6 +77,7 @@ public class ModItemGroups {
 						entries.add(ModBlocks.QUARTZ_ROUNDEL);
 						entries.add(ModBlocks.SANDSTONE_ROUNDEL);
 						entries.add(ModBlocks.STRIPPED_ACACIA_LOG_ROUNDEL);
+						entries.add(ModBlocks.STRIPPED_BIRCH_LOG_ROUNDEL);
 					}).build());
 
 

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "awt:block/roundel/stripped_birch_log_roundel",
+    "up": "awt:block/roundel/stripped_birch_log_roundel",
+    "north": "awt:block/roundel/stripped_birch_log_roundel",
+    "east": "awt:block/roundel/stripped_birch_log_roundel_half",
+    "south": "awt:block/roundel/stripped_birch_log_roundel",
+    "west": "awt:block/roundel/stripped_birch_log_roundel_half",
+    "particle": "awt:block/roundel/stripped_birch_log_roundel"
+  },
+  "render_type": "solid"
+}
