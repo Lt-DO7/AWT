@@ -83,6 +83,8 @@ public class ModBlocks {
 			new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
 	public static final Block GRAY_CONCRETE_ROUNDEL = registerBlock("gray_concrete_roundel",
 			new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+	public static final Block GREEN_CONCRETE_ROUNDEL = registerBlock("green_concrete_roundel",
+			new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
 
 	private static Block registerBlock(String name, Block block) {
 		registerBlockItem(name, block);
