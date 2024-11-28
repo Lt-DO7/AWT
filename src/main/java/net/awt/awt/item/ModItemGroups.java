@@ -74,6 +74,7 @@ public class ModItemGroups {
 						entries.add(ModBlocks.POLISHED_DEEPSLATE_ROUNDEL);
 						entries.add(ModBlocks.POLISHED_DIORITE_ROUNDEL);
 						entries.add(ModBlocks.POLISHED_GRANITE_ROUNDEL);
+						entries.add(ModBlocks.QUARTZ_ROUNDEL);
 					}).build());
 
 
