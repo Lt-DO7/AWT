@@ -65,7 +65,7 @@ public class ModItemGroups {
 						entries.add(ModBlocks.WHITE_CONCRETE_ROUNDEL);
 						entries.add(ModBlocks.BLACK_CONCRETE_ROUNDEL);
 						entries.add(ModBlocks.CYAN_CONCRETE_ROUNDEL);
-
+						entries.add(ModBlocks.DIRT_ROUNDEL);
 					}).build());
 
 
