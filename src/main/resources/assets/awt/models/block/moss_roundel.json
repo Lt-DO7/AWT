@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "awt:block/roundel/moss_roundel",
+    "up": "awt:block/roundel/moss_roundel",
+    "north": "awt:block/roundel/moss_roundel",
+    "east": "awt:block/roundel/moss_roundel_half",
+    "south": "awt:block/roundel/moss_roundel",
+    "west": "awt:block/roundel/moss_roundel_half",
+    "particle": "awt:block/roundel/moss_roundel"
+  },
+  "render_type": "solid"
+}
