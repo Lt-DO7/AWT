@@ -109,6 +109,8 @@ public class ModBlocks {
 			new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
 	public static final Block STRIPPED_JUNGLE_LOG_ROUNDEL = registerBlock("stripped_jungle_log_roundel",
 			new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+	public static final Block STRIPPED_MANGROVE_LOG_ROUNDEL = registerBlock("stripped_mangrove_log_roundel",
+			new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
 
 
 
