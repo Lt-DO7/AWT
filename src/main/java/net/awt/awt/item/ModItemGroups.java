@@ -48,6 +48,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WASTED_TRAP_DOOR);
                         entries.add(ModBlocks.WASTED_DIRT);
                         entries.add(ModBlocks.WASTED_DOOR);
+                        entries.add(ModBlocks.WASTEDGRASS);
+                        entries.add(ModBlocks.WASTED_LEAVES);
 
                     }).build());
 
