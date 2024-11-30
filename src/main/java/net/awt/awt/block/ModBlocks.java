@@ -163,10 +163,6 @@ public class ModBlocks {
 		AWT.LOGGER.info("Registering ModBlocks for" + AWT.MOD_ID);
 
 
-//Dino was here
-// Tay was here also
-// duzo was here also also
-// go kys i'm not here -tendo
-		// DO7 was here with all the fucking roundels
+
 	}
 }
