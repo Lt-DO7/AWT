@@ -13,6 +13,7 @@ import net.minecraft.client.render.entity.animation.AnimationHelper;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.math.MathHelper;
+import net.minecraft.util.math.RotationAxis;
 import org.joml.Vector3f;
 
 public class OnionExteriorModel extends ExteriorModel {
@@ -29,6 +30,7 @@ public class OnionExteriorModel extends ExteriorModel {
 	public void renderWithAnimations(ExteriorBlockEntity exterior, ModelPart root, MatrixStack matrices, VertexConsumer vertices, int light, int overlay, float red, float green, float blue, float alpha) {
 		matrices.push();
 
+		matrices.multiply(RotationAxis.POSITIVE_Y.rotationDegrees(180f));
 		matrices.translate(0, -1.55, 0);
 
 		root.getChild("Body").getChild("OmgitsaUFO").visible = exterior.tardis().get().door().isOpen();
@@ -36,7 +38,6 @@ public class OnionExteriorModel extends ExteriorModel {
 		if (OnionAnimation.isOnion(exterior)) {
 			Animation anim = OnionAnimationConstants.forState(exterior.tardis().get().travel().getState());
 			long running = Float.valueOf((Math.max(1.0f - ((float) exterior.getAnimation().getTimeLeft() / exterior.getAnimation().getStartTime()), 0) * 15000)).longValue();
-			System.out.println(running);
 			alpha = 1f;
 			if (anim != null) {
 				this.root.resetTransform();
