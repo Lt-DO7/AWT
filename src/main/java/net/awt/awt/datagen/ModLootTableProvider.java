@@ -17,28 +17,28 @@ import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
 
 public class ModLootTableProvider extends FabricBlockLootTableProvider {
-	public ModLootTableProvider(FabricDataOutput dataOutput) {
-		super(dataOutput);
-	}
+    public ModLootTableProvider(FabricDataOutput dataOutput) {
+        super(dataOutput);
+    }
 
-	@Override
-	public void generate() {
-		addDrop(ModBlocks.ARTRIUM_ORE);
+    @Override
+    public void generate() {
+        addDrop(ModBlocks.ARTRIUM_ORE);
 
-		addDrop(ModBlocks.ARTRIUM_ORE, copperLikeOreDrops(ModBlocks.ARTRIUM_ORE, ModItems.ARTRIUM));
-		addDrop(ModBlocks.DEEPSLATE_ARTRIUM_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_ARTRIUM_ORE, ModItems.ARTRIUM));
-		addDrop(ModBlocks.ARTRIUM_BLOCK, drops(ModBlocks.ARTRIUM_BLOCK));
+        addDrop(ModBlocks.ARTRIUM_ORE, copperLikeOreDrops(ModBlocks.ARTRIUM_ORE, ModItems.ARTRIUM));
+        addDrop(ModBlocks.DEEPSLATE_ARTRIUM_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_ARTRIUM_ORE, ModItems.ARTRIUM));
+        addDrop(ModBlocks.ARTRIUM_BLOCK, drops(ModBlocks.ARTRIUM_BLOCK));
 
 
-	}
+    }
 
-	public LootTable.Builder copperLikeOreDrops(Block drop, Item item) {
-		return BlockLootTableGenerator.dropsWithSilkTouch(drop, (LootPoolEntry.Builder) this.applyExplosionDecay(drop,
-				((LeafEntry.Builder)
-						ItemEntry.builder(item)
-								.apply(SetCountLootFunction
-										.builder(UniformLootNumberProvider
-												.create(1.0f, 1.0f))))
-						.apply(ApplyBonusLootFunction.oreDrops(Enchantments.FORTUNE))));
-	}
+    public LootTable.Builder copperLikeOreDrops(Block drop, Item item) {
+        return BlockLootTableGenerator.dropsWithSilkTouch(drop, (LootPoolEntry.Builder) this.applyExplosionDecay(drop,
+                ((LeafEntry.Builder)
+                        ItemEntry.builder(item)
+                                .apply(SetCountLootFunction
+                                        .builder(UniformLootNumberProvider
+                                                .create(1.0f, 1.0f))))
+                        .apply(ApplyBonusLootFunction.oreDrops(Enchantments.FORTUNE))));
+    }
 }

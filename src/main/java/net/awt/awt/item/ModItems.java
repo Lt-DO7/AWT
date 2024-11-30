@@ -11,28 +11,28 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-	public static final Item ARTRIUM = registerItem("artrium", new Item(new FabricItemSettings()));
-	public static final Item LIGHTSABER = registerItem("lightsaber", new Item(new FabricItemSettings()));
+    public static final Item ARTRIUM = registerItem("artrium", new Item(new FabricItemSettings()));
+    public static final Item LIGHTSABER = registerItem("lightsaber", new Item(new FabricItemSettings()));
 
-	public static final Item DALEKANIUM = registerItem("dalekanium_ingot", new Item(new FabricItemSettings()));
-	public static final Item DALEKANIUM_SCRAP = registerItem("dalekanium_scrap", new Item(new FabricItemSettings()));
-	public static final Item STEEL = registerItem("steel_ingot", new Item(new FabricItemSettings()));
-	public static final Item CHROMITE = registerItem("chromite", new Item(new FabricItemSettings()));
-	public static final Item METALERT_DUST = registerItem("metalert_dust", new Item(new FabricItemSettings()));
+    public static final Item DALEKANIUM = registerItem("dalekanium_ingot", new Item(new FabricItemSettings()));
+    public static final Item DALEKANIUM_SCRAP = registerItem("dalekanium_scrap", new Item(new FabricItemSettings()));
+    public static final Item STEEL = registerItem("steel_ingot", new Item(new FabricItemSettings()));
+    public static final Item CHROMITE = registerItem("chromite", new Item(new FabricItemSettings()));
+    public static final Item METALERT_DUST = registerItem("metalert_dust", new Item(new FabricItemSettings()));
 
-	private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
-		entries.add(ARTRIUM);
-	}
+    private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
+        entries.add(ARTRIUM);
+    }
 
-	private static Item registerItem(String name, Item item) {
-		return Registry.register(Registries.ITEM, new Identifier(AWT.MOD_ID, name), item);
-	}
+    private static Item registerItem(String name, Item item) {
+        return Registry.register(Registries.ITEM, new Identifier(AWT.MOD_ID, name), item);
+    }
 
-	public static void registerModItems() {
-		AWT.LOGGER.info("Registering Mod Items for" + AWT.MOD_ID);
+    public static void registerModItems() {
+        AWT.LOGGER.info("Registering Mod Items for" + AWT.MOD_ID);
 
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
-	}
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
+    }
 
 
 }

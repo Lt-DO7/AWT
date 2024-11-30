@@ -7,12 +7,13 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 
 public class AWTSound {
-	public static final SoundEvent BLOOP = register("bloop");
+    public static final SoundEvent BLOOP = register("bloop");
 
-	public static SoundEvent register(String id) {
-		Identifier identifier = new Identifier(AWT.MOD_ID, id);
-		return Registry.register(Registries.SOUND_EVENT, identifier, SoundEvent.of(identifier));
-	}
-	public static void init() {
-	}
+    public static SoundEvent register(String id) {
+        Identifier identifier = new Identifier(AWT.MOD_ID, id);
+        return Registry.register(Registries.SOUND_EVENT, identifier, SoundEvent.of(identifier));
+    }
+
+    public static void init() {
+    }
 }

@@ -5,12 +5,12 @@ import loqor.ait.data.schema.door.ClientDoorSchema;
 import net.awt.awt.door.block.model.TardisBlockDoorModel;
 
 public class ClientTardisBlockDoor extends ClientDoorSchema {
-	public ClientTardisBlockDoor() {
-		super(TardisBlockDoorVariant.REFERENCE);
-	}
+    public ClientTardisBlockDoor() {
+        super(TardisBlockDoorVariant.REFERENCE);
+    }
 
-	@Override
-	public DoorModel model() {
-		return new TardisBlockDoorModel(); // todo
-	}
+    @Override
+    public DoorModel model() {
+        return new TardisBlockDoorModel(); // todo
+    }
 }

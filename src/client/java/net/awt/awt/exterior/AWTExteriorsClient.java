@@ -6,11 +6,12 @@ import net.awt.awt.exterior.block.ClientTardisLogExteriorVariant;
 import net.awt.awt.exterior.onion.ClientRedOnionVariant;
 
 public class AWTExteriorsClient {
-	public static void init() {
-		register(new ClientTardisLogExteriorVariant());
-		register(new ClientRedOnionVariant());
-	}
-	public static void register(ClientExteriorVariantSchema schema) {
-		ClientExteriorVariantRegistry.getInstance().register(schema);
-	}
+    public static void init() {
+        register(new ClientTardisLogExteriorVariant());
+        register(new ClientRedOnionVariant());
+    }
+
+    public static void register(ClientExteriorVariantSchema schema) {
+        ClientExteriorVariantRegistry.getInstance().register(schema);
+    }
 }
