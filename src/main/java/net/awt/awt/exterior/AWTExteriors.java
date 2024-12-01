@@ -6,6 +6,7 @@ import loqor.ait.registry.impl.exterior.ExteriorVariantRegistry;
 import net.awt.awt.AWT;
 import net.awt.awt.exterior.block.TardisLogExteriorVariant;
 import net.awt.awt.exterior.onion.RedOnionExteriorVariant;
+import net.awt.awt.exterior.onion.YellowOnionExteriorVariant;
 
 import java.util.LinkedList;
 
@@ -23,6 +24,8 @@ public class AWTExteriors {
     public static void init() {
         register(new TardisLogExteriorVariant());
         register(new RedOnionExteriorVariant());
+        register(new YellowOnionExteriorVariant());
+
     }
 
     public static void register(ExteriorVariantSchema schema) {
