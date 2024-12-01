@@ -1,0 +1,13 @@
+{
+  "id": "awt:wrench_sonic",
+  "models": {
+    "inactive": "awt:item/sonic/wrench_inactive",
+    "interaction": "awt:item/sonic/wrench_interaction",
+    "overload": "awt:item/sonic/wrench_overload",
+    "scanning": "awt:item/sonic/wrench_scanning",
+    "tardis": "awt:item/sonic/wrench_tardis"
+  },
+  "loyalty": {
+    "type": "NEUTRAL"
+  }
+}
