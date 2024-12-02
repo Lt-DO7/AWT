@@ -4,6 +4,7 @@ import net.awt.awt.AWT;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.entity.ai.brain.task.FarmerVillagerTask;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -13,12 +14,18 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item ARTRIUM = registerItem("artrium", new Item(new FabricItemSettings()));
     public static final Item LIGHTSABER = registerItem("lightsaber", new Item(new FabricItemSettings()));
+    public static final Item PROCESSINGUNIT = registerItem("processing_unit", new Item(new FabricItemSettings()));
+    public static final Item ENERGIZEDARTRIUM = registerItem("energized_artrium", new Item(new FabricItemSettings()));
+    public static final Item ARTRIUMCORE = registerItem("artrium_core", new Item(new FabricItemSettings()));
+    public static final Item ARTRIUMRIFLE = registerItem("artrium_rifle", new Item(new FabricItemSettings()));
 
     public static final Item DALEKANIUM = registerItem("dalekanium_ingot", new Item(new FabricItemSettings()));
     public static final Item DALEKANIUM_SCRAP = registerItem("dalekanium_scrap", new Item(new FabricItemSettings()));
     public static final Item STEEL = registerItem("steel_ingot", new Item(new FabricItemSettings()));
     public static final Item CHROMITE = registerItem("chromite", new Item(new FabricItemSettings()));
     public static final Item METALERT_DUST = registerItem("metalert_dust", new Item(new FabricItemSettings()));
+
+
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ARTRIUM);

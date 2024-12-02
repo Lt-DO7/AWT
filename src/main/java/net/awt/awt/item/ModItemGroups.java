@@ -21,6 +21,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_ARTRIUM_ORE);
                         entries.add(ModBlocks.TIME_GROWER);
                         entries.add(ModBlocks.Unlocker);
+                        entries.add(ModItems.PROCESSINGUNIT);
+                        entries.add(ModItems.ARTRIUMCORE);
+                        entries.add(ModItems.ENERGIZEDARTRIUM);
+                        entries.add(ModItems.ARTRIUMRIFLE);
+
 
                     }).build());
 

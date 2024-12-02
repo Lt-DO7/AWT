@@ -2,6 +2,10 @@
 
   "item.awt.artrium":"Artrium",
   "item.awt.lightsaber":"Lightsaber",
+  "item.awt.processing_unit": "Processing Unit",
+  "item.awt.artrium_rifle": "Artrium Rifle",
+  "item.awt.artrium_core": "Artrium Core",
+  "item.awt.energized_artrium": "Energized Artrium",
 
   "block.awt.artrium_ore": "Artrium Ore",
   "block.awt.deepslate_artrium_ore": "Deepslate Artrium Ore",
