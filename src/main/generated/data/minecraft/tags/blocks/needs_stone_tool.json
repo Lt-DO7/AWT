@@ -1,4 +1,9 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "ait:monitor_block",
+    "ait:large_zeiton_bud",
+    "ait:medium_zeiton_bud",
+    "ait:small_zeiton_bud"
+  ]
 }

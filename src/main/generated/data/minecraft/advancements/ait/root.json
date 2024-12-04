@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "place_coral": {
+      "conditions": {},
+      "trigger": "ait:place_coral"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/entity/end_portal.png",
+    "description": {
+      "text": "Plant the TARDIS Coral, the seed of time itself."
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "ait:coral_plant"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Gardening Guru"
+    }
+  },
+  "requirements": [
+    [
+      "place_coral"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

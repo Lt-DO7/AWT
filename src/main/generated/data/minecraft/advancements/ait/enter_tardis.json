@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:ait/root",
+  "criteria": {
+    "enter_tardis": {
+      "conditions": {},
+      "trigger": "ait:enter_tardis"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Enter the TARDIS for the first time"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "ait:tardis_item"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "How Does It Fit?"
+    }
+  },
+  "requirements": [
+    [
+      "enter_tardis"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

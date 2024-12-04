@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_charged_zeiton_crystal": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ait:charged_zeiton_crystal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_conduit": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:conduit"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_glass": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glass"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ait:engine_core_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_glass",
+      "has_charged_zeiton_crystal",
+      "has_conduit",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ait:engine_core_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}
