@@ -1,0 +1,13 @@
+{
+  "id": "awt:caution_sonic",
+  "models": {
+    "inactive": "awt:item/sonic/caution_inactive",
+    "interaction": "awt:item/sonic/caution_interactive",
+    "overload": "awt:item/sonic/caution_overload",
+    "scanning": "awt:item/sonic/caution_scanning",
+    "tardis": "awt:item/sonic/caution_tardis"
+  },
+  "loyalty": {
+    "type": "NEUTRAL"
+  }
+}
