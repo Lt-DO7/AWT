@@ -69,32 +69,32 @@ public class ModBlocks {
 
         //Misc Roundels
     public static final Block MOSS_ROUNDEL = registerBlock("moss_roundel",
-            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.MOSS_BLOCK)));
+            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK).sounds(BlockSoundGroup.MOSS_BLOCK).requiresTool().strength(0.1F)));
 
     public static final Block DIRT_ROUNDEL = registerBlock("dirt_roundel",
-            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.GRASS)));
+            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.GRASS).requiresTool().strength(0.1F)));
 
         //Sand Roundels
     public static final Block END_STONE_BRICKS_ROUNDEL = registerBlock("end_stone_bricks_roundel",
-            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE).requiresTool().strength(1.5F, 6.0F)));
 
     public static final Block POLISHED_ANDESITE_ROUNDEL = registerBlock("polished_andesite_roundel",
-            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE).requiresTool().strength(1.5F, 6.0F)));
 
     public static final Block POLISHED_DEEPSLATE_ROUNDEL = registerBlock("polished_deepslate_roundel",
-            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.POLISHED_DEEPSLATE)));
+            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.POLISHED_DEEPSLATE).requiresTool().strength(1.5F, 6.0F)));
 
     public static final Block POLISHED_DIORITE_ROUNDEL = registerBlock("polished_diorite_roundel",
-            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE).requiresTool().strength(1.5F, 6.0F)));
 
     public static final Block POLISHED_GRANITE_ROUNDEL = registerBlock("polished_granite_roundel",
-            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE).requiresTool().strength(1.5F, 6.0F)));
 
     public static final Block QUARTZ_ROUNDEL = registerBlock("quartz_roundel",
-            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE).requiresTool().strength(1.5F, 6.0F)));
 
     public static final Block SANDSTONE_ROUNDEL = registerBlock("sandstone_roundel",
-            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE).requiresTool().strength(1.5F, 6.0F)));
 
         //Wood Roundels
     public static final Block STRIPPED_ACACIA_LOG_ROUNDEL = registerBlock("stripped_acacia_log_roundel",
@@ -123,16 +123,16 @@ public class ModBlocks {
 
         //Copper Roundels
     public static final Block COPPER_ROUNDEL = registerBlock("copper_roundel",
-            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.COPPER)));
+            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK).sounds(BlockSoundGroup.COPPER)));
 
     public static final Block EXPOSED_COPPER_ROUNDEL = registerBlock("exposed_copper_roundel",
-            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.COPPER)));
+            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK).sounds(BlockSoundGroup.COPPER)));
 
     public static final Block OXIDIZED_COPPER_ROUNDEL = registerBlock("oxidized_copper_roundel",
-            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.COPPER)));
+            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK).sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WEATHERED_COPPER_ROUNDEL = registerBlock("weathered_copper_roundel",
-            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.COPPER)));
+            new RoundelBlock(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK).sounds(BlockSoundGroup.COPPER)));
 
         //Concrete Roundels
     public static final Block ORANGE_CONCRETE_ROUNDEL = registerBlock("orange_concrete_roundel",

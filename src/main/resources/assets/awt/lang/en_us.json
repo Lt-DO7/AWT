@@ -171,10 +171,11 @@
   "block.awt.wasted_planks": "Wasted Planks",
   "block.awt.wastedgrass": "Wasted Grass",
   "block.awt.wasted_leaves": "Wasted Leaves",
+
   "block.awt.white_concrete_roundel": "White Concrete Roundel",
   "block.awt.black_concrete_roundel": "Black Concrete Roundel",
   "block.awt.dirt_roundel": "Dirt Roundel",
-  "block.awt.end_stone_roundel": "End Stone Roundel",
+  "block.awt.end_stone_bricks_roundel": "End Stone Bricks Roundel",
   "block.awt.gray_concrete_roundel": "Gray Concrete Roundel",
   "block.awt.green_concrete_roundel": "Green Concrete Roundel",
   "block.awt.light_gray_concrete_roundel": "Light Gray Concrete Roundel",
