@@ -3,6 +3,7 @@ package net.awt.awt.exterior;
 import loqor.ait.data.schema.exterior.ClientExteriorVariantSchema;
 import loqor.ait.registry.impl.exterior.ClientExteriorVariantRegistry;
 import net.awt.awt.exterior.block.ClientTardisLogExteriorVariant;
+import net.awt.awt.exterior.lego.ClientBlueLegoVariant;
 import net.awt.awt.exterior.onion.*;
 
 public class AWTExteriorsClient {
@@ -17,6 +18,7 @@ public class AWTExteriorsClient {
         register(new ClientPinkOnionVariant());
         register(new ClientPurpleOnionVariant());
         register(new ClientWhiteOnionVariant());
+        register(new ClientBlueLegoVariant());
 
     }
 

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "ait:block/martian_bricks",
-    "side": "ait:block/martian_bricks",
-    "top": "ait:block/martian_bricks"
-  }
-}
