@@ -9,7 +9,6 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.SlabBlock;
-import net.minecraft.block.StairsBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -55,15 +54,15 @@ public class ModBlocks {
     public static final Block WASTED_LOG = registerBlock("wasted_log",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).sounds(BlockSoundGroup.WOOD)));
     public static final Block WASTED_PLANK_SLAB = registerBlock("wasted_plank_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.WASTED_PLANKS).sounds(BlockSoundGroup.WOOD)));
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).sounds(BlockSoundGroup.WOOD)));
     public static final Block WASTED_PLANK_STAIRS = registerBlock("wasted_plank_stairs",
-            new INeedMyStairsBlock(ModBlocks.WASTED_PLANKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_STAIRS).sounds(BlockSoundGroup.WOOD)));
+            new INeedMyStairsBlock(Blocks.OAK_PLANKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_STAIRS).sounds(BlockSoundGroup.WOOD)));
     public static final Block WASTED_PLANKS = registerBlock("wasted_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).sounds(BlockSoundGroup.WOOD)));
     public static final Block WASTED_PRESSURE_PLATE = registerBlock("wasted_pressure_plate",
-            new Block(FabricBlockSettings.copyOf(ModBlocks.WASTED_PLANKS).sounds(BlockSoundGroup.WOOD)));
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PRESSURE_PLATE).sounds(BlockSoundGroup.WOOD)));
     public static final Block WASTED_TRAP_DOOR = registerBlock("wasted_trap_door",
-            new Block(FabricBlockSettings.copyOf(ModBlocks.WASTED_PLANKS).sounds(BlockSoundGroup.WOOD)));
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR).sounds(BlockSoundGroup.WOOD)));
     public static final Block WASTEDGRASS = registerBlock("wastedgrass",
             new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).sounds(BlockSoundGroup.GRASS)));
 
