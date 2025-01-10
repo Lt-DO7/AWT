@@ -2,8 +2,6 @@ package net.awt.awt.util;
 
 import loqor.ait.api.AITModInitializer;
 import net.awt.awt.AWT;
-import net.awt.awt.door.AWTDoors;
-import net.awt.awt.exterior.AWTExteriors;
 
 public class AITUtil implements AITModInitializer {
     private static AITUtil instance;
@@ -16,8 +14,6 @@ public class AITUtil implements AITModInitializer {
         AWT.LOGGER.info("Initializing AITUtil");
         instance = this;
 
-        AWTDoors.init();
-        AWTExteriors.init();
     }
 
     public static AITUtil instance() {

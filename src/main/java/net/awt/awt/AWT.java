@@ -3,7 +3,6 @@ package net.awt.awt;
 import net.awt.awt.block.ModBlocks;
 import net.awt.awt.item.ModItemGroups;
 import net.awt.awt.item.ModItems;
-import net.awt.awt.sound.AWTSound;
 import net.awt.awt.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -16,7 +15,6 @@ public class AWT implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        AWTSound.init();
         ModItemGroups.registerItemGroups();
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
