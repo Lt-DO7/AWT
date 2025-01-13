@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "awt:item/sonic_tools/copper_cane_tardis",
-		"particle": "awt:item/sonic_tools/copper_cane_tardis"
+		"0": "copper_cane_tardis",
+		"particle": "copper_cane_tardis"
 	},
 	"elements": [
 		{
@@ -417,7 +417,7 @@
 		{
 			"name": "octagon",
 			"from": [6.825, 27.39637, 8.76398],
-			"to": [9.175, 28.54637, 12.06398],
+			"to": [9.175, 27.54637, 12.06398],
 			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 27.2822, 8.85]},
 			"faces": {
 				"north": {"uv": [8, 1, 7.75, 1.25], "texture": "#0"},
@@ -432,7 +432,7 @@
 			"name": "octagon",
 			"from": [7.575, 29.71806, 9.61237],
 			"to": [8.425, 31.26806, 10.26237],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 28.2822, 9.25]},
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 28.2822, 9.25]},
 			"faces": {
 				"north": {"uv": [4, 6.5, 4.25, 7], "texture": "#0"},
 				"east": {"uv": [4.5, 6.5, 4.75, 7], "texture": "#0"},
@@ -473,7 +473,7 @@
 		{
 			"name": "octagon",
 			"from": [3.88602, 27.44637, 6.825],
-			"to": [7.18602, 28.59637, 9.175],
+			"to": [7.18602, 27.59637, 9.175],
 			"rotation": {"angle": -22.5, "axis": "z", "origin": [7.1, 27.2822, 8]},
 			"faces": {
 				"north": {"uv": [3.5, 6.5, 3.75, 7], "rotation": 90, "texture": "#0"},
@@ -488,7 +488,7 @@
 			"name": "octagon",
 			"from": [5.73382, 29.73719, 7.575],
 			"to": [6.38382, 31.28719, 8.425],
-			"rotation": {"angle": 0, "axis": "y", "origin": [6.7, 28.2822, 8]},
+			"rotation": {"angle": 0, "axis": "z", "origin": [6.7, 28.2822, 8]},
 			"faces": {
 				"north": {"uv": [3.5, 6.5, 3.75, 7], "texture": "#0"},
 				"east": {"uv": [4, 6.5, 4.25, 7], "texture": "#0"},
@@ -529,7 +529,7 @@
 		{
 			"name": "octagon",
 			"from": [6.825, 27.39637, 3.93602],
-			"to": [9.175, 28.54637, 7.23602],
+			"to": [9.175, 27.54637, 7.23602],
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 27.2822, 7.15]},
 			"faces": {
 				"north": {"uv": [1.25, 8, 1, 7.75], "rotation": 180, "texture": "#0"},
@@ -544,7 +544,7 @@
 			"name": "octagon",
 			"from": [7.575, 29.71806, 5.73763],
 			"to": [8.425, 31.26806, 6.38763],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 28.2822, 6.75]},
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 28.2822, 6.75]},
 			"faces": {
 				"north": {"uv": [3, 6.5, 3.25, 7], "texture": "#0"},
 				"east": {"uv": [3.5, 6.5, 3.75, 7], "texture": "#0"},
@@ -585,7 +585,7 @@
 		{
 			"name": "octagon",
 			"from": [8.76398, 27.39637, 6.825],
-			"to": [12.06398, 28.54637, 9.175],
+			"to": [12.06398, 27.54637, 9.175],
 			"rotation": {"angle": 22.5, "axis": "z", "origin": [8.85, 27.2822, 8]},
 			"faces": {
 				"north": {"uv": [4.5, 6.5, 4.75, 7], "rotation": 270, "texture": "#0"},
@@ -600,7 +600,7 @@
 			"name": "octagon",
 			"from": [9.61237, 29.71806, 7.575],
 			"to": [10.26237, 31.26806, 8.425],
-			"rotation": {"angle": 0, "axis": "y", "origin": [9.25, 28.2822, 8]},
+			"rotation": {"angle": 0, "axis": "z", "origin": [9.25, 28.2822, 8]},
 			"faces": {
 				"north": {"uv": [4.5, 6.5, 4.75, 7], "texture": "#0"},
 				"east": {"uv": [3, 6.5, 3.25, 7], "texture": "#0"},
