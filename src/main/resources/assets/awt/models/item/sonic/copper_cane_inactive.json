@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "awt:item/sonic_tools/copper_cane_inactive",
-		"particle": "awt:item/sonic_tools/copper_cane_inactive"
+		"0": "copper_cane_inactive",
+		"particle": "copper_cane_inactive"
 	},
 	"elements": [
 		{
@@ -709,21 +709,23 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 0.25, 0.75],
+			"rotation": [63.5, 0, 0],
+			"translation": [0, -5.75, -5.75],
 			"scale": [0.45, 0.45, 0.45]
 		},
 		"thirdperson_lefthand": {
-			"translation": [0, 0.25, 0.75],
+			"rotation": [63.5, 0, 0],
+			"translation": [0, -5.75, -5.75],
 			"scale": [0.45, 0.45, 0.45]
 		},
 		"firstperson_righthand": {
 			"rotation": [-22, 0, 0],
-			"translation": [0, -2.25, 0],
+			"translation": [0, -13, 0],
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"firstperson_lefthand": {
 			"rotation": [-22, 0, 0],
-			"translation": [0, -2.25, 0],
+			"translation": [0, -13, 0],
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"ground": {
@@ -737,7 +739,8 @@
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"head": {
-			"translation": [0, 17.5, 0]
+			"rotation": [-83.75, 0, 0],
+			"translation": [0, -0.25, 0]
 		},
 		"fixed": {
 			"rotation": [-180, 0, -180],
