@@ -1,11 +1,11 @@
 {
   "id": "awt:hedgehog_sonic",
   "models": {
-    "inactive": "awt:item/sonic/hedgehog",
-    "interaction": "awt:item/sonic/hedgehog_blue_interaction",
-    "overload": "awt:item/sonic/hedgehog_super2_overload",
-    "scanning": "awt:item/sonic/hedgehog_super_scanning",
-    "tardis": "awt:item/sonic/hedgehog_movie_tardis"
+    "inactive": "awt:item/sonic/sonic_hedgehog_inactive",
+    "interaction": "awt:item/sonic/sonic_hedgehog_interaction",
+    "overload": "awt:item/sonic/sonic_hedgehog_overload",
+    "scanning": "awt:item/sonic/sonic_hedgehog_scanning",
+    "tardis": "awt:item/sonic/sonic_hedgehog_tardis"
   },
   "loyalty": {
     "type": "NEUTRAL"
