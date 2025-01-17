@@ -130,8 +130,8 @@ public class LegoExteriorModel extends ExteriorModel {
 	}
 
 	@Override
-	public Animation getAnimationForDoorState(DoorHandler.DoorStateEnum doorStateEnum) {
-		return null; // Implement door animations if needed
+	public Animation getAnimationForDoorState(DoorHandler.AnimationDoorState animationDoorState) {
+		return Animation.Builder.create(0).build();
 	}
 
 	@Override

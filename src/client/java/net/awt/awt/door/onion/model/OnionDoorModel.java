@@ -1,5 +1,6 @@
 package net.awt.awt.door.onion.model;
 
+import loqor.ait.api.link.v2.block.AbstractLinkableBlockEntity;
 import loqor.ait.client.models.doors.CapsuleDoorModel;
 import loqor.ait.client.renderers.AITRenderLayers;
 import loqor.ait.core.blockentities.DoorBlockEntity;
@@ -22,7 +23,7 @@ public class OnionDoorModel extends CapsuleDoorModel {
     }
 
     @Override
-    public void renderWithAnimations(DoorBlockEntity door, ModelPart root, MatrixStack matrices, VertexConsumer vertices, int light, int overlay, float red, float green, float blue, float pAlpha) {
+    public void renderWithAnimations(AbstractLinkableBlockEntity door, ModelPart root, MatrixStack matrices, VertexConsumer vertices, int light, int overlay, float red, float green, float blue, float pAlpha) {
         VertexConsumerProvider.Immediate immediate = MinecraftClient.getInstance().getBufferBuilders().getEntityVertexConsumers();
         vertices = immediate.getBuffer(AITRenderLayers.getEntityTranslucentCull(variant.texture()));
 

@@ -16,8 +16,8 @@ public class TardisBlockDoorModel extends DoorModel {
 	}
 
 	@Override
-	public Animation getAnimationForDoorState(DoorHandler.DoorStateEnum doorStateEnum) {
-		return null;
+	public Animation getAnimationForDoorState(DoorHandler.AnimationDoorState animationDoorState) {
+		return Animation.Builder.create(0).build();
 	}
 
 	@Override
