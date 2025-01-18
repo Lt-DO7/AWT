@@ -1,0 +1,13 @@
+{
+  "id": "awt:sonic_gauntlet",
+  "models": {
+    "inactive": "awt:item/sonic/sonic_gauntlet_inactive",
+    "interaction": "awt:item/sonic/sonic_gauntlet_interaction",
+    "overload": "awt:item/sonic/sonic_gauntlet_overload",
+    "scanning": "awt:item/sonic/sonic_gauntlet_scanning",
+    "tardis": "awt:item/sonic/sonic_gauntlet_tardis"
+  },
+  "loyalty": {
+    "type": "NEUTRAL"
+  }
+}
