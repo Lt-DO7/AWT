@@ -17,7 +17,6 @@ public class ModItems {
     public static final Item PROCESSINGUNIT = registerItem("processing_unit", new Item(new FabricItemSettings()));
     public static final Item ENERGIZEDARTRIUM = registerItem("energized_artrium", new Item(new FabricItemSettings()));
     public static final Item ARTRIUMCORE = registerItem("artrium_core", new Item(new FabricItemSettings()));
-    public static final Item ARTRIUMRIFLE = registerItem("artrium_rifle", new Item(new FabricItemSettings()));
 
     public static final Item DALEKANIUM = registerItem("dalekanium_ingot", new Item(new FabricItemSettings()));
     public static final Item DALEKANIUM_SCRAP = registerItem("dalekanium_scrap", new Item(new FabricItemSettings()));
