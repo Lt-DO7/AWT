@@ -1,17 +1,12 @@
 package net.awt.awt.item.custom;
 
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.TypedActionResult;
-import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
-
-import javax.naming.Context;
 
 public class VortexManipulator extends Item {
     public VortexManipulator(Settings settings) {
@@ -20,9 +15,13 @@ public class VortexManipulator extends Item {
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
-        if (!world.isClient) {
+            user.addVelocity
+            (
+                    1*(-Math.sin(Math.toRadians(user.getYaw())) * Math.cos(Math.toRadians(user.getPitch()))),
+                    1*(-Math.sin(Math.toRadians(user.getPitch()))),
+                    1*(Math.cos(Math.toRadians(user.getYaw())) * Math.cos(Math.toRadians(user.getPitch())))
+            );
 
-        }
         return super.use(world, user, hand);
     }
 }
