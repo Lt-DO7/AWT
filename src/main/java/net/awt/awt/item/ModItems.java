@@ -1,6 +1,7 @@
 package net.awt.awt.item;
 
 import net.awt.awt.AWT;
+import net.awt.awt.item.custom.VortexManipulator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -23,7 +24,7 @@ public class ModItems {
     public static final Item STEEL = registerItem("steel_ingot", new Item(new FabricItemSettings()));
     public static final Item CHROMITE = registerItem("chromite", new Item(new FabricItemSettings()));
     public static final Item METALERT_DUST = registerItem("metalert_dust", new Item(new FabricItemSettings()));
-
+    public static final Item VORTEX_MANIPULATOR = registerItem("vortex_manipulator",new VortexManipulator(new FabricItemSettings()));
 
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {

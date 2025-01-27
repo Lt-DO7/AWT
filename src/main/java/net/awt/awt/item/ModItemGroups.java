@@ -54,6 +54,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WASTED_DOOR);
                         entries.add(ModBlocks.WASTEDGRASS);
                         entries.add(ModBlocks.WASTED_LEAVES);
+                        entries.add(ModItems.VORTEX_MANIPULATOR);
 
                     }).build());
 
