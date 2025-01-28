@@ -1,0 +1,13 @@
+{
+  "id": "awt:c13portalgun",
+  "models": {
+    "inactive": "awt:item/sonic/c13portalgun_inactive",
+    "interaction": "awt:item/sonic/c13portalgun_interactive",
+    "overload": "awt:item/sonic/c13portalgun_overload",
+    "scanning": "awt:item/sonic/c13portalgun_scanning",
+    "tardis": "awt:item/sonic/c13portalgun_tardis"
+  },
+  "loyalty": {
+    "type": "NEUTRAL"
+  }
+}
