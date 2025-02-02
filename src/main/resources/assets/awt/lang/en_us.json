@@ -50,7 +50,7 @@
   "sonic.awt.corissance": "Corissance",
   "sonic.awt.copper_coral": "Wedlock Sonic",
   "sonic.awt.renegade_sonic": "Renegade",
-  "sonic.awt.pertwee": "Pertwee",
+  "sonic.awt.pertwee": "Pertwee Alt",
   "sonic.awt.davison_sonic": "Davison",
   "sonic.awt.baker_alt": "Baker Alt",
   "sonic.awt.eighth_sonic": "McGann",
@@ -68,6 +68,7 @@
   "sonic.awt.sonic_gauntlet": "Sonic Gauntlet",
   "sonic.awt.missy_umbrella": "Sonic Umbrella",
   "sonic.awt.c13portalgun": "Rick's Portal Gun",
+  "sonic.awt.classic_pertwee_sonic": "Pertwee",
 
   "desktop.awt.hell": "Hell",
   "desktop.awt.fnaf4": "FNAF 4",
