@@ -51,7 +51,7 @@
   "sonic.awt.copper_coral": "Wedlock Sonic",
   "sonic.awt.renegade_sonic": "Renegade",
   "sonic.awt.pertwee": "Pertwee Alt",
-  "sonic.awt.davison_sonic": "Davison",
+  "sonic.awt.davison_sonic": "Davison Alt",
   "sonic.awt.baker_alt": "Baker Alt",
   "sonic.awt.eighth_sonic": "McGann Alt",
   "sonic.awt.war_sonic": "War Alt",
@@ -71,6 +71,7 @@
   "sonic.awt.classic_pertwee_sonic": "Pertwee",
   "sonic.awt.classic_war_sonic": "War",
   "sonic.awt.classic_mcgann_sonic": "McGann",
+  "sonic.awt.classic_davison_sonic": "Davison",
 
   "desktop.awt.hell": "Hell",
   "desktop.awt.fnaf4": "FNAF 4",
