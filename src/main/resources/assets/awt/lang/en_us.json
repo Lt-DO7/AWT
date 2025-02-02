@@ -53,7 +53,7 @@
   "sonic.awt.pertwee": "Pertwee Alt",
   "sonic.awt.davison_sonic": "Davison",
   "sonic.awt.baker_alt": "Baker Alt",
-  "sonic.awt.eighth_sonic": "McGann",
+  "sonic.awt.eighth_sonic": "McGann Alt",
   "sonic.awt.war_sonic": "War Alt",
   "sonic.awt.skinny_sonic": "Agastache Sonic",
   "sonic.awt.garfield": "Lasagna",
@@ -70,6 +70,7 @@
   "sonic.awt.c13portalgun": "Rick's Portal Gun",
   "sonic.awt.classic_pertwee_sonic": "Pertwee",
   "sonic.awt.classic_war_sonic": "War",
+  "sonic.awt.classic_mcgann_sonic": "McGann",
 
   "desktop.awt.hell": "Hell",
   "desktop.awt.fnaf4": "FNAF 4",
