@@ -3,6 +3,7 @@
     "category": "ait:exterior/police_box",
     "parent": "ait:exterior/police_box/default",
     "texture": "awt:textures/exterior/texture.png",
+    "emission": "awt:textures/exterior/texture_emission.png",
     "overrides": {
         "snowy": "ait:textures/blockentities/exteriors/police_box/biome/police_box_snowy.png",
         "sculk": "ait:textures/blockentities/exteriors/police_box/biome/police_box_sculk.png",
