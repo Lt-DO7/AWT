@@ -3,7 +3,6 @@ package net.awt.awt.block;
 import net.awt.awt.AWT;
 import net.awt.awt.block.custom.INeedMyStairsBlock;
 import net.awt.awt.block.custom.RoundelBlock;
-import net.awt.awt.block.custom.TimeGrowerBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -19,8 +18,8 @@ public class ModBlocks {
     //AWT
     public static final Block ARTRIUM_ORE = registerBlock("artrium_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).sounds(BlockSoundGroup.STONE)));
-    public static final Block TIME_GROWER = registerBlock("time_grower",
-            new TimeGrowerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
+    //public static final Block TIME_GROWER = registerBlock("time_grower",
+           // new TimeGrowerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
     public static final Block ARTRIUM_BLOCK = registerBlock("artrium_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
     public static final Block DEEPSLATE_ARTRIUM_ORE = registerBlock("deepslate_artrium_ore",
