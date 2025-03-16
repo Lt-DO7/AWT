@@ -19,7 +19,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ARTRIUM_ORE);
                         entries.add(ModBlocks.ARTRIUM_BLOCK);
                         entries.add(ModBlocks.DEEPSLATE_ARTRIUM_ORE);
-                       // entries.add(ModBlocks.TIME_GROWER);
                         entries.add(ModItems.PROCESSINGUNIT);
                         entries.add(ModItems.ARTRIUMCORE);
                         entries.add(ModItems.ENERGIZEDARTRIUM);

@@ -18,8 +18,6 @@ public class ModBlocks {
     //AWT
     public static final Block ARTRIUM_ORE = registerBlock("artrium_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).sounds(BlockSoundGroup.STONE)));
-    //public static final Block TIME_GROWER = registerBlock("time_grower",
-           // new TimeGrowerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
     public static final Block ARTRIUM_BLOCK = registerBlock("artrium_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
     public static final Block DEEPSLATE_ARTRIUM_ORE = registerBlock("deepslate_artrium_ore",
