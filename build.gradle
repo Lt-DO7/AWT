@@ -66,15 +66,9 @@ fabricApi {
 			exclude(group: "net.fabricmc.fabric-api")
 		}
 
-		include(modImplementation("com.github.DrTheodor:mc-multidim:${project.multidim_version}")) {
-			exclude(group: "net.fabricmc.fabric-api")
-		}
-		include(modImplementation("com.github.DrTheodor:mc-scheduler:${project.scheduler_version}")) {
-			exclude(group: "net.fabricmc.fabric-api")
-		}
-		include(modImplementation("com.github.DrTheodor:mc-queue:${project.queue_version}")) {
-			exclude(group: "net.fabricmc.fabric-api")
-		}
+
+
+
 		//  include(modImplementation("com.github.amblelabs:modkit:${project.Amble_version}")) {
 		// exclude(group: "net.fabricmc.fabric-api")
 		//}
