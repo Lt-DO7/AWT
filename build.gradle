@@ -28,7 +28,23 @@ repositories {
 }
 
 
-//loom {
+loom {
+
+	splitEnvironmentSourceSets()
+
+	mods {
+
+
+
+		"awt" {
+
+			sourceSet sourceSets.main
+			sourceSet sourceSets.client
+		}
+
+
+	}
+}
 //accessWidenerPath = file("src/main/resources/ait-extras.accesswidener")
 
 //runs {
@@ -119,4 +135,3 @@ publishing {
 		// retrieving dependencies.
 	}
 }
-
