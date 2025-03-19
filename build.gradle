@@ -105,6 +105,7 @@ tasks.withType(JavaCompile).configureEach {
 
 java {
 	def javaVersion = JavaVersion.toVersion(targetJavaVersion)
+
 	if (JavaVersion.current() < javaVersion) {
 		toolchain.languageVersion = JavaLanguageVersion.of(targetJavaVersion)
 	}
@@ -112,6 +113,9 @@ java {
 	// if it is present.
 	// If you remove this line, sources will not be generated.
 	// withSourcesJar()
+	withSourcesJar()
+	sourceCompatibility = JavaVersion.VERSION_17
+	targetCompatibility = JavaVersion.VERSION_17
 }
 
 jar {
