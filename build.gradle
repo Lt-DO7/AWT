@@ -27,7 +27,9 @@ repositories {
 	maven { url "https://maven.terraformersmc.com/releases/" }
 }
 
-//loom {
+loom {
+	splitEnvironmentSourceSets()
+}
 //accessWidenerPath = file("src/main/resources/ait-extras.accesswidener")
 
 //runs {
