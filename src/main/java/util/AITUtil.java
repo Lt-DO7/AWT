@@ -1,6 +1,6 @@
 package net.awt.awt.util;
 
-import loqor.ait.api.AITModInitializer;
+import dev.amble.ait.api.AITModInitializer;
 import net.awt.awt.AWT;
 
 public class AITUtil implements AITModInitializer {
