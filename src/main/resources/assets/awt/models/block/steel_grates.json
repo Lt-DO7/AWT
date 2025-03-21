@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "ddwa:block/steel_grates",
-    "particle": "ddwa:block/steel_grates"
-  },
-  "render_type": "cutout"
-}

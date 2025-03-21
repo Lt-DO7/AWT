@@ -24,42 +24,7 @@ public class ModItemGroups {
 
                     }).build());
 
-    public static final ItemGroup DALEKANIUM_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(AWT.MOD_ID, "skaro"),
-            FabricItemGroup.builder().displayName(Text.translatable("item_group.awt.planet_skaro"))
-                    .icon(() -> new ItemStack(ModItems.DALEKANIUM)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.DALEKANIUM);
-                        entries.add(ModItems.DALEKANIUM_SCRAP);
-                        entries.add(ModItems.METALERT_DUST);
-                        entries.add(ModItems.CHROMITE);
-                        entries.add(ModBlocks.DALEKANIUM_BLOCK);
-                        entries.add(ModBlocks.DALEKANIUM_ORE);
-                        entries.add(ModBlocks.KALETITE);
-                        entries.add(ModBlocks.KALETITE_BRICKS);
-                        entries.add(ModBlocks.CRACKED_KALETITE);
-                        entries.add(ModBlocks.COBBLED_KALETITE);
-                        entries.add(ModBlocks.WASTED_BUTTON);
-                        entries.add(ModBlocks.WASTED_PLANK_SLAB);
-                        entries.add(ModBlocks.WASTED_PLANKS);
-                        entries.add(ModBlocks.WASTED_PLANK_STAIRS);
-                        entries.add(ModBlocks.WASTED_BUSH_PLANT);
-                        entries.add(ModBlocks.WASTED_LOG);
-                        entries.add(ModBlocks.WASTED_PRESSURE_PLATE);
-                        entries.add(ModBlocks.WASTED_TRAP_DOOR);
-                        entries.add(ModBlocks.WASTED_DIRT);
-                        entries.add(ModBlocks.WASTED_DOOR);
-                        entries.add(ModBlocks.WASTEDGRASS);
-                        entries.add(ModBlocks.WASTED_LEAVES);
-                        entries.add(ModItems.VORTEX_MANIPULATOR);
 
-                    }).build());
-
-    public static final ItemGroup STEEL_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(AWT.MOD_ID, "mondas"),
-            FabricItemGroup.builder().displayName(Text.translatable("item_group.awt.planet_mondas"))
-                    .icon(() -> new ItemStack(ModItems.STEEL)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.STEEL);
-                    }).build());
 
     public static final ItemGroup ROUNDEL_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(AWT.MOD_ID, "roundel"),

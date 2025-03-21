@@ -241,19 +241,14 @@
   "block.awt.exposed_copper_roundel": "Exposed Copper Roundel",
   "block.awt.copper_roundel": "Copper Roundel",
 
-  "biome.awt.skaro_waste_land": "Skaro Waste Land",
 
-  "subtitles.dalekshoot": "Dalek Beam Shot",
-  "subtitles.dalekbossfightmusic": "",
   "subtitles.vortexactivate": "Vortex Manipulator Used",
 
-  "entity.awt.dalek": "Time War Dalek",
-  "entity.awt.black_and_white_dalek": "Black And White Dalek",
+
 
   "advancements.space_hoppers.descr": "Obtain a Vortex Manipulator",
 
-  "item_group.awt.planet_mondas": "Mondas",
-  "item_group.awt.planet_skaro": "Skaro",
+
   "item_group.awt.Roundel": "Roundels"
 
 }

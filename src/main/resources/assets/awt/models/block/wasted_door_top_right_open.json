@@ -1,8 +1,0 @@
-{
-  "parent": "block/door_top_right_open",
-  "textures": {
-    "bottom": "ddwa:block/wasted_door_bottom",
-    "top": "ddwa:block/wasted_door_top"
-  },
-  "render_type": "cutout"
-}

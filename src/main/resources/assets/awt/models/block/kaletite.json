@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "ddwa:block/kaletite",
-    "particle": "ddwa:block/kaletite"
-  },
-  "render_type": "solid"
-}

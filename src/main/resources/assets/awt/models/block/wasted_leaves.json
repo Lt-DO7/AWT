@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "ddwa:block/wasted_leaves",
-    "particle": "ddwa:block/wasted_leaves"
-  },
-  "render_type": "cutout"
-}

@@ -20,14 +20,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
-        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-
-                .add(ModBlocks.KALETITE)
-                .add(ModBlocks.COBBLED_KALETITE)
-                .add(ModBlocks.CRACKED_KALETITE)
-                .add(ModBlocks.KALETITE_BRICKS)
-                .add(ModBlocks.DALEKANIUM_ORE)
-                .add(ModBlocks.DALEKANIUM_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.WHITE_CONCRETE_ROUNDEL)
@@ -58,9 +50,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COPPER_ROUNDEL)
         ;
 
-        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-
-                .add(ModBlocks.DALEKANIUM_ORE);
 
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL);
