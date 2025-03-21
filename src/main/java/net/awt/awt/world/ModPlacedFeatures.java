@@ -15,15 +15,6 @@ import net.minecraft.world.gen.placementmodifier.PlacementModifier;
 import java.util.List;
 
 public class ModPlacedFeatures {
-    public static final RegistryKey<PlacedFeature> ARTRIUM_ORE_PLACED_KEY = registerKey("artrium_ore_placed");
-
-    public static void boostrap(Registerable<PlacedFeature> context) {
-        var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
-
-        register(context, ARTRIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.ARTRIUM_ORE_KEY),
-                ModOreGeneration.modifiersWithCount(10, // Veins per Chunk
-                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(-80), YOffset.fixed(80))));
-    }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {
         return RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier(AWT.MOD_ID, name));

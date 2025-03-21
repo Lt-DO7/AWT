@@ -17,18 +17,6 @@ import net.minecraft.world.gen.feature.OreFeatureConfig;
 import java.util.List;
 
 public class ModConfiguredFeatures {
-    public static final RegistryKey<ConfiguredFeature<?, ?>> ARTRIUM_ORE_KEY = registerKey("artrium_ore");
-
-    public static void boostrap(Registerable<ConfiguredFeature<?, ?>> context) {
-        RuleTest stoneReplacables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
-        RuleTest deepslateReplacables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
-
-        List<OreFeatureConfig.Target> overworldRubyOres =
-                List.of(OreFeatureConfig.createTarget(stoneReplacables, ModBlocks.ARTRIUM_ORE.getDefaultState()),
-                        OreFeatureConfig.createTarget(deepslateReplacables, ModBlocks.DEEPSLATE_ARTRIUM_ORE.getDefaultState()));
-
-        register(context, ARTRIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldRubyOres, 4));
-    }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
         return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, new Identifier(AWT.MOD_ID, name));

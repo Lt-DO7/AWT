@@ -23,11 +23,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        addDrop(ModBlocks.ARTRIUM_ORE);
 
-        addDrop(ModBlocks.ARTRIUM_ORE, copperLikeOreDrops(ModBlocks.ARTRIUM_ORE, ModItems.ARTRIUM));
-        addDrop(ModBlocks.DEEPSLATE_ARTRIUM_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_ARTRIUM_ORE, ModItems.ARTRIUM));
-        addDrop(ModBlocks.ARTRIUM_BLOCK, drops(ModBlocks.ARTRIUM_BLOCK));
+
         addDrop(ModBlocks.MOSS_ROUNDEL, drops(ModBlocks.MOSS_ROUNDEL));
         addDrop(ModBlocks.DIRT_ROUNDEL, drops(ModBlocks.DIRT_ROUNDEL));
         addDrop(ModBlocks.END_STONE_BRICKS_ROUNDEL, drops(ModBlocks.END_STONE_BRICKS_ROUNDEL));

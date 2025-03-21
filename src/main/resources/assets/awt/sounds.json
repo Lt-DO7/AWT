@@ -6,33 +6,35 @@
       {
         "name": "awt:bloop",
         "stream": false,
-
-  "vortexactivate": {
-    "category": "neutral",
-    "subtitle": "subtitles.vortexactivate",
-    "sounds": [
-      {
-        "name": "ddwa:vortex_manipulator_use",
-        "stream": false
-      }
-    ]
-  },
-  "dalekshoot": {
-    "category": "hostile",
-    "subtitle": "subtitles.dalekshoot",
-    "sounds": [
-      {
-        "name": "ddwa:dalekshoot",
-        "stream": false
-      }
-    ]
-  },
-  "dalekbossfightmusic": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "ddwa:y2mate.com-ksi-thick-of-it-feat-trippie-redd-official-lyric-video",
-        "stream": true
+        "vortexactivate": {
+          "category": "neutral",
+          "subtitle": "subtitles.vortexactivate",
+          "sounds": [
+            {
+              "name": "ddwa:vortex_manipulator_use",
+              "stream": false
+            }
+          ]
+        },
+        "dalekshoot": {
+          "category": "hostile",
+          "subtitle": "subtitles.dalekshoot",
+          "sounds": [
+            {
+              "name": "ddwa:dalekshoot",
+              "stream": false
+            }
+          ]
+        },
+        "dalekbossfightmusic": {
+          "category": "music",
+          "sounds": [
+            {
+              "name": "ddwa:y2mate.com-ksi-thick-of-it-feat-trippie-redd-official-lyric-video",
+              "stream": true
+            }
+          ]
+        }
       }
     ]
   }

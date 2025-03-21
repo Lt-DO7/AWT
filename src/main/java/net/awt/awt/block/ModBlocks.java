@@ -16,14 +16,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     //AWT
-    public static final Block ARTRIUM_ORE = registerBlock("artrium_ore",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).sounds(BlockSoundGroup.STONE)));
-    public static final Block ARTRIUM_BLOCK = registerBlock("artrium_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
-    public static final Block DEEPSLATE_ARTRIUM_ORE = registerBlock("deepslate_artrium_ore",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).sounds(BlockSoundGroup.DEEPSLATE)));
-    public static final Block Unlocker = registerBlock("unlocker",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
+
 
     //DDWA
     public static final Block DALEKANIUM_BLOCK = registerBlock("dalekanium_block",
