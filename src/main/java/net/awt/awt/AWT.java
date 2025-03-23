@@ -12,6 +12,47 @@ import org.slf4j.LoggerFactory;
 public class AWT implements ModInitializer {
     public static final String MOD_ID = "awt";
 
+    public static AddonExterior BAKER;
+
+    @Override
+
+    public void onInitialize() {
+
+        registerAddonExteriors();
+
+        RegistryContainer.register(AWTItems.class, MOD_ID);
+
+        RegistryContainer.register(AWTBlocks.class, MOD_ID);
+
+        RegistryContainer.register(AWTBlockEntityTypes.class, MOD_ID);
+
+    }
+
+    private void registerAddonExteriors() {
+
+    BAKER = new AddonExterior(PoliceBoxCategory.REFERENCE, MOD_ID, "baker").register();
+
+
+
+        BAKER.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
+
+
+        BAKER.setDoor(new AddonExterior.Door(
+
+
+    BAKER, false, SoundEvents.BLOCK_IRON_DOOR_OPEN,
+
+
+    net.minecraft.sound.SoundEvents.BLOCK_IRON_DOOR_CLOSE))
+
+
+            .toDoor().register();
+    }
+
+
+
+
+
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
     @Override
