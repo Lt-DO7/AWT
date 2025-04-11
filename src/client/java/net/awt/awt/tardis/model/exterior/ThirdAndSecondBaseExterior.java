@@ -1,8 +1,9 @@
 package net.awt.awt.tardis.model.exterior;
 
 import dev.amble.ait.AITMod;
-import dev.amble.ait.api.link.v2.Linkable;
+import dev.amble.ait.api.tardis.link.v2.Linkable;
 import dev.amble.ait.client.models.exteriors.ExteriorModel;
+import dev.amble.ait.client.tardis.ClientTardis;
 import dev.amble.ait.core.blockentities.ExteriorBlockEntity;
 import dev.amble.ait.core.tardis.handler.DoorHandler;
 import net.minecraft.client.model.*;
@@ -87,12 +88,12 @@ public class ThirdAndSecondBaseExterior extends ExteriorModel {
 	}
 
 	@Override
-	public void renderDoors(ExteriorBlockEntity exterior, ModelPart root, MatrixStack matrices, VertexConsumer vertices, int light, int overlay, float red, float green, float blue, float pAlpha, boolean isBOTI) {
+	public void renderDoors(ClientTardis tardis, ExteriorBlockEntity exterior, ModelPart root, MatrixStack matrices, VertexConsumer vertices, int light, int overlay, float red, float green, float blue, float pAlpha, boolean isBOTI) {
 
 	}
 
 	@Override
-	public void renderWithAnimations(ExteriorBlockEntity exterior, ModelPart root, MatrixStack matrices,
+	public void renderWithAnimations(ClientTardis tardis, ExteriorBlockEntity exterior, ModelPart root, MatrixStack matrices,
 									 VertexConsumer vertices, int light, int overlay, float red, float green, float blue, float pAlpha) {
 		if (exterior.tardis().isEmpty())
 			return;
@@ -114,7 +115,7 @@ public class ThirdAndSecondBaseExterior extends ExteriorModel {
 			right_door.yaw = (float) -Math.toRadians(maxRot * door.getRightRot());
 		}
 
-		super.renderWithAnimations(exterior, root, matrices, vertices, light, overlay, red, green, blue, pAlpha);
+		super.renderWithAnimations(tardis, exterior, root, matrices, vertices, light, overlay, red, green, blue, pAlpha);
 		matrices.pop();
 	}
 
