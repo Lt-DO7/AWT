@@ -18,10 +18,10 @@ public class AWTClient implements ClientModInitializer {
         AWT.BAKER.setModel(new BakerExteriorModel()).toClient().register();
         AWT.BAKER.toDoor().setModel(new BakerDoorModel(BakerDoorModel.getTexturedModelData().createModel())).toClient().register();
 
-        AWT.SECOND.setModel(new ThirdAndSecondBaseExterior());
+        AWT.SECOND.setModel(new ThirdAndSecondBaseExterior()).toClient().register();
         AWT.SECOND.toDoor().setModel(new ThirdAndSecondBaseDoor(ThirdAndSecondBaseDoor.getTexturedModelData().createModel())).toClient().register();
 
-        AWT.THIRD.setModel(new ThirdAndSecondBaseExterior());
+        AWT.THIRD.setModel(new ThirdAndSecondBaseExterior()).toClient().register();
         AWT.THIRD.toDoor().setModel(new ThirdAndSecondBaseDoor(ThirdAndSecondBaseDoor.getTexturedModelData().createModel())).toClient().register();
     }
 
