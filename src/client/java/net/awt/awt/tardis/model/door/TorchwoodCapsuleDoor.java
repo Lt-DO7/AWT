@@ -45,6 +45,12 @@ public class TorchwoodCapsuleDoor extends DoorModel {
 	@Override
 	public void setAngles(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 	}
+
+	@Override
+	public Animation getAnimationForDoorState(DoorHandler.AnimationDoorState animationDoorState) {
+		return null;
+	}
+
 	@Override
 	public void render(MatrixStack matrices, VertexConsumer vertexConsumer, int light, int overlay, float red, float green, float blue, float alpha) {
 		shellframe.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
@@ -52,5 +58,10 @@ public class TorchwoodCapsuleDoor extends DoorModel {
 		floorandroof.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
 		leftdoor.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
 		rightdoor.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
+	}
+
+	@Override
+	public ModelPart getPart() {
+		return getTexturedModelData().createModel();
 	}
 }

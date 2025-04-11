@@ -2,6 +2,7 @@ package net.awt.awt;
 
 import net.awt.awt.tardis.model.door.BakerDoorModel;
 import net.awt.awt.tardis.model.door.ThirdAndSecondBaseDoor;
+import net.awt.awt.tardis.model.door.TorchwoodCapsuleDoor;
 import net.awt.awt.tardis.model.exterior.BakerExteriorModel;
 import net.awt.awt.tardis.model.exterior.ThirdAndSecondBaseExterior;
 import net.awt.awt.tardis.model.exterior.TorchwoodCapsuleExterior;

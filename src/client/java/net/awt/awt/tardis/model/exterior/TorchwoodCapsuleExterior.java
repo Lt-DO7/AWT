@@ -22,12 +22,12 @@ public class TorchwoodCapsuleExterior extends ExteriorModel {
 	private final ModelPart floorandroof;
 	private final ModelPart leftdoor;
 	private final ModelPart rightdoor;
-	public TorchwoodCapsuleExterior(ModelPart root) {
-		this.shellframe = root.getChild("shellframe");
-		this.walls = root.getChild("walls");
-		this.floorandroof = root.getChild("floorandroof");
-		this.leftdoor = root.getChild("leftdoor");
-		this.rightdoor = root.getChild("rightdoor");
+	public TorchwoodCapsuleExterior() {
+		this.shellframe = getTexturedModelData().createModel().getChild("shellframe");
+		this.walls = getTexturedModelData().createModel().getChild("walls");
+		this.floorandroof = getTexturedModelData().createModel().getChild("floorandroof");
+		this.leftdoor = getTexturedModelData().createModel().getChild("leftdoor");
+		this.rightdoor = getTexturedModelData().createModel().getChild("rightdoor");
 	}
 	public static TexturedModelData getTexturedModelData() {
 		ModelData modelData = new ModelData();
@@ -52,6 +52,17 @@ public class TorchwoodCapsuleExterior extends ExteriorModel {
 	@Override
 	public void setAngles(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 	}
+
+	@Override
+	public Animation getAnimationForDoorState(DoorHandler.AnimationDoorState animationDoorState) {
+		return null;
+	}
+
+	@Override
+	public void renderDoors(ClientTardis clientTardis, ExteriorBlockEntity exteriorBlockEntity, ModelPart modelPart, MatrixStack matrixStack, VertexConsumer vertexConsumer, int i, int i1, float v, float v1, float v2, float v3, boolean b) {
+
+	}
+
 	@Override
 	public void render(MatrixStack matrices, VertexConsumer vertexConsumer, int light, int overlay, float red, float green, float blue, float alpha) {
 		shellframe.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
@@ -59,5 +70,10 @@ public class TorchwoodCapsuleExterior extends ExteriorModel {
 		floorandroof.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
 		leftdoor.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
 		rightdoor.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
+	}
+
+	@Override
+	public ModelPart getPart() {
+		return getTexturedModelData().createModel();
 	}
 }

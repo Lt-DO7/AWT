@@ -18,6 +18,7 @@ public class AWT implements ModInitializer {
     public static AddonExterior BAKER;
     public static AddonExterior SECOND;
     public static AddonExterior THIRD;
+    public static AddonExterior TORCHWOODCAPSULE;
 
     private void registerAddonExteriors() {
 
