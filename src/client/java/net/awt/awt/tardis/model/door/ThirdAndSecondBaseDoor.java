@@ -73,8 +73,10 @@ public class ThirdAndSecondBaseDoor extends DoorModel {
 
 		matrices.push();
 		matrices.scale(0.63F, 0.63F, 0.63F);
-		matrices.translate(0.0F, -1.5F, 0.0F);
+		matrices.translate(0.0F, -1.5F, -0.375F);
 		matrices.multiply(RotationAxis.NEGATIVE_Y.rotationDegrees(180.0F));
+		matrices.multiply(RotationAxis.NEGATIVE_Y.rotationDegrees(90));
+
 		super.renderWithAnimations(tardis, doorEntity, root, matrices, vertices, light, overlay, red, green, blue, pAlpha);
 		matrices.pop();
 	}

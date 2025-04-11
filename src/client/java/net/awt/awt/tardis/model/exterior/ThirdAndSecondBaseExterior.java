@@ -11,6 +11,7 @@ import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.entity.animation.Animation;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.entity.Entity;
+import net.minecraft.util.math.RotationAxis;
 
 // Made with Blockbench 4.12.4
 // Exported for Minecraft version 1.17+ for Yarn
@@ -101,8 +102,11 @@ public class ThirdAndSecondBaseExterior extends ExteriorModel {
 		matrices.push();
 		matrices.scale(0.63F, 0.63F, 0.63F);
 		matrices.translate(0, -1.5f, 0);
+		matrices.multiply(RotationAxis.NEGATIVE_Y.rotationDegrees(90));
 
 		DoorHandler door = exterior.tardis().get().door();
+
+
 
 		if (!AITMod.CONFIG.CLIENT.ANIMATE_DOORS) {
 			left_door.yaw = (door.isLeftOpen() || door.isOpen()) ? -5.0F : 0.0F;
