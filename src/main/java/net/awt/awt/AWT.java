@@ -22,21 +22,21 @@ public class AWT implements ModInitializer {
 
     private void registerAddonExteriors() {
 
-    BAKER = new AddonExterior(new Identifier(MOD_ID, "miscellaneous"), MOD_ID, "baker").register();
+    BAKER = new AddonExterior(new Identifier(MOD_ID, "AWT Boxes"), MOD_ID, "baker").register();
         BAKER.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
         BAKER.setDoor(new AddonExterior.Door(BAKER, true, SoundEvents.BLOCK_IRON_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_IRON_DOOR_CLOSE)).toDoor().register();
 
 
-    SECOND = new AddonExterior(new Identifier(MOD_ID, "miscellaneous"), MOD_ID, "second").register();
+    SECOND = new AddonExterior(new Identifier(MOD_ID, "AWT Boxes"), MOD_ID, "second").register();
         SECOND.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
         SECOND.setDoor(new AddonExterior.Door(SECOND, true, SoundEvents.BLOCK_IRON_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_IRON_DOOR_CLOSE)).toDoor().register();
 
 
-    THIRD = new AddonExterior(new Identifier(MOD_ID, "miscellaneous"), MOD_ID, "third").register();
+    THIRD = new AddonExterior(new Identifier(MOD_ID, "AWT Boxes"), MOD_ID, "third").register();
         THIRD.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
         THIRD.setDoor(new AddonExterior.Door(THIRD, true, SoundEvents.BLOCK_IRON_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_IRON_DOOR_CLOSE)).toDoor().register();
 
-        TORCHWOODCAPSULE = new AddonExterior(new Identifier(MOD_ID, "miscellaneous"), MOD_ID, "torchwoodcapsule").register();
+        TORCHWOODCAPSULE = new AddonExterior(new Identifier(MOD_ID, "AWT Capsules"), MOD_ID, "torchwoodcapsule").register();
         TORCHWOODCAPSULE.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
         TORCHWOODCAPSULE.setDoor(new AddonExterior.Door(TORCHWOODCAPSULE, true, SoundEvents.BLOCK_IRON_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_IRON_DOOR_CLOSE)).toDoor().register();
     }
