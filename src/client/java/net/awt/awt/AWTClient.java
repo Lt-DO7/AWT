@@ -1,12 +1,10 @@
 package net.awt.awt;
 
+import net.awt.awt.tardis.model.door.BakerDoorModel;
+import net.awt.awt.tardis.model.door.ThirdAndSecondBaseDoor;
+import net.awt.awt.tardis.model.exterior.BakerExteriorModel;
+import net.awt.awt.tardis.model.exterior.ThirdAndSecondBaseExterior;
 import net.fabricmc.api.ClientModInitializer;
-import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
-import net.awt.awt.models.doors.BakerDoorModel;
-import net.awt.awt.models.extriors.BakerExteriorModel;
-import dev.amble.ait.client.models.doors.CapsuleDoorModel;
-import net.awt.core.AWTBlockEntityTypes;
-import net.awt.awt.renderers.monitors.AWTScreenMonitorRenderer;
 
 
 public class AWTClient implements ClientModInitializer {
@@ -18,11 +16,14 @@ public class AWTClient implements ClientModInitializer {
     }
     private void registerClientAddonExteriors() {
         AWT.BAKER.setModel(new BakerExteriorModel()).toClient().register();
+        AWT.BAKER.toDoor().setModel(new BakerDoorModel(BakerDoorModel.getTexturedModelData().createModel())).toClient().register();
 
+        AWT.SECOND.setModel(new ThirdAndSecondBaseExterior());
+        AWT.SECOND.toDoor().setModel(new ThirdAndSecondBaseDoor(ThirdAndSecondBaseDoor.getTexturedModelData().createModel())).toClient().register();
 
-        AWT.Baker.toDoor().setModel(new BakerDoorModel(BakerDoorModel.getTexturedModelData().createModel())).toClient().register();
-
-    };
+        AWT.THIRD.setModel(new ThirdAndSecondBaseExterior());
+        AWT.THIRD.toDoor().setModel(new ThirdAndSecondBaseDoor(ThirdAndSecondBaseDoor.getTexturedModelData().createModel())).toClient().register();
+    }
 
     public static void blockEntityRendererRegister() {
 

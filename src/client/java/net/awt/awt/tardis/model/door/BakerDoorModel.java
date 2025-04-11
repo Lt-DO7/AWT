@@ -1,13 +1,24 @@
-// Made with Blockbench 4.12.3
+package net.awt.awt.tardis.model.door;
+
+import dev.amble.ait.AITMod;
+import dev.amble.ait.api.link.v2.block.AbstractLinkableBlockEntity;
+import dev.amble.ait.client.models.doors.DoorModel;
+import dev.amble.ait.core.tardis.handler.DoorHandler;
+import net.minecraft.client.model.*;
+import net.minecraft.client.render.VertexConsumer;
+import net.minecraft.client.render.entity.animation.Animation;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.entity.Entity;
+import net.minecraft.util.math.RotationAxis;
+
+// Made with Blockbench 4.12.4
 // Exported for Minecraft version 1.17+ for Yarn
 // Paste this class into your mod and generate all required imports
-pakage net.awt.awt.models.door;
-
-public class BakerDoorModel extends EntityModel<Entity> {
+public class BakerDoorModel extends DoorModel {
 	private final ModelPart bone;
 	private final ModelPart bone2;
 	private final ModelPart bone3;
-	public tom_door(ModelPart root) {
+	public BakerDoorModel(ModelPart root) {
 		this.bone = root.getChild("bone");
 		this.bone2 = this.bone.getChild("bone2");
 		this.bone3 = this.bone.getChild("bone3");
@@ -43,5 +54,34 @@ public class BakerDoorModel extends EntityModel<Entity> {
 	@Override
 	public void render(MatrixStack matrices, VertexConsumer vertexConsumer, int light, int overlay, float red, float green, float blue, float alpha) {
 		bone.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
+	}
+
+	public void renderWithAnimations(AbstractLinkableBlockEntity doorEntity, ModelPart root, MatrixStack matrices, VertexConsumer vertices, int light, int overlay, float red, float green, float blue, float pAlpha) {
+		if (!AITMod.CONFIG.CLIENT.ANIMATE_DOORS) {
+			DoorHandler door = doorEntity.tardis().get().door();
+			bone3.yaw = !door.isLeftOpen() && !door.isOpen() ? 0.0F : -5.0F;
+			bone2.yaw = !door.isRightOpen() && !door.areBothOpen() ? 0.0F : 5.0F;
+		} else {
+			float maxRot = 90.0F;
+			bone3.yaw = (float)(Math.toRadians((double)(maxRot * doorEntity.tardis().get().door().getLeftRot())));
+			bone2.yaw = (float)-Math.toRadians((double)(maxRot * doorEntity.tardis().get().door().getRightRot()));
+		}
+
+		matrices.push();
+		matrices.scale(0.63F, 0.63F, 0.63F);
+		matrices.translate(0.0F, -1.5F, 0.0F);
+		matrices.multiply(RotationAxis.NEGATIVE_Y.rotationDegrees(180.0F));
+		super.renderWithAnimations(doorEntity, root, matrices, vertices, light, overlay, red, green, blue, pAlpha);
+		matrices.pop();
+	}
+
+	@Override
+	public Animation getAnimationForDoorState(DoorHandler.AnimationDoorState state) {
+		return Animation.Builder.create(0).build();
+	}
+
+	@Override
+	public ModelPart getPart() {
+		return bone;
 	}
 }
