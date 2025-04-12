@@ -89,6 +89,6 @@ public class TypeUltAndrDoor extends DoorModel {
 
 	@Override
 	public ModelPart getPart() {
-		return null;
+		return getTexturedModelData().createModel();
 	}
 }
