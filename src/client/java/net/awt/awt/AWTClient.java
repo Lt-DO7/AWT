@@ -3,9 +3,11 @@ package net.awt.awt;
 import net.awt.awt.tardis.model.door.BakerDoorModel;
 import net.awt.awt.tardis.model.door.ThirdAndSecondBaseDoor;
 import net.awt.awt.tardis.model.door.TorchwoodCapsuleDoor;
+import net.awt.awt.tardis.model.door.TypeUltAndrDoor;
 import net.awt.awt.tardis.model.exterior.BakerExteriorModel;
 import net.awt.awt.tardis.model.exterior.ThirdAndSecondBaseExterior;
 import net.awt.awt.tardis.model.exterior.TorchwoodCapsuleExterior;
+import net.awt.awt.tardis.model.exterior.TypeUltAndrExterior;
 import net.fabricmc.api.ClientModInitializer;
 
 
@@ -28,6 +30,10 @@ public class AWTClient implements ClientModInitializer {
 
         AWT.TORCHWOODCAPSULE.setModel(new TorchwoodCapsuleExterior()).toClient().register();
         AWT.TORCHWOODCAPSULE.toDoor().setModel(new TorchwoodCapsuleDoor(TorchwoodCapsuleDoor.getTexturedModelData().createModel())).toClient().register();
+
+        AWT.TYPEULTANDR.setModel(new TypeUltAndrExterior()).toClient().register();
+        AWT.TYPEULTANDR.toDoor().setModel(new TypeUltAndrDoor(TypeUltAndrDoor.getTexturedModelData().createModel())).toClient().register();
+
     }
 
     public static void blockEntityRendererRegister() {

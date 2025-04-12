@@ -19,6 +19,7 @@ public class AWT implements ModInitializer {
     public static AddonExterior SECOND;
     public static AddonExterior THIRD;
     public static AddonExterior TORCHWOODCAPSULE;
+    public static AddonExterior TYPEULTANDR;
 
     private void registerAddonExteriors() {
 
@@ -39,6 +40,11 @@ public class AWT implements ModInitializer {
         TORCHWOODCAPSULE = new AddonExterior(new Identifier(MOD_ID, "awtcapsules"), MOD_ID, "torchwoodcapsule").register();
         TORCHWOODCAPSULE.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
         TORCHWOODCAPSULE.setDoor(new AddonExterior.Door(TORCHWOODCAPSULE, true, SoundEvents.BLOCK_IRON_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_IRON_DOOR_CLOSE)).toDoor().register();
+
+        TYPEULTANDR = new AddonExterior(new Identifier(MOD_ID, "awtcapsules"), MOD_ID, "typeultandr").register();
+        TYPEULTANDR.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
+        TYPEULTANDR.setDoor(new AddonExterior.Door(TYPEULTANDR, true, SoundEvents.BLOCK_IRON_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_IRON_DOOR_CLOSE)).toDoor().register();
+
     }
 
 
