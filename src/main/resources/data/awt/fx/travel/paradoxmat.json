@@ -1,7 +1,7 @@
 {
   "target": "mat",
   "id": "awt:paradoxmat",
-  "sound": "awt:sounds/paradoxmat",
+  "sound": "awt:paradoxmat",
   "timeLeft": 490,
   "maxTime": 490,
   "startTime": 340,
