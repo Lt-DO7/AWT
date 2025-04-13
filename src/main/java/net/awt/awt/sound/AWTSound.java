@@ -8,6 +8,7 @@ import net.minecraft.util.Identifier;
 
 public class AWTSound {
     public static final SoundEvent BLOOP = register("bloop");
+    public static final SoundEvent PARADOXMAT = register("paradoxmat");
 
     public static SoundEvent register(String id) {
         Identifier identifier = new Identifier(AWT.MOD_ID, id);
