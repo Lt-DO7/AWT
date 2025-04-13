@@ -5,7 +5,10 @@
     "sounds": [
       {
         "name": "awt:paradoxmat",
-        "stream": false,
+        "stream": false
+      }
+    ]
+  },
   "bloop": {
     "category": "neutral",
     "subtitle": "subtitles.bloop",
