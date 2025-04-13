@@ -55,6 +55,9 @@ public class AWTClient implements ClientModInitializer {
         AWT.LIMEGREENONION.setModel(new OnionExterior()).toClient().register();
         AWT.LIMEGREENONION.toDoor().setModel(new OnionDoor(OnionDoor.getTexturedModelData().createModel())).toClient().register();
 
+        AWT.STEAMPUNK.setModel(new SteampunkExterior()).toClient().register();
+        AWT.STEAMPUNK.toDoor().setModel(new SteampunkDoor(SteampunkDoor.getTexturedModelData().createModel())).toClient().register();
+
 
     }
 
