@@ -30,6 +30,7 @@ public class AWT implements ModInitializer {
     public static AddonExterior PINKONION;
     public static AddonExterior LIGHTBLUEONION;
     public static AddonExterior LIMEGREENONION;
+    public static AddonExterior STEAMPUNK;
 
 
     private void registerAddonExteriors() {
@@ -91,6 +92,11 @@ public class AWT implements ModInitializer {
         LIMEGREENONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "limegreenonion").register();
         LIMEGREENONION.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
         LIMEGREENONION.setDoor(new AddonExterior.Door(LIMEGREENONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
+
+
+        STEAMPUNK = new AddonExterior(new Identifier(MOD_ID, "awtcapsules"), MOD_ID, "steampunk").register();
+        STEAMPUNK.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
+        STEAMPUNK.setDoor(new AddonExterior.Door(STEAMPUNK, true, SoundEvents.BLOCK_WOODEN_TRAPDOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_WOODEN_TRAPDOOR_OPEN)).toDoor().register();
 
     }
 
