@@ -1,6 +1,6 @@
 {
     "id": "awt:toywardianbooth",
-    "category":"ait:exterior/booth",
+    "category": "awt:awtboxes",
     "parent": "ait:exterior/booth/default",
     "texture": "awt:textures/exterior/booth_toywardian.png",
     "emission": "awt:textures/exterior/booth_toywardian_emission.png"

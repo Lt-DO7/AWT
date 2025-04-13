@@ -1,6 +1,6 @@
 {
     "id": "awt:toyardian",
-    "category": "ait:exterior/police_box",
+    "category": "awt:awtboxes",
     "parent": "ait:exterior/police_box/default",
     "texture": "awt:textures/exterior/toyardian.png",
     "emission": "awt:textures/exterior/toyardian_emission.png",
