@@ -4,6 +4,7 @@ import dev.amble.ait.data.schema.exterior.variant.addon.AddonExterior;
 import net.awt.awt.block.ModBlocks;
 import net.awt.awt.item.ModItemGroups;
 import net.awt.awt.item.ModItems;
+import net.awt.awt.sound.AWTSound;
 import net.awt.awt.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.sound.SoundEvents;
@@ -20,6 +21,7 @@ public class AWT implements ModInitializer {
     public static AddonExterior THIRD;
     public static AddonExterior TORCHWOODCAPSULE;
     public static AddonExterior TYPEULTANDR;
+    public static AddonExterior REDONION;
 
     private void registerAddonExteriors() {
 
@@ -44,6 +46,10 @@ public class AWT implements ModInitializer {
         TYPEULTANDR = new AddonExterior(new Identifier(MOD_ID, "awtcapsules"), MOD_ID, "typeultandr").register();
         TYPEULTANDR.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
         TYPEULTANDR.setDoor(new AddonExterior.Door(TYPEULTANDR, true, SoundEvents.BLOCK_IRON_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_IRON_DOOR_CLOSE)).toDoor().register();
+
+        REDONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "redonion").register();
+        REDONION.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
+        REDONION.setDoor(new AddonExterior.Door(REDONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
 
     }
 

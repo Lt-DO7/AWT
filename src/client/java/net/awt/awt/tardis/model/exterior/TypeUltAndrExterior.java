@@ -1,5 +1,6 @@
 package net.awt.awt.tardis.model.exterior;
 
+import dev.amble.ait.api.tardis.link.v2.Linkable;
 import dev.amble.ait.client.models.exteriors.ExteriorModel;
 import dev.amble.ait.client.tardis.ClientTardis;
 import dev.amble.ait.core.blockentities.ExteriorBlockEntity;
@@ -223,6 +224,14 @@ public class TypeUltAndrExterior extends ExteriorModel {
 		bottomframecorner4.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
 		door1.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
 		door2.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
+	}
+	@Override
+	public <T extends Entity & Linkable> void renderEntity(T falling, ModelPart root, MatrixStack matrices, VertexConsumer vertexConsumer, int light, int overlay, float red, float green, float blue, float alpha) {
+		matrices.push();
+		matrices.scale(0, 0, 0);
+		matrices.translate(0, 0, 0);
+		super.renderEntity(falling, root, matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
+		matrices.pop();
 	}
 
 	@Override
