@@ -1,4 +1,11 @@
 {
+  "paradoxmat": {
+    "category": "neutral",
+    "subtitle": "subtitles.paradoxmat",
+    "sounds": [
+      {
+        "name": "awt:paradoxmat",
+        "stream": false,
   "bloop": {
     "category": "neutral",
     "subtitle": "subtitles.bloop",
