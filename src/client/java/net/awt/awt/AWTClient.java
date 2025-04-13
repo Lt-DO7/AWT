@@ -31,6 +31,27 @@ public class AWTClient implements ClientModInitializer {
         AWT.REDONION.setModel(new OnionExterior()).toClient().register();
         AWT.REDONION.toDoor().setModel(new OnionDoor(OnionDoor.getTexturedModelData().createModel())).toClient().register();
 
+        AWT.YELLOWONION.setModel(new OnionExterior()).toClient().register();
+        AWT.YELLOWONION.toDoor().setModel(new OnionDoor(OnionDoor.getTexturedModelData().createModel())).toClient().register();
+
+        AWT.BLUEONION.setModel(new OnionExterior()).toClient().register();
+        AWT.BLUEONION.toDoor().setModel(new OnionDoor(OnionDoor.getTexturedModelData().createModel())).toClient().register();
+
+        AWT.WHITEONION.setModel(new OnionExterior()).toClient().register();
+        AWT.WHITEONION.toDoor().setModel(new OnionDoor(OnionDoor.getTexturedModelData().createModel())).toClient().register();
+
+        AWT.PURPLEONION.setModel(new OnionExterior()).toClient().register();
+        AWT.PURPLEONION.toDoor().setModel(new OnionDoor(OnionDoor.getTexturedModelData().createModel())).toClient().register();
+
+        AWT.GREYONION.setModel(new OnionExterior()).toClient().register();
+        AWT.GREYONION.toDoor().setModel(new OnionDoor(OnionDoor.getTexturedModelData().createModel())).toClient().register();
+
+        AWT.LIGHTBLUEONION.setModel(new OnionExterior()).toClient().register();
+        AWT.LIGHTBLUEONION.toDoor().setModel(new OnionDoor(OnionDoor.getTexturedModelData().createModel())).toClient().register();
+
+        AWT.LIMEGREENONION.setModel(new OnionExterior()).toClient().register();
+        AWT.LIMEGREENONION.toDoor().setModel(new OnionDoor(OnionDoor.getTexturedModelData().createModel())).toClient().register();
+
     }
 
     public static void blockEntityRendererRegister() {

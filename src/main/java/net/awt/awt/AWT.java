@@ -22,6 +22,15 @@ public class AWT implements ModInitializer {
     public static AddonExterior TORCHWOODCAPSULE;
     public static AddonExterior TYPEULTANDR;
     public static AddonExterior REDONION;
+    public static AddonExterior YELLOWONION;
+    public static AddonExterior BLUEONION;
+    public static AddonExterior WHITEONION;
+    public static AddonExterior PURPLEONION;
+    public static AddonExterior GREYONION;
+    public static AddonExterior PINKONION;
+    public static AddonExterior LIGHTBLUEONION;
+    public static AddonExterior LIMEGREENONION;
+
 
     private void registerAddonExteriors() {
 
@@ -50,6 +59,38 @@ public class AWT implements ModInitializer {
         REDONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "redonion").register();
         REDONION.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
         REDONION.setDoor(new AddonExterior.Door(REDONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
+
+        YELLOWONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "yellowonion").register();
+        YELLOWONION.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
+        YELLOWONION.setDoor(new AddonExterior.Door(YELLOWONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
+
+        BLUEONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "blueonion").register();
+        BLUEONION.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
+        BLUEONION.setDoor(new AddonExterior.Door(BLUEONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
+
+        WHITEONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "whiteonion").register();
+        WHITEONION.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
+        WHITEONION.setDoor(new AddonExterior.Door(WHITEONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
+
+        PURPLEONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "purpleonion").register();
+        PURPLEONION.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
+        PURPLEONION.setDoor(new AddonExterior.Door(PURPLEONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
+
+        GREYONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "greyonion").register();
+        GREYONION.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
+        GREYONION.setDoor(new AddonExterior.Door(GREYONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
+
+        PINKONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "pinkonion").register();
+        PINKONION.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
+        PINKONION.setDoor(new AddonExterior.Door(PINKONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
+
+        LIGHTBLUEONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "lightblueonion").register();
+        LIGHTBLUEONION.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
+        LIGHTBLUEONION.setDoor(new AddonExterior.Door(LIGHTBLUEONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
+
+        LIMEGREENONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "limegreenonion").register();
+        LIMEGREENONION.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
+        LIMEGREENONION.setDoor(new AddonExterior.Door(LIMEGREENONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
 
     }
 
