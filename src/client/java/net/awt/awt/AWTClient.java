@@ -30,9 +30,9 @@ public class AWTClient implements ClientModInitializer {
         AWT.TORCHWOODCAPSULE.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
         AWT.TORCHWOODCAPSULE.toDoor().setModel(new TorchwoodCapsuleDoor(TorchwoodCapsuleDoor.getTexturedModelData().createModel())).toClient().register();
 
-        AWT.TYPEULTANDR.setModel(new TypeUltAndrExterior()).toClient().register();
-        AWT.TYPEULTANDR.toDoor().setModel(new TypeUltAndrDoor(TypeUltAndrDoor.getTexturedModelData().createModel())).toClient().register();
-        AWT.TYPEULTANDR.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
+       // AWT.TYPEULTANDR.setModel(new TypeUltAndrExterior()).toClient().register();
+       // AWT.TYPEULTANDR.toDoor().setModel(new TypeUltAndrDoor(TypeUltAndrDoor.getTexturedModelData().createModel())).toClient().register();
+       // AWT.TYPEULTANDR.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
 
         AWT.REDONION.setModel(new OnionExterior()).toClient().register();
         AWT.REDONION.toDoor().setModel(new OnionDoor(OnionDoor.getTexturedModelData().createModel())).toClient().register();
