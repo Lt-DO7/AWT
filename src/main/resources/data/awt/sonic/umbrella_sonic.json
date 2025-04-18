@@ -8,6 +8,6 @@
     "tardis": "awt:item/sonic/sonic_umbrella_tardis"
   },
   "loyalty": {
-    "type": "NEUTRAL"
+    "type": "OWNER"
   }
 }

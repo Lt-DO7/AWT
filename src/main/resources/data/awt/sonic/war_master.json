@@ -8,6 +8,6 @@
     "tardis": "awt:item/sonic/war_master_tardis"
   },
   "loyalty": {
-    "type": "NEUTRAL"
+    "type": "OWNER"
   }
 }

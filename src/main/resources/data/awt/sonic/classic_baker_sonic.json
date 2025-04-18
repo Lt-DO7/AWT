@@ -8,6 +8,6 @@
     "tardis": "awt:item/sonic/classic_baker_sonic_tardis"
   },
   "loyalty": {
-    "type": "NEUTRAL"
+    "type": "OWNER"
   }
 }
