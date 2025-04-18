@@ -39,6 +39,31 @@ public class AWT implements ModInitializer {
     BAKER = new AddonExterior(new Identifier(MOD_ID, "awtboxes"), MOD_ID, "baker").register();
 
         BAKER.setDoor(new AddonExterior.Door(BAKER, true, SoundEvents.BLOCK_IRON_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_IRON_DOOR_CLOSE)).toDoor().register();
+     //      .toDoor().register();
+     //   BAKER.hasPortals();
+     //   BAKER.setPortalTranslations((pos, b) -> {
+     //       return switch(b) {
+    //            case 0 -> pos.add(0, -0.35, -0.37); // NORTH
+    //            case 1, 2, 3 -> pos.add(0, -0.35, -0.37); // NORTH EAST p n
+    //            case 4 -> pos.add(0, -0.35, 0); // EAST
+    //            case 5, 6, 7 -> pos.add(0, -0.35, 0.37); // SOUTH EAST p p
+   //             case 8 -> pos.add(0, -0.35, 0.37); // SOUTH
+    //            case 9, 10, 11 -> pos.add(-0, -0.35, 0.37); // SOUTH WEST n p
+    //            case 12 -> pos.add(-0, -0.35, 0); // WEST
+    //            case 13, 14, 15 -> pos.add(-0, -0.35, -0.37); // NORTH WEST n n
+   //             default -> pos;
+    //        };
+   //     });
+   //     BAKER.toDoor().setPortalTranslations((pos, b) -> {
+   //         return switch(b) {
+   //             case DOWN, UP -> pos;
+   //             case NORTH -> pos.add(0, -0.2, -0.4);
+   //             case SOUTH -> pos.add(0, -0.2, 0.4);
+   //             case WEST -> pos.add(-0, -0.2, 0);
+   //             case EAST -> pos.add(0, -0.2, 0);
+   //         };
+   //     });
+
 
 
     SECOND = new AddonExterior(new Identifier(MOD_ID, "awtboxes"), MOD_ID, "second").register();

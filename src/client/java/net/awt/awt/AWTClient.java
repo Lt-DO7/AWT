@@ -16,6 +16,8 @@ public class AWTClient implements ClientModInitializer {
     private void registerClientAddonExteriors() {
         AWT.BAKER.setModel(new BakerExteriorModel()).toClient().register();
         AWT.BAKER.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
+        //AWT.BAKER.setPortalWidth(1f);
+       // AWT.BAKER.setPortalHeight(2f);
         AWT.BAKER.toDoor().setModel(new BakerDoorModel(BakerDoorModel.getTexturedModelData().createModel())).toClient().register();
 
         AWT.SECOND.setModel(new ThirdAndSecondBaseExterior()).toClient().register();
