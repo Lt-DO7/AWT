@@ -19,18 +19,16 @@ public class AWT implements ModInitializer {
     public static AddonExterior BAKER;
     public static AddonExterior SECOND;
     public static AddonExterior THIRD;
-    public static AddonExterior TORCHWOODCAPSULE;
-    public static AddonExterior TYPEULTANDR;
-    public static AddonExterior REDONION;
-    public static AddonExterior YELLOWONION;
-    public static AddonExterior BLUEONION;
-    public static AddonExterior WHITEONION;
-    public static AddonExterior PURPLEONION;
-    public static AddonExterior GREYONION;
-    public static AddonExterior PINKONION;
-    public static AddonExterior LIGHTBLUEONION;
-    public static AddonExterior LIMEGREENONION;
-   // public static AddonExterior STEAMPUNK;
+  //  public static AddonExterior TORCHWOODCAPSULE;
+  //  public static AddonExterior REDONION;
+  //  public static AddonExterior YELLOWONION;
+  //  public static AddonExterior BLUEONION;
+  //  public static AddonExterior WHITEONION;
+  //  public static AddonExterior PURPLEONION;
+  //  public static AddonExterior GREYONION;
+  //  public static AddonExterior PINKONION;
+   // public static AddonExterior LIGHTBLUEONION;
+   // public static AddonExterior LIMEGREENONION;
 
 
 
@@ -73,43 +71,35 @@ public class AWT implements ModInitializer {
     THIRD = new AddonExterior(new Identifier(MOD_ID, "awtboxes"), MOD_ID, "third").register();
         THIRD.setDoor(new AddonExterior.Door(THIRD, true, SoundEvents.BLOCK_IRON_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_IRON_DOOR_CLOSE)).toDoor().register();
 
-        TORCHWOODCAPSULE = new AddonExterior(new Identifier(MOD_ID, "awtcapsules"), MOD_ID, "torchwoodcapsule").register();
-        TORCHWOODCAPSULE.setDoor(new AddonExterior.Door(TORCHWOODCAPSULE, true, SoundEvents.BLOCK_IRON_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_IRON_DOOR_CLOSE)).toDoor().register();
+        //TORCHWOODCAPSULE = new AddonExterior(new Identifier(MOD_ID, "awtcapsules"), MOD_ID, "torchwoodcapsule").register();
+       // TORCHWOODCAPSULE.setDoor(new AddonExterior.Door(TORCHWOODCAPSULE, true, SoundEvents.BLOCK_IRON_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_IRON_DOOR_CLOSE)).toDoor().register();
 
-        //TYPEULTANDR = new AddonExterior(new Identifier(MOD_ID, "awtcapsules"), MOD_ID, "typeultandr").register();
-        //TYPEULTANDR.setDoor(new AddonExterior.Door(TYPEULTANDR, true, SoundEvents.BLOCK_IRON_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_IRON_DOOR_CLOSE)).toDoor().register();
+       // REDONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "redonion").register();
+       // REDONION.setDoor(new AddonExterior.Door(REDONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
 
-        REDONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "redonion").register();
-        REDONION.setDoor(new AddonExterior.Door(REDONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
+        //YELLOWONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "yellowonion").register();
+       // YELLOWONION.setDoor(new AddonExterior.Door(YELLOWONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
 
-        YELLOWONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "yellowonion").register();
-        YELLOWONION.setDoor(new AddonExterior.Door(YELLOWONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
+       // BLUEONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "blueonion").register();
+       // BLUEONION.setDoor(new AddonExterior.Door(BLUEONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
 
-        BLUEONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "blueonion").register();
-        BLUEONION.setDoor(new AddonExterior.Door(BLUEONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
+       // WHITEONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "whiteonion").register();
+       // WHITEONION.setDoor(new AddonExterior.Door(WHITEONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
 
-        WHITEONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "whiteonion").register();
-        WHITEONION.setDoor(new AddonExterior.Door(WHITEONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
+       // PURPLEONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "purpleonion").register();
+       // PURPLEONION.setDoor(new AddonExterior.Door(PURPLEONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
 
-        PURPLEONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "purpleonion").register();
-        PURPLEONION.setDoor(new AddonExterior.Door(PURPLEONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
+      //  GREYONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "greyonion").register();
+       // GREYONION.setDoor(new AddonExterior.Door(GREYONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
 
-        GREYONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "greyonion").register();
-        GREYONION.setDoor(new AddonExterior.Door(GREYONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
+     //   PINKONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "pinkonion").register();
+      //  PINKONION.setDoor(new AddonExterior.Door(PINKONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
 
-        PINKONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "pinkonion").register();
-        PINKONION.setDoor(new AddonExterior.Door(PINKONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
+     //   LIGHTBLUEONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "lightblueonion").register();
+      //  LIGHTBLUEONION.setDoor(new AddonExterior.Door(LIGHTBLUEONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
 
-        LIGHTBLUEONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "lightblueonion").register();
-        LIGHTBLUEONION.setDoor(new AddonExterior.Door(LIGHTBLUEONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
-
-        LIMEGREENONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "limegreenonion").register();
-        LIMEGREENONION.setDoor(new AddonExterior.Door(LIMEGREENONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
-
-      //  STEAMPUNK = new AddonExterior(new Identifier(MOD_ID, "awtcapsules"), MOD_ID, "steampunk").register();
-      //  STEAMPUNK.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
-      //  STEAMPUNK.setDoor(new AddonExterior.Door(STEAMPUNK, true, SoundEvents.BLOCK_IRON_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_IRON_DOOR_CLOSE)).toDoor().register();
-
+       // LIMEGREENONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "limegreenonion").register();
+     //   LIMEGREENONION.setDoor(new AddonExterior.Door(LIMEGREENONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
 
     }
 
