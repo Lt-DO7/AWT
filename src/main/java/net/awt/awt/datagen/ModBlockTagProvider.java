@@ -50,6 +50,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COPPER_ROUNDEL)
         ;
 
+        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+            .add(ModBlocks.ARTIUM_BLOCK);
 
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL);
