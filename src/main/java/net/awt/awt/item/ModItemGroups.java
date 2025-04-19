@@ -19,7 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.PROCESSINGUNIT);
                         entries.add(ModItems.ARTRIUMCORE);
                         entries.add(ModItems.ENERGIZEDARTRIUM);
-
+                        entries.add(ModItems.ARTRIUM_BLOCK);
 
 
                     }).build());

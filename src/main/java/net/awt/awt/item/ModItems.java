@@ -18,6 +18,7 @@ public class ModItems {
     public static final Item PROCESSINGUNIT = registerItem("processing_unit", new Item(new FabricItemSettings()));
     public static final Item ENERGIZEDARTRIUM = registerItem("energized_artrium", new Item(new FabricItemSettings()));
     public static final Item ARTRIUMCORE = registerItem("artrium_core", new Item(new FabricItemSettings()));
+    public static final Item ARTRIUM_BLOCK = registerItem("artrium_block", new Item(new FabricItemSettings()));
 
     public static final Item VORTEX_MANIPULATOR = registerItem("vortex_manipulator",new VortexManipulator(new FabricItemSettings()));
 
