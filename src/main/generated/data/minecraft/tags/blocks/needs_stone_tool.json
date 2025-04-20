@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "awt:white_concrete_roundel",
+    "awt:black_concrete_roundel",
+    "awt:end_stone_bricks_roundel",
+    "awt:gray_concrete_roundel",
+    "awt:green_concrete_roundel",
+    "awt:light_gray_concrete_roundel",
+    "awt:polished_andesite_roundel",
+    "awt:polished_deepslate_roundel",
+    "awt:polished_granite_roundel",
+    "awt:polished_diorite_roundel",
+    "awt:quartz_roundel",
+    "awt:sandstone_roundel",
+    "awt:cyan_concrete_roundel",
+    "awt:yellow_concrete_roundel",
+    "awt:weathered_copper_roundel",
+    "awt:red_concrete_roundel",
+    "awt:purple_concrete_roundel",
+    "awt:pink_concrete_roundel",
+    "awt:brown_concrete_roundel",
+    "awt:orange_concrete_roundel",
+    "awt:oxidized_copper_roundel",
+    "awt:lime_concrete_roundel",
+    "awt:light_blue_concrete_roundel",
+    "awt:blue_concrete_roundel",
+    "awt:exposed_copper_roundel",
+    "awt:copper_roundel"
+  ]
+}

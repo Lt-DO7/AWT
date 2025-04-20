@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "ddwa:block/block_of_steel",
-    "particle": "ddwa:block/block_of_steel"
-  },
-  "render_type": "solid"
-}

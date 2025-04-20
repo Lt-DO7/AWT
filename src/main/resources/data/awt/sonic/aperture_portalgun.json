@@ -8,6 +8,6 @@
     "tardis": "awt:item/sonic/aperture_portalgun_tardis"
   },
   "loyalty": {
-    "type": "NEUTRAL"
+    "type": "OWNER"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "text.config.aitconfig.title": "Adventures With TARDIS",
+  "text.config.aitconfig.title": "Adventures With TARDISes",
 
   "item.awt.artrium":"Artrium",
   "item.awt.lightsaber":"Lightsaber",
@@ -8,13 +8,27 @@
   "item.awt.artrium_core": "Artrium Core",
   "item.awt.energized_artrium": "Energized Artrium",
 
-  "block.awt.artrium_ore": "Artrium Ore",
-  "block.awt.deepslate_artrium_ore": "Deepslate Artrium Ore",
-  "block.awt.time_grower": "Time Grower",
-  "block.awt.artrium_block": "Block of Artrium",
-  "block.awt.unlocker": "Unlocker(WIP)",
+
   "itemgroup.artrium":"AWT",
 
+  "exterior.awt.awtboxes": "AWT Boxes",
+  "exterior.awt.awtcapsules": "AWT Capsules",
+  "exterior.awt.onion": "The Onion",
+
+  "exterior.awt.third": "Pertwee",
+  "exterior.awt.second": "Troughton",
+  "exterior.awt.baker": "Baker",
+  "exterior.awt.torchwoodcapsule": "TW Capsule",
+  "exterior.awt.typeultandr": "Ultima Capsule",
+  "exterior.awt.redonion": "Fire",
+  "exterior.awt.yellowonion": "Electric",
+  "exterior.awt.blueonion": "Water",
+  "exterior.awt.whiteonion": "Poison",
+  "exterior.awt.purpleonion": "Strength",
+  "exterior.awt.greyonion": "Rock",
+  "exterior.awt.pinkonion": "Winged",
+  "exterior.awt.lightblueonion": "Ice",
+  "exterior.awt.limegreenonion": "Glow",
 
   "exterior.awt.billcipher": "Bill Cipher",
   "exterior.awt.toywardianbooth": "GambleBox Booth",
@@ -118,6 +132,8 @@
   "desktop.awt.darkwardian": "Darkwardian",
   "desktop.awt.clockwork": "Clockwork",
   "desktop.awt.cavernwood": "Cavernwood Hollow",
+  "desktop.awt.sprucewood": "Sprucewood",
+  "desktop.awt.the_lab": "The Lab",
 
   "gui.awt.vortex_gui_2.Dimensionbutton": "Dimension",
   "gui.awt.vortex_gui.ybutton": "y",
@@ -138,7 +154,6 @@
   "gui.awt.vortex_gui.label_vortex_manipulator": "Vortex Manipulator",
   "gui.awt.vortex_gui.label_example": "Example:",
   "gui.awt.vortex_gui_2.label_disclaimer_any_other_planets_wo": "Disclaimer: Any other",
-  "gui.awt.vortex_gui.label_ddwaskaro": "ddwa:skaro",
   "gui.awt.vortex_gui_2.label_vortex_manipulator": "Vortex Manipulator",
   "gui.awt.vortex_gui.label_nether": "Nether",
   "gui.awt.vortex_gui_2.label_overworld": "Overworld",
@@ -156,56 +171,7 @@
   "gui.awt.vortex_gui.button_empty": "",
   "gui.awt.vortex_gui_2.label_planets": "Planets:",
 
-
-  "item.awt.dalekanium_ingot": "Dalekanium Ingot",
-  "item.awt.dalekanium_scrap": "Dalekanium Scrap",
-  "item.awt.refined_dalek_armor_leggings": "Refined Dalekanium Leggings",
-  "item.awt.dalekanium_armor_chestplate": "Dalekanium Chestplate",
-  "item.awt.refined_dalek_armor_chestplate": "Refined Dalekanium Chestplate",
-  "item.awt.dalek_spawn_egg": "Time War Dalek Spawn Egg",
-  "item.awt.experimental_vm": "Vortex Manipulator EXPERIMENTAL",
-  "item.awt.black_and_white_dalek_spawn_egg": "Black And White Dalek Spawn Egg",
-  "item.awt.metalert_dust": "Metalert Dust",
-  "item.awt.dalekanium_armor_leggings": "Dalekanium Leggings",
-  "item.awt.vortex_manipulator": "Vortex Manipulator",
-  "item.awt.refined_dalek_armor_helmet": "Refined Dalekanium Helmet",
-  "item.awt.dalekanium_armor_boots": "Dalekanium Boots",
-  "item.awt.refined_dalekanium_ingot": "Refined Dalekanium Ingot",
-  "item.awt.chromite": "Chromite",
-  "item.awt.steel_ingot": "Steel Ingot",
-  "item.awt.dalekanium_armor_helmet": "Dalekanium Helmet",
-  "item.awt.refined_dalek_armor_boots": "Refined Dalekanium Boots",
-
   "advancements.space_hoppers.title": "Space Hoppers!",
-
-  "block.awt.wasted_plank_stairs": "Wasted Plank Stair",
-  "block.awt.dirtbutextraspecialbecauseithasalongnamehaha": "Dirtbutextraspecialbecauseithasalongnamehaha",
-  "block.awt.cobbled_kaletite": "Cobbled Kaletite",
-  "block.awt.refined_dalek_block": "Refined Dalekanium Block",
-  "block.awt.wasted_trap_door": "Wasted Trap Door",
-  "block.awt.kaletite": "Kaletite",
-  "block.awt.steel_grates": "Steel Grates",
-  "block.awt.wasted_log": "Wasted Log",
-  "block.awt.candy_cane_pillar": "Candy Cane Pillar",
-  "block.awt.toy_shelf": "Toy Shelf",
-  "block.awt.wasted_plank_slab": "Wasted Plank Slab",
-  "block.awt.cracked_kaletite": "Cracked Kaletite",
-  "block.awt.wasted_pressure_plate": "Wasted Pressure Plate",
-  "block.awt.dalekanium_block": "Block of Dalekanium",
-  "block.awt.wasted_bush_plant": "Wasted Bush",
-  "block.awt.wasted_button": "Wasted Button",
-  "block.awt.cat": "Cat",
-  "block.awt.chromite_ore": "Chromite Ore",
-  "block.awt.wasted_door": "Wasted Door",
-  "block.awt.dalekanium_ore": "Dalekanium Ore",
-  "block.awt.exquisite_cat": "Exquisite Cat",
-  "block.awt.kaletite_bricks": "Kaletite Bricks",
-  "block.awt.wasted_dirt": "Wasted Dirt",
-  "block.awt.good_heavens": "Good Heavens!",
-  "block.awt.steel_block": "Block of Steel",
-  "block.awt.wasted_planks": "Wasted Planks",
-  "block.awt.wastedgrass": "Wasted Grass",
-  "block.awt.wasted_leaves": "Wasted Leaves",
 
   "block.awt.white_concrete_roundel": "White Concrete Roundel",
   "block.awt.black_concrete_roundel": "Black Concrete Roundel",
@@ -245,19 +211,14 @@
   "block.awt.exposed_copper_roundel": "Exposed Copper Roundel",
   "block.awt.copper_roundel": "Copper Roundel",
 
-  "biome.awt.skaro_waste_land": "Skaro Waste Land",
 
-  "subtitles.dalekshoot": "Dalek Beam Shot",
-  "subtitles.dalekbossfightmusic": "",
   "subtitles.vortexactivate": "Vortex Manipulator Used",
 
-  "entity.awt.dalek": "Time War Dalek",
-  "entity.awt.black_and_white_dalek": "Black And White Dalek",
+
 
   "advancements.space_hoppers.descr": "Obtain a Vortex Manipulator",
 
-  "item_group.awt.planet_mondas": "Mondas",
-  "item_group.awt.planet_skaro": "Skaro",
+
   "item_group.awt.Roundel": "Roundels"
 
 }

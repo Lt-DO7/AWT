@@ -8,6 +8,6 @@
     "tardis": "awt:item/sonic/copper_cane_tardis"
   },
   "loyalty": {
-    "type": "NEUTRAL"
+    "type": "OWNER"
   }
 }

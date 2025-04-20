@@ -1,6 +1,6 @@
 {
     "id": "awt:toywardianfaded",
-    "category": "ait:exterior/police_box",
+    "category": "awt:awtboxes",
     "parent": "ait:exterior/police_box/default",
     "texture": "awt:textures/exterior/toywardianfaded_policebox.png",
     "emission": "awt:textures/exterior/toywardianfaded_policebox_emission.png",
@@ -12,5 +12,6 @@
         "muddy": "ait:textures/blockentities/exteriors/police_box/biome/police_box_mud.png",
         "chorus": "ait:textures/blockentities/exteriors/police_box/biome/police_box_chorus.png",
         "cherry": "ait:textures/blockentities/exteriors/police_box/biome/police_box_cherry.png"
-    }
+    },
+    "loyalty": "owner"
 }

@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "ddwa:block/candycanepillar",
-    "particle": "ddwa:block/candycanepillar"
-  },
-  "render_type": "solid"
-}

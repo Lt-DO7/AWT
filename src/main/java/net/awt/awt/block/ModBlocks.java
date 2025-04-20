@@ -16,52 +16,9 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     //AWT
-    public static final Block ARTRIUM_ORE = registerBlock("artrium_ore",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).sounds(BlockSoundGroup.STONE)));
-    public static final Block ARTRIUM_BLOCK = registerBlock("artrium_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
-    public static final Block DEEPSLATE_ARTRIUM_ORE = registerBlock("deepslate_artrium_ore",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).sounds(BlockSoundGroup.DEEPSLATE)));
-    public static final Block Unlocker = registerBlock("unlocker",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
 
-    //DDWA
-    public static final Block DALEKANIUM_BLOCK = registerBlock("dalekanium_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
-    public static final Block DALEKANIUM_ORE = registerBlock("dalekanium_ore",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).sounds(BlockSoundGroup.STONE)));
-    public static final Block KALETITE = registerBlock("kaletite",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
-    public static final Block KALETITE_BRICKS = registerBlock("kaletite_bricks",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS).sounds(BlockSoundGroup.STONE)));
-    public static final Block CRACKED_KALETITE = registerBlock("cracked_kaletite",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
-    public static final Block COBBLED_KALETITE = registerBlock("cobbled_kaletite",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
-    public static final Block WASTED_BUSH_PLANT = registerBlock("wasted_bush_plant",
-            new Block(FabricBlockSettings.copyOf(Blocks.SWEET_BERRY_BUSH).sounds(BlockSoundGroup.SWEET_BERRY_BUSH)));
-    public static final Block WASTED_BUTTON = registerBlock("wasted_button",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_BUTTON).sounds(BlockSoundGroup.WOOD)));
-    public static final Block WASTED_DIRT = registerBlock("wasted_dirt",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.GRASS)));
-    public static final Block WASTED_DOOR = registerBlock("wasted_door",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_DOOR).sounds(BlockSoundGroup.WOOD)));
-    public static final Block WASTED_LEAVES = registerBlock("wasted_leaves",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).sounds(BlockSoundGroup.CHERRY_LEAVES)));
-    public static final Block WASTED_LOG = registerBlock("wasted_log",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).sounds(BlockSoundGroup.WOOD)));
-    public static final Block WASTED_PLANK_SLAB = registerBlock("wasted_plank_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).sounds(BlockSoundGroup.WOOD)));
-    public static final Block WASTED_PLANK_STAIRS = registerBlock("wasted_plank_stairs",
-            new INeedMyStairsBlock(Blocks.OAK_PLANKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_STAIRS).sounds(BlockSoundGroup.WOOD)));
-    public static final Block WASTED_PLANKS = registerBlock("wasted_planks",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).sounds(BlockSoundGroup.WOOD)));
-    public static final Block WASTED_PRESSURE_PLATE = registerBlock("wasted_pressure_plate",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PRESSURE_PLATE).sounds(BlockSoundGroup.WOOD)));
-    public static final Block WASTED_TRAP_DOOR = registerBlock("wasted_trap_door",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR).sounds(BlockSoundGroup.WOOD)));
-    public static final Block WASTEDGRASS = registerBlock("wastedgrass",
-            new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).sounds(BlockSoundGroup.GRASS)));
+    public static final Block ARTRIUM_BLOCK = registerBlock("artrium_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK).sounds(BlockSoundGroup.COPPER)));
 
 
     //roundels
@@ -181,6 +138,8 @@ public class ModBlocks {
 
     public static final Block LIGHT_GRAY_CONCRETE_ROUNDEL = registerBlock("light_gray_concrete_roundel",
             new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+
+
 
 
 

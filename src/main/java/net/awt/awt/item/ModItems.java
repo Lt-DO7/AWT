@@ -18,12 +18,8 @@ public class ModItems {
     public static final Item PROCESSINGUNIT = registerItem("processing_unit", new Item(new FabricItemSettings()));
     public static final Item ENERGIZEDARTRIUM = registerItem("energized_artrium", new Item(new FabricItemSettings()));
     public static final Item ARTRIUMCORE = registerItem("artrium_core", new Item(new FabricItemSettings()));
+    public static final Item ARTRIUM_BLOCK = registerItem("artrium_block", new Item(new FabricItemSettings()));
 
-    public static final Item DALEKANIUM = registerItem("dalekanium_ingot", new Item(new FabricItemSettings()));
-    public static final Item DALEKANIUM_SCRAP = registerItem("dalekanium_scrap", new Item(new FabricItemSettings()));
-    public static final Item STEEL = registerItem("steel_ingot", new Item(new FabricItemSettings()));
-    public static final Item CHROMITE = registerItem("chromite", new Item(new FabricItemSettings()));
-    public static final Item METALERT_DUST = registerItem("metalert_dust", new Item(new FabricItemSettings()));
     public static final Item VORTEX_MANIPULATOR = registerItem("vortex_manipulator",new VortexManipulator(new FabricItemSettings()));
 
 

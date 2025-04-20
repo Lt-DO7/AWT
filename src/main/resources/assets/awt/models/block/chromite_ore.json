@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "ddwa:block/chromite_ore",
-    "particle": "ddwa:block/chromite_ore"
-  },
-  "render_type": "solid"
-}

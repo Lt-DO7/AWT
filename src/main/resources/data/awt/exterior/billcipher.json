@@ -1,6 +1,6 @@
 {
     "id": "awt:billcipher",
-    "category": "ait:exterior/police_box",
+    "category": "awt:awtboxes",
     "parent": "ait:exterior/police_box/coral",
     "texture": "awt:textures/exterior/police_box_coralbillcipher.png",
     "emission": "awt:textures/exterior/police_box_coralbillcipher_emission.png",

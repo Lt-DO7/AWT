@@ -1,6 +1,6 @@
 {
     "id": "awt:mayhembox",
-    "category": "ait:exterior/police_box",
+    "category": "awt:awtboxes",
     "parent": "ait:exterior/police_box/default",
     "texture": "awt:textures/exterior/mayhem_box.png",
     "emission": "awt:textures/exterior/mayhem_box_emission.png",
