@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "awt:block/artrium_stuff/artrium_block"
+      "model": "awt:block/artrium_block"
     }
   }
 }

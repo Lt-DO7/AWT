@@ -1,5 +1,5 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
     "all": "awt:textures/artrium_stuff/artrium_block"
   },
