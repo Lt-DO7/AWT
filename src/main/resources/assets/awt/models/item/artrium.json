@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "awt:artrium_stuff/artrium"
+    "layer0": "awt:item/artrium_stuff/artrium"
   }
 }
