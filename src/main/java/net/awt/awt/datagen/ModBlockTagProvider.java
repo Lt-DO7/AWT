@@ -51,7 +51,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-            .add(ModBlocks.ARTIUM_BLOCK);
+            .add(ModBlocks.ARTRIUM_BLOCK);
 
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL);

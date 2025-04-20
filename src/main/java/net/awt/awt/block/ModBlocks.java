@@ -17,7 +17,8 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     //AWT
 
-
+    public static final Block ARTRIUM_BLOCK = registerBlock("artrium_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK).sounds(BlockSoundGroup.COPPER)));
 
 
     //roundels
@@ -139,9 +140,6 @@ public class ModBlocks {
             new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
 
 
-    //Artrium
-    public static final Block ARTIUM_BLOCK = registerBlock("artrium_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK).sounds(BlockSoundGroup.COPPER)));
 
 
 

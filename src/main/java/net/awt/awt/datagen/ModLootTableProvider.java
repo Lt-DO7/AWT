@@ -64,7 +64,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.LIGHT_GRAY_CONCRETE_ROUNDEL, drops(ModBlocks.LIGHT_GRAY_CONCRETE_ROUNDEL));
 
         //Artrium
-        addDrop(ModBlocks.ARTIUM_BLOCK, drops(ModBlocks.ARTIUM_BLOCK));
+        addDrop(ModBlocks.ARTRIUM_BLOCK, drops(ModBlocks.ARTRIUM_BLOCK));
 
     }
 
