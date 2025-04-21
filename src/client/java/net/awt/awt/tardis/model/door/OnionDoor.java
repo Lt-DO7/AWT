@@ -33,8 +33,8 @@ public class OnionDoor extends DoorModel {
 	}
 
 	@Override
-	public Animation getAnimationForDoorState(DoorHandler.AnimationDoorState animationDoorState) {
-		return null;
+	public Animation getAnimationForDoorState(DoorHandler.AnimationDoorState state) {
+		return Animation.Builder.create(0).build();
 	}
 
 	@Override
