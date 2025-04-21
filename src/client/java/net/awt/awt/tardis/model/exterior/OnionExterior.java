@@ -57,10 +57,10 @@ public class OnionExterior extends ExteriorModel {
     }
 
 	public OnionExterior() {
-
+		this(getTexturedModelData().createModel());
 	}
 
-	public OnionExterior Model(ModelPart root) {
+	public OnionExterior(ModelPart root) {
 		this.Root = root.getChild("Root");
 		this.Body = this.Root.getChild("Body");
 		this.Hat = this.Body.getChild("Hat");
