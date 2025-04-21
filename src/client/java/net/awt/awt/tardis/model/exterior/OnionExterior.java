@@ -1,6 +1,5 @@
 package net.awt.awt.tardis.model.exterior;
 
-import dev.amble.ait.AITMod;
 import dev.amble.ait.api.tardis.link.v2.Linkable;
 import dev.amble.ait.client.models.exteriors.ExteriorModel;
 import dev.amble.ait.client.tardis.ClientTardis;
@@ -57,10 +56,10 @@ public class OnionExterior extends ExteriorModel {
     }
 
 	public OnionExterior() {
-
+		this(getTexturedModelData().createModel());
 	}
 
-	public OnionExterior Model(ModelPart root) {
+	public OnionExterior(ModelPart root) {
 		this.Root = root.getChild("Root");
 		this.Body = this.Root.getChild("Body");
 		this.Hat = this.Body.getChild("Hat");
@@ -79,7 +78,7 @@ public class OnionExterior extends ExteriorModel {
 		this.Joint7 = this.Leg3.getChild("Joint7");
 		this.Joint8 = this.Joint7.getChild("Joint8");
 		this.Joint9 = this.Joint8.getChild("Joint9");
-        return null;
+
     }
 	public static TexturedModelData getTexturedModelData() {
 		ModelData modelData = new ModelData();
