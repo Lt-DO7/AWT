@@ -182,7 +182,11 @@ public class OnionExterior extends ExteriorModel {
 
 	@Override
 	public void render(MatrixStack matrices, VertexConsumer vertexConsumer, int light, int overlay, float red, float green, float blue, float alpha) {
+		matrices.push();
+		matrices.scale(0, 0, 0);
+		matrices.translate(0, 1.5, 0);
 		Root.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
+		matrices.pop();
 	}
 
 	@Override

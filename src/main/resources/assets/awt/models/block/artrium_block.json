@@ -1,7 +1,7 @@
 {
   "parent": "block/cube",
   "textures": {
-    "all": "awt:textures/artrium_stuff/artrium_block"
+    "all": "awt:block/artrium_stuff/artrium_block"
   },
-  "particle": "textures/artrium_stuff/artrium_block"
+  "particle": "block/artrium_stuff/artrium_block"
 }
