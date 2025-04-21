@@ -34,8 +34,8 @@ public class OnionDoor extends DoorModel {
 
 	@Override
 	public Animation getAnimationForDoorState(DoorHandler.AnimationDoorState state) {
-		return Animation.Builder.create(0).build();
-	}
+        return null;
+    }
 
 	@Override
 	public void render(MatrixStack matrices, VertexConsumer vertexConsumer, int light, int overlay, float red, float green, float blue, float alpha) {
