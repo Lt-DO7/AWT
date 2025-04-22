@@ -21,6 +21,8 @@ public class TorchwoodCapsuleDoor extends DoorModel {
 	private final ModelPart floorandroof;
 	private final ModelPart leftdoor;
 	private final ModelPart rightdoor;
+	private ModelPart bone;
+
 	public TorchwoodCapsuleDoor(ModelPart root) {
 		this.shellframe = root.getChild("shellframe");
 		this.walls = root.getChild("walls");
@@ -47,21 +49,33 @@ public class TorchwoodCapsuleDoor extends DoorModel {
 	}
 
 	@Override
-	public Animation getAnimationForDoorState(DoorHandler.AnimationDoorState animationDoorState) {
-		return null;
+	public void renderWithAnimations(ClientTardis tardis, AbstractLinkableBlockEntity doorEntity, ModelPart root, MatrixStack matrices, VertexConsumer vertices, int light, int overlay, float red, float green, float blue, float pAlpha) {
+		if (!AITMod.CONFIG.CLIENT.ANIMATE_DOORS) {
+			DoorHandler door = doorEntity.tardis().get().door();
+			leftdoor.yaw = !door.isLeftOpen() && !door.isOpen() ? 0.0F : -5.0F;
+			rightdoor.yaw = !door.isRightOpen() && !door.areBothOpen() ? 0.0F : 5.0F;
+		} else {
+			float maxRot = 90.0F;
+			leftdoor.yaw = (float)(Math.toRadians((double)(maxRot * doorEntity.tardis().get().door().getLeftRot())));
+			rightdoor.yaw = (float)-Math.toRadians((double)(maxRot * doorEntity.tardis().get().door().getRightRot()));
+		}
+
+		matrices.push();
+		matrices.scale(0.63F, 0.63F, 0.63F);
+		matrices.translate(0.0F, -1.5F, 0.0F);
+		matrices.multiply(RotationAxis.NEGATIVE_Y.rotationDegrees(180.0F));
+		super.renderWithAnimations(tardis, doorEntity, root, matrices, vertices, light, overlay, red, green, blue, pAlpha);
+		matrices.pop();
 	}
 
 	@Override
-	public void render(MatrixStack matrices, VertexConsumer vertexConsumer, int light, int overlay, float red, float green, float blue, float alpha) {
-		shellframe.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
-		walls.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
-		floorandroof.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
-		leftdoor.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
-		rightdoor.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
+	public Animation getAnimationForDoorState(DoorHandler.AnimationDoorState state) {
+		return Animation.Builder.create(0).build();
 	}
 
 	@Override
 	public ModelPart getPart() {
-		return getTexturedModelData().createModel();
-	}
+		return leftdoor;
+    }
+
 }
