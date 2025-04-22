@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup ARTRIUM_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(AWT.MOD_ID, "artrium"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.artrium"))
+            FabricItemGroup.builder().displayName(Text.translatable("item_group.Artrium"))
                     .icon(() -> new ItemStack(ModItems.ARTRIUM)).entries((displayContext, entries) -> {
                         entries.add(ModItems.ARTRIUM);
                         entries.add(ModItems.PROCESSINGUNIT);

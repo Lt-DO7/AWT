@@ -7,7 +7,7 @@
   "item.awt.artrium_rifle": "Artrium Rifle",
   "item.awt.artrium_core": "Artrium Core",
   "item.awt.energized_artrium": "Energized Artrium",
-  "block.awt.artrium_block": "Artrium Block",
+
 
 
   "itemgroup.artrium":"AWT",
@@ -211,6 +211,7 @@
   "block.awt.blue_concrete_roundel": "Blue Concrete Roundel",
   "block.awt.exposed_copper_roundel": "Exposed Copper Roundel",
   "block.awt.copper_roundel": "Copper Roundel",
+  "block.awt.artrium_block": "Artrium Block",
 
 
   "subtitles.vortexactivate": "Vortex Manipulator Used",
