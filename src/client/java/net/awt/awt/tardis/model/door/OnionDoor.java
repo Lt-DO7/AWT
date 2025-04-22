@@ -29,9 +29,9 @@ public class OnionDoor extends DoorModel {
 	public static TexturedModelData getTexturedModelData() {
 		ModelData modelData = new ModelData();
 		ModelPartData modelPartData = modelData.getRoot();
-		ModelPartData Root = modelPartData.addChild("Root", ModelPartBuilder.create(), ModelTransform.of(0.0F, 23.5F, 0.0F, 0.0F, 3.1416F, 0.0F));
+		ModelPartData Root = modelPartData.addChild("Root", ModelPartBuilder.create(), ModelTransform.of(0.0F, -47.5F, 0.0F, 0.0F, 3.1416F, 0.0F));
 
-		ModelPartData Body = Root.addChild("Body", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, -34.5F, 0.0F));
+		ModelPartData Body = Root.addChild("Body", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, 12.5F, 0.0F));
 
 		ModelPartData OmgitsaUFO = Body.addChild("OmgitsaUFO", ModelPartBuilder.create().uv(88, 44).cuboid(-5.0F, 0.0F, -5.0F, 10.0F, 35.0F, 10.0F, new Dilation(0.0F)), ModelTransform.pivot(0.0F, 0.0F, 0.0F));
 
