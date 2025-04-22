@@ -15,50 +15,24 @@ import net.minecraft.entity.Entity;
 // Exported for Minecraft version 1.17+ for Yarn
 // Paste this class into your mod and generate all required imports
 public class OnionExterior extends ExteriorModel {
-	private ModelPart Root;
-	private ModelPart Body;
-	private ModelPart Hat;
-	private ModelPart OmgitsaUFO;
-	private ModelPart GetInLoserWereGoingShopping;
-	private ModelPart Petals;
-	private ModelPart Leg1;
-	private ModelPart Joint1;
-	private ModelPart Joint2;
-	private ModelPart Joint3;
-	private ModelPart Leg2;
-	private ModelPart Joint4;
-	private ModelPart Joint5;
-	private ModelPart Joint6;
-	private ModelPart Leg3;
-	private ModelPart Joint7;
-	private ModelPart Joint8;
-	private ModelPart Joint9;
-
-    public OnionExterior(ModelPart root, ModelPart body, ModelPart hat, ModelPart omgitsaUFO, ModelPart getInLoserWereGoingShopping, ModelPart petals, ModelPart leg1, ModelPart joint1, ModelPart joint2, ModelPart joint3, ModelPart leg2, ModelPart joint4, ModelPart joint5, ModelPart joint6, ModelPart leg3, ModelPart joint7, ModelPart joint8, ModelPart joint9) {
-        Root = root;
-        Body = body;
-        Hat = hat;
-        OmgitsaUFO = omgitsaUFO;
-        GetInLoserWereGoingShopping = getInLoserWereGoingShopping;
-        Petals = petals;
-        Leg1 = leg1;
-        Joint1 = joint1;
-        Joint2 = joint2;
-        Joint3 = joint3;
-        Leg2 = leg2;
-        Joint4 = joint4;
-        Joint5 = joint5;
-        Joint6 = joint6;
-        Leg3 = leg3;
-        Joint7 = joint7;
-        Joint8 = joint8;
-        Joint9 = joint9;
-    }
-
-	public OnionExterior() {
-		this(getTexturedModelData().createModel());
-	}
-
+	private final ModelPart Root;
+	private final ModelPart Body;
+	private final ModelPart Hat;
+	private final ModelPart OmgitsaUFO;
+	private final ModelPart GetInLoserWereGoingShopping;
+	private final ModelPart Petals;
+	private final ModelPart Leg1;
+	private final ModelPart Joint1;
+	private final ModelPart Joint2;
+	private final ModelPart Joint3;
+	private final ModelPart Leg2;
+	private final ModelPart Joint4;
+	private final ModelPart Joint5;
+	private final ModelPart Joint6;
+	private final ModelPart Leg3;
+	private final ModelPart Joint7;
+	private final ModelPart Joint8;
+	private final ModelPart Joint9;
 	public OnionExterior(ModelPart root) {
 		this.Root = root.getChild("Root");
 		this.Body = this.Root.getChild("Body");
@@ -78,18 +52,22 @@ public class OnionExterior extends ExteriorModel {
 		this.Joint7 = this.Leg3.getChild("Joint7");
 		this.Joint8 = this.Joint7.getChild("Joint8");
 		this.Joint9 = this.Joint8.getChild("Joint9");
+	}
 
-    }
+	public OnionExterior() {
+		this(getTexturedModelData().createModel());
+	}
+
 	public static TexturedModelData getTexturedModelData() {
 		ModelData modelData = new ModelData();
 		ModelPartData modelPartData = modelData.getRoot();
-		ModelPartData Root = modelPartData.addChild("Root", ModelPartBuilder.create().uv(0, 0).cuboid(-8.0F, 3.5F, -7.0F, 16.0F, 10.0F, 14.0F, new Dilation(0.0F)), ModelTransform.pivot(0.0F, -23.5F, 0.0F));
+		ModelPartData Root = modelPartData.addChild("Root", ModelPartBuilder.create().uv(0, 0).cuboid(-8.0F, -43.5F, -7.0F, 16.0F, 10.0F, 14.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, 23.5F, 0.0F, 0.0F, 3.1416F, 0.0F));
 
-		ModelPartData topbottom_r1 = Root.addChild("topbottom_r1", ModelPartBuilder.create().uv(0, 48).cuboid(-2.0F, -7.0F, -7.0F, 12.0F, 14.0F, 14.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, 12.5F, 0.0F, -1.5708F, 0.0F, -1.5708F));
+		ModelPartData topbottom_r1 = Root.addChild("topbottom_r1", ModelPartBuilder.create().uv(0, 48).cuboid(-2.0F, -7.0F, -7.0F, 12.0F, 14.0F, 14.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, -34.5F, 0.0F, -1.5708F, 0.0F, -1.5708F));
 
-		ModelPartData frontback_r1 = Root.addChild("frontback_r1", ModelPartBuilder.create().uv(0, 24).cuboid(-8.0F, -9.0F, -7.0F, 16.0F, 10.0F, 14.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, 12.5F, 0.0F, 0.0F, 1.5708F, 0.0F));
+		ModelPartData frontback_r1 = Root.addChild("frontback_r1", ModelPartBuilder.create().uv(0, 24).cuboid(-8.0F, -9.0F, -7.0F, 16.0F, 10.0F, 14.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, -34.5F, 0.0F, 0.0F, 1.5708F, 0.0F));
 
-		ModelPartData Body = Root.addChild("Body", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, 12.5F, 0.0F));
+		ModelPartData Body = Root.addChild("Body", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, -34.5F, 0.0F));
 
 		ModelPartData Hat = Body.addChild("Hat", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, -2.0F, 0.0F));
 
@@ -117,7 +95,7 @@ public class OnionExterior extends ExteriorModel {
 
 		ModelPartData petal4_r1 = Petals.addChild("petal4_r1", ModelPartBuilder.create().uv(12, 76).cuboid(0.0F, 1.0F, -3.0F, 0.0F, 8.0F, 6.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, 0.0F, 0.0F, 2.5133F, 0.0F, -1.5708F));
 
-		ModelPartData Leg1 = Root.addChild("Leg1", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, 12.25F, -8.25F));
+		ModelPartData Leg1 = Root.addChild("Leg1", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, -34.75F, -8.25F));
 
 		ModelPartData Hip_r1 = Leg1.addChild("Hip_r1", ModelPartBuilder.create().uv(60, 36).cuboid(0.25F, -2.0F, -2.0F, 7.0F, 4.0F, 4.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, 1.5F, -0.75F, -1.5708F, -0.3927F, -1.5708F));
 
@@ -133,7 +111,7 @@ public class OnionExterior extends ExteriorModel {
 
 		ModelPartData leg_r3 = Joint3.addChild("leg_r3", ModelPartBuilder.create().uv(60, 24).cuboid(-11.75F, -1.0F, -1.0F, 13.0F, 2.0F, 2.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, 0.0F, 0.0F, -1.5708F, 0.0F, -1.5708F));
 
-		ModelPartData Leg2 = Root.addChild("Leg2", ModelPartBuilder.create(), ModelTransform.of(7.1447F, 12.25F, 4.125F, -3.1416F, -1.0472F, 3.1416F));
+		ModelPartData Leg2 = Root.addChild("Leg2", ModelPartBuilder.create(), ModelTransform.of(7.1447F, -34.75F, 4.125F, -3.1416F, -1.0472F, 3.1416F));
 
 		ModelPartData Hip_r2 = Leg2.addChild("Hip_r2", ModelPartBuilder.create().uv(52, 68).cuboid(0.25F, -2.0F, -2.0F, 7.0F, 4.0F, 4.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, 1.5F, -0.75F, -1.5708F, -0.3927F, -1.5708F));
 
@@ -149,7 +127,7 @@ public class OnionExterior extends ExteriorModel {
 
 		ModelPartData leg_r6 = Joint6.addChild("leg_r6", ModelPartBuilder.create().uv(60, 32).cuboid(-11.75F, -1.0F, -1.0F, 13.0F, 2.0F, 2.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, 0.0F, 0.0F, -1.5708F, 0.0F, -1.5708F));
 
-		ModelPartData Leg3 = Root.addChild("Leg3", ModelPartBuilder.create(), ModelTransform.of(-7.1447F, 12.25F, 4.125F, -3.1416F, 1.0472F, 3.1416F));
+		ModelPartData Leg3 = Root.addChild("Leg3", ModelPartBuilder.create(), ModelTransform.of(-7.1447F, -34.75F, 4.125F, -3.1416F, 1.0472F, 3.1416F));
 
 		ModelPartData Hip_r3 = Leg3.addChild("Hip_r3", ModelPartBuilder.create().uv(74, 44).cuboid(0.25F, -2.0F, -2.0F, 7.0F, 4.0F, 4.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, 1.5F, -0.75F, -1.5708F, -0.3927F, -1.5708F));
 
@@ -183,16 +161,12 @@ public class OnionExterior extends ExteriorModel {
 	@Override
 	public void render(MatrixStack matrices, VertexConsumer vertexConsumer, int light, int overlay, float red, float green, float blue, float alpha) {
 		Root.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
-		matrices.push();
-		matrices.scale(0, 0, 0);
-		matrices.translate(0, 1.5, 0);
-		matrices.pop();
 	}
 
 	@Override
 	public <T extends Entity & Linkable> void renderEntity(T falling, ModelPart root, MatrixStack matrices, VertexConsumer vertexConsumer, int light, int overlay, float red, float green, float blue, float alpha) {
 		matrices.push();
-		matrices.scale(0f, 0f, 0f);
+		matrices.scale(0, 0, 0);
 		matrices.translate(0, 0, 0);
 		super.renderEntity(falling, root, matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
 		matrices.pop();
