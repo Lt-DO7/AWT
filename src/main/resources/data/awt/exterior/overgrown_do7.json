@@ -1,6 +1,6 @@
 {
     "id": "awt:overgrown_do7",
-    "category": "awt:awtboxes",
+    "category": "ait:exterior/police_box",
     "parent": "ait:exterior/police_box/default",
     "texture": "awt:textures/exterior/overgrown_do7.png",
     "emission": "awt:textures/exterior/do7_emission.png",

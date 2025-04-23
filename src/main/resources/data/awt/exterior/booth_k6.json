@@ -1,6 +1,6 @@
 {
     "id": "awt:k6booth",
-    "category": "awt:awtboxes",
+    "category": "ait:exterior/booth",
     "parent": "ait:exterior/booth/default",
     "texture": "awt:textures/exterior/booth_k6.png",
     "emission": "awt:textures/exterior/booth_k6_emission.png"

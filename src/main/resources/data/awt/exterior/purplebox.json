@@ -1,6 +1,6 @@
 {
     "id": "awt:purplebox",
-    "category": "awt:awtboxes",
+    "category": "ait:exterior/police_box",
     "parent": "ait:exterior/police_box/default",
     "texture": "awt:textures/exterior/purple_box.png",
     "emission": "awt:textures/exterior/purple_box_emission.png",

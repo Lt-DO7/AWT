@@ -1,6 +1,6 @@
 {
     "id": "awt:toywardianbox",
-    "category": "awt:awtboxes",
+    "category": "ait:exterior/police_box",
     "parent": "ait:exterior/police_box/default",
     "texture": "awt:textures/exterior/toywardianbox_policebox.png",
     "emission": "awt:textures/exterior/toywardian_policebox_emission.png",
