@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "awt:block/artrium_ore",
+    "up": "awt:block/artrium_ore",
+    "north": "awt:block/artrium_ore",
+    "east": "awt:block/artrium_ore",
+    "south": "awt:block/artrium_ore",
+    "west": "awt:block/artrium_ore",
+    "particle": "awt:block/artrium_ore"
+  },
+  "render_type": "solid"
+}

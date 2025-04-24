@@ -18,8 +18,14 @@ public class ModBlocks {
     //AWT
 
     public static final Block ARTRIUM_BLOCK = registerBlock("artrium_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK).sounds(BlockSoundGroup.COPPER).requiresTool().strength(0.1F))
-            );
+            new Block(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK).sounds(BlockSoundGroup.COPPER).requiresTool().strength(1.5F, 6.0F)));
+
+    public static final Block ARTRIUM_ORE = registerBlock("artrium_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).sounds(BlockSoundGroup.STONE).requiresTool().strength(1.5F, 6.0F)));
+
+    public static final Block DEEPSLATE_ARTRIUM_ORE = registerBlock("deepslate_artrium_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE).sounds(BlockSoundGroup.DEEPSLATE).requiresTool().strength(1.5F, 6.0F)));
+
 
     //roundels
 

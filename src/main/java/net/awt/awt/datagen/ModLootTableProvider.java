@@ -65,6 +65,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         //Artrium
         addDrop(ModBlocks.ARTRIUM_BLOCK, drops(ModBlocks.ARTRIUM_BLOCK));
+        addDrop(ModBlocks.ARTRIUM_ORE, drops(ModItems.ARTRIUM));
+        addDrop(ModBlocks.DEEPSLATE_ARTRIUM_ORE, drops(ModItems.ARTRIUM));
 
     }
 

@@ -20,8 +20,8 @@ public class ModItemGroups {
                         entries.add(ModItems.ARTRIUMCORE);
                         entries.add(ModItems.ENERGIZEDARTRIUM);
                         entries.add(ModBlocks.ARTRIUM_BLOCK);
-
-
+                        entries.add(ModBlocks.ARTRIUM_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_ARTRIUM_ORE);
                     }).build());
 
 

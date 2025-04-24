@@ -203,6 +203,8 @@
   "block.awt.exposed_copper_roundel": "Exposed Copper Roundel",
   "block.awt.copper_roundel": "Copper Roundel",
   "block.awt.artrium_block": "Artrium Block",
+  "block.awt.artrium_ore": "Artrium Ore",
+  "block.awt.deepslate_artrium_ore": "Deepslate Artrium Ore",
 
 
   "subtitles.vortexactivate": "Vortex Manipulator Used",
