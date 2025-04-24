@@ -66,9 +66,7 @@
   "sonic.awt.quantum_sonic": "Robust",
   "sonic.awt.copper_cane": "Copper Cane",
   "sonic.awt.toywardian_sonic": "GambleBox TARDIS",
-  "sonic.awt.red_pikmin_sonic": "Red Pikmin",
   "sonic.awt.wrench_sonic": "Sonic Wrench",
-  "sonic.awt.glow_pikmin_sonic": "Glow Pikmin",
   "sonic.awt.caution_sonic": "Caution Casing",
   "sonic.awt.hedgehog_sonic": "Sonic Hedgehog",
   "sonic.awt.sonic_gauntlet": "Sonic Gauntlet",
@@ -127,44 +125,6 @@
   "desktop.awt.sprucewood": "Sprucewood",
   "desktop.awt.the_lab": "The Lab",
 
-  "gui.awt.vortex_gui_2.Dimensionbutton": "Dimension",
-  "gui.awt.vortex_gui.ybutton": "y",
-  "gui.awt.vortex_gui.label_end": "End",
-  "gui.awt.vortex_gui.label_levels": "levels",
-  "gui.awt.vortex_gui.button_teleport": "Teleport",
-  "gui.ddwa.vortex_gui_2.xbutton": "x",
-  "gui.awt.vortex_gui.surface": "Surface",
-  "gui.awt.vortex_gui.label_disclaimer_any_other_planets_wo": "For other planets do:",
-  "gui.awt.vortex_gui.label_xyz": "XYZ",
-  "gui.awt.vortex_gui.label_skaro": "Skaro",
-  "gui.awt.vortex_gui_2.surface": "Surface",
-  "gui.awt.vortex_gui.zbutton": "z",
-  "gui.awt.vortex_gui.Dimensionbutton": "modid:dimension",
-  "gui.awt.vortex_gui.label_overworld": "Overworld",
-  "gui.awt.vortex_gui_2.label_end": "End",
-  "gui.awt.vortex_gui.tooltip_available_planets": "Available Planets",
-  "gui.awt.vortex_gui.label_vortex_manipulator": "Vortex Manipulator",
-  "gui.awt.vortex_gui.label_example": "Example:",
-  "gui.awt.vortex_gui_2.label_disclaimer_any_other_planets_wo": "Disclaimer: Any other",
-  "gui.awt.vortex_gui_2.label_vortex_manipulator": "Vortex Manipulator",
-  "gui.awt.vortex_gui.label_nether": "Nether",
-  "gui.awt.vortex_gui_2.label_overworld": "Overworld",
-  "gui.awt.vortex_gui_2.label_planets_wont_show_up_yet": "planets wont show up",
-  "gui.awt.vortex_gui.label_planets": "Planets:",
-  "gui.awt.vortex_gui_2.ybutton": "y",
-  "gui.awt.vortex_gui_2.button_teleport": "Teleport",
-  "gui.awt.vortex_gui_2.label_nether": "Nether",
-  "gui.awt.vortex_gui.xbutton": "x",
-  "gui.awt.vortex_gui.label_planets_wont_show_up_yet": "modname:planetname",
-  "gui.awt.vortex_gui_2.zbutton": "z",
-  "gui.awt.vortex_gui.label_100": "100",
-  "gui.awt.vortex_gui.label_dimension": "Dimension",
-  "gui.awt.vortex_gui.label_empty": "0",
-  "gui.awt.vortex_gui.button_empty": "",
-  "gui.awt.vortex_gui_2.label_planets": "Planets:",
-
-  "advancements.space_hoppers.title": "Space Hoppers!",
-
   "block.awt.white_concrete_roundel": "White Concrete Roundel",
   "block.awt.black_concrete_roundel": "Black Concrete Roundel",
   "block.awt.dirt_roundel": "Dirt Roundel",
@@ -202,17 +162,10 @@
   "block.awt.blue_concrete_roundel": "Blue Concrete Roundel",
   "block.awt.exposed_copper_roundel": "Exposed Copper Roundel",
   "block.awt.copper_roundel": "Copper Roundel",
+
   "block.awt.artrium_block": "Artrium Block",
   "block.awt.artrium_ore": "Artrium Ore",
   "block.awt.deepslate_artrium_ore": "Deepslate Artrium Ore",
-
-
-  "subtitles.vortexactivate": "Vortex Manipulator Used",
-
-
-
-  "advancements.space_hoppers.descr": "Obtain a Vortex Manipulator",
-
 
   "item_group.awt.Roundel": "Roundels"
 
