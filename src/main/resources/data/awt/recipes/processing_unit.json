@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "dcd",
+    "bab",
+    "dcd"
+  ],
+  "key": {
+    "a": {
+      "item": "awt:artrium_core"
+    },
+    "b": {
+      "item": "awt:energized_artrium"
+    },
+    "c": {
+      "item": "awt:artrium"
+    },
+    "d": {
+      "item": "minecraft:redstone"
+    }
+  },
+    "result": {
+      "item": "awt:processing_unit",
+      "count": 1
+    }
+}
+
+
+
