@@ -29,6 +29,7 @@ public class AWT implements ModInitializer {
     public static AddonExterior PINKONION;
     public static AddonExterior LIGHTBLUEONION;
     public static AddonExterior LIMEGREENONION;
+    public static AddonExterior GAMBLEBOX;
 
 
 
@@ -100,6 +101,9 @@ public class AWT implements ModInitializer {
 
         LIMEGREENONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "limegreenonion").register();
         LIMEGREENONION.setDoor(new AddonExterior.Door(LIMEGREENONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
+
+        GAMBLEBOX = new AddonExterior(new Identifier(MOD_ID, "awtboxes"), MOD_ID, "gamblebox").register();
+        GAMBLEBOX.setDoor(new AddonExterior.Door(GAMBLEBOX, true, SoundEvents.BLOCK_WOODEN_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_WOODEN_DOOR_CLOSE)).toDoor().register();
 
     }
 

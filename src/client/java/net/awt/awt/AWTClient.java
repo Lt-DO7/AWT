@@ -68,6 +68,10 @@ public class AWTClient implements ClientModInitializer {
         AWT.LIMEGREENONION.toDoor().setModel(new OnionDoor(OnionDoor.getTexturedModelData().createModel())).toClient().register();
         AWT.LIMEGREENONION.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
 
+        AWT.GAMBLEBOX.setModel(new GambleBoxExterior()).toClient().register();
+        AWT.GAMBLEBOX.toDoor().setModel(new GambleBoxDoor(GambleBoxDoor.getTexturedModelData().createModel())).toClient().register();
+        AWT.GAMBLEBOX.setSonicItemTranslations(new Vector3f(0f, 0f, 0f));
+
     }
 
     public static void blockEntityRendererRegister() {
