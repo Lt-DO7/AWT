@@ -13,8 +13,6 @@ import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.math.RotationAxis;
 
-import java.util.prefs.NodeChangeEvent;
-
 // Made with Blockbench 4.12.4
 // Exported for Minecraft version 1.17+ for Yarn
 // Paste this class into your mod and generate all required imports
@@ -27,7 +25,6 @@ public class GambleBoxExterior extends ExteriorModel {
 	private final ModelPart Walls;
 	private final ModelPart PCB;
 	private final ModelPart Roof;
-	private NodeChangeEvent body;
 
 	public GambleBoxExterior(ModelPart root) {
 		this.Body = root.getChild("Body");
@@ -41,7 +38,15 @@ public class GambleBoxExterior extends ExteriorModel {
 	}
 
 	public GambleBoxExterior() {
-		this(getTexturedModelData().createModel());
+		super();
+		this.Body = getTexturedModelData().createModel().getChild("Body");
+		this.Posts = this.Body.getChild("Posts");
+		this.Doors = this.Body.getChild("Doors");
+		this.right_door = this.Body.getChild("right_door");
+		this.left_door = this.Body.getChild("left_door");
+		this.Walls = this.Body.getChild("Walls");
+		this.PCB = this.Body.getChild("PCB");
+		this.Roof = this.Body.getChild("Roof");
 	}
 
 	@Override
