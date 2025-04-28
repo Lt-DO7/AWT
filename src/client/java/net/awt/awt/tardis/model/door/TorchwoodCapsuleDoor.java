@@ -16,36 +16,52 @@ import net.minecraft.util.math.RotationAxis;
 // Exported for Minecraft version 1.17+ for Yarn
 // Paste this class into your mod and generate all required imports
 public class TorchwoodCapsuleDoor extends DoorModel {
+	private final ModelPart bone;
 	private final ModelPart shellframe;
+	private final ModelPart frametop;
+	private final ModelPart framebottom;
+	private final ModelPart framecorners;
 	private final ModelPart walls;
-	private final ModelPart floorandroof;
-	private final ModelPart leftdoor;
 	private final ModelPart rightdoor;
-	private ModelPart bone;
-
+	private final ModelPart leftdoor;
 	public TorchwoodCapsuleDoor(ModelPart root) {
-		this.shellframe = root.getChild("shellframe");
-		this.walls = root.getChild("walls");
-		this.floorandroof = root.getChild("floorandroof");
-		this.leftdoor = root.getChild("leftdoor");
-		this.rightdoor = root.getChild("rightdoor");
+		this.bone = root.getChild("bone");
+		this.shellframe = this.bone.getChild("shellframe");
+		this.frametop = this.shellframe.getChild("frametop");
+		this.framebottom = this.shellframe.getChild("framebottom");
+		this.framecorners = this.shellframe.getChild("framecorners");
+		this.walls = this.bone.getChild("walls");
+		this.rightdoor = this.bone.getChild("rightdoor");
+		this.leftdoor = this.bone.getChild("leftdoor");
 	}
 	public static TexturedModelData getTexturedModelData() {
 		ModelData modelData = new ModelData();
 		ModelPartData modelPartData = modelData.getRoot();
-		ModelPartData shellframe = modelPartData.addChild("shellframe", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, 24.0F, 0.0F));
+		ModelPartData bone = modelPartData.addChild("bone", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, 16.0F, 0.0F));
 
-		ModelPartData walls = modelPartData.addChild("walls", ModelPartBuilder.create().uv(96, 95).cuboid(-9.0F, -42.0F, -10.0F, 18.0F, 4.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(0.0F, 24.0F, 0.0F));
+		ModelPartData shellframe = bone.addChild("shellframe", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, 0.0F, 0.0F));
 
-		ModelPartData floorandroof = modelPartData.addChild("floorandroof", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, 24.0F, 0.0F));
+		ModelPartData frametop = shellframe.addChild("frametop", ModelPartBuilder.create().uv(2, 79).cuboid(-9.0F, -2.0F, -11.0F, 18.0F, 2.0F, 2.0F, new Dilation(0.0F)), ModelTransform.pivot(0.0F, -42.0F, 0.0F));
 
-		ModelPartData leftdoor = modelPartData.addChild("leftdoor", ModelPartBuilder.create().uv(76, 41).cuboid(-9.0F, -38.0F, -10.0F, 9.0F, 36.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(0.0F, 24.0F, 0.0F));
+		ModelPartData framebottom = shellframe.addChild("framebottom", ModelPartBuilder.create().uv(98, 41).cuboid(-9.0F, -1.0F, 9.0F, 18.0F, 2.0F, 2.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, -1.0F, 0.0F, 3.1416F, 0.0F, 0.0F));
 
-		ModelPartData rightdoor = modelPartData.addChild("rightdoor", ModelPartBuilder.create().uv(76, 78).cuboid(0.0F, -38.0F, -10.0F, 9.0F, 36.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(0.0F, 24.0F, 0.0F));
+		ModelPartData framecorners = shellframe.addChild("framecorners", ModelPartBuilder.create().uv(48, 79).cuboid(9.0F, -42.0F, -11.0F, 2.0F, 40.0F, 2.0F, new Dilation(0.0F)), ModelTransform.pivot(0.0F, 0.0F, 0.0F));
+
+		ModelPartData cube_r1 = framecorners.addChild("cube_r1", ModelPartBuilder.create().uv(96, 53).cuboid(9.0F, -40.0F, -11.0F, 2.0F, 40.0F, 2.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, -2.0F, 0.0F, 0.0F, 1.5708F, 0.0F));
+
+		ModelPartData walls = bone.addChild("walls", ModelPartBuilder.create().uv(96, 95).cuboid(-9.0F, -42.0F, -10.0F, 18.0F, 4.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(0.0F, 0.0F, 0.0F));
+
+		ModelPartData rightdoor = bone.addChild("rightdoor", ModelPartBuilder.create().uv(76, 78).cuboid(0.0F, -38.0F, -10.0F, 9.0F, 36.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(0.0F, 0.0F, 0.0F));
+
+		ModelPartData leftdoor = bone.addChild("leftdoor", ModelPartBuilder.create().uv(76, 41).cuboid(-9.0F, -38.0F, -10.0F, 9.0F, 36.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(0.0F, 0.0F, 0.0F));
 		return TexturedModelData.of(modelData, 256, 256);
 	}
 	@Override
 	public void setAngles(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
+	}
+	@Override
+	public void render(MatrixStack matrices, VertexConsumer vertexConsumer, int light, int overlay, float red, float green, float blue, float alpha) {
+		bone.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
 	}
 
 	@Override
@@ -75,7 +91,6 @@ public class TorchwoodCapsuleDoor extends DoorModel {
 
 	@Override
 	public ModelPart getPart() {
-		return leftdoor;
-    }
-
+		return bone;
+	}
 }
