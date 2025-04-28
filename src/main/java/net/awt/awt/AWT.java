@@ -72,8 +72,8 @@ public class AWT implements ModInitializer {
     THIRD = new AddonExterior(new Identifier(MOD_ID, "awtboxes"), MOD_ID, "third").register();
         THIRD.setDoor(new AddonExterior.Door(THIRD, true, SoundEvents.BLOCK_IRON_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_IRON_DOOR_CLOSE)).toDoor().register();
 
-        TORCHWOODCAPSULE = new AddonExterior(new Identifier(MOD_ID, "awtboxes"), MOD_ID, "torchwoodcapsule").register();
-        TORCHWOODCAPSULE.setDoor(new AddonExterior.Door(TORCHWOODCAPSULE, true, SoundEvents.BLOCK_IRON_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_IRON_DOOR_CLOSE)).toDoor().register();
+        //TORCHWOODCAPSULE = new AddonExterior(new Identifier(MOD_ID, "awtboxes"), MOD_ID, "torchwoodcapsule").register();
+        //TORCHWOODCAPSULE.setDoor(new AddonExterior.Door(TORCHWOODCAPSULE, true, SoundEvents.BLOCK_IRON_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_IRON_DOOR_CLOSE)).toDoor().register();
 
         REDONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "redonion").register();
         REDONION.setDoor(new AddonExterior.Door(REDONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
@@ -102,8 +102,8 @@ public class AWT implements ModInitializer {
         LIMEGREENONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "limegreenonion").register();
         LIMEGREENONION.setDoor(new AddonExterior.Door(LIMEGREENONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
 
-        GAMBLEBOX = new AddonExterior(new Identifier(MOD_ID, "awtboxes"), MOD_ID, "gamblebox").register();
-        GAMBLEBOX.setDoor(new AddonExterior.Door(GAMBLEBOX, true, SoundEvents.BLOCK_WOODEN_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_WOODEN_DOOR_CLOSE)).toDoor().register();
+       // GAMBLEBOX = new AddonExterior(new Identifier(MOD_ID, "awtboxes"), MOD_ID, "gamblebox").register();
+       // GAMBLEBOX.setDoor(new AddonExterior.Door(GAMBLEBOX, true, SoundEvents.BLOCK_WOODEN_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_WOODEN_DOOR_CLOSE)).toDoor().register();
 
     }
 

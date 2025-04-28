@@ -28,9 +28,9 @@ public class AWTClient implements ClientModInitializer {
         AWT.THIRD.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
         AWT.THIRD.toDoor().setModel(new ThirdAndSecondBaseDoor(ThirdAndSecondBaseDoor.getTexturedModelData().createModel())).toClient().register();
 
-        AWT.TORCHWOODCAPSULE.setModel(new TorchwoodCapsuleExterior()).toClient().register();
-        AWT.TORCHWOODCAPSULE.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
-        AWT.TORCHWOODCAPSULE.toDoor().setModel(new TorchwoodCapsuleDoor(TorchwoodCapsuleDoor.getTexturedModelData().createModel())).toClient().register();
+       // AWT.TORCHWOODCAPSULE.setModel(new TorchwoodCapsuleExterior()).toClient().register();
+       // AWT.TORCHWOODCAPSULE.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
+       // AWT.TORCHWOODCAPSULE.toDoor().setModel(new TorchwoodCapsuleDoor(TorchwoodCapsuleDoor.getTexturedModelData().createModel())).toClient().register();
 
         AWT.REDONION.setModel(new OnionExterior()).toClient().register();
         AWT.REDONION.toDoor().setModel(new OnionDoor(OnionDoor.getTexturedModelData().createModel())).toClient().register();
@@ -68,9 +68,9 @@ public class AWTClient implements ClientModInitializer {
         AWT.LIMEGREENONION.toDoor().setModel(new OnionDoor(OnionDoor.getTexturedModelData().createModel())).toClient().register();
         AWT.LIMEGREENONION.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
 
-        AWT.GAMBLEBOX.setModel(new GambleBoxExterior()).toClient().register();
-        AWT.GAMBLEBOX.toDoor().setModel(new GambleBoxDoor(GambleBoxDoor.getTexturedModelData().createModel())).toClient().register();
-        AWT.GAMBLEBOX.setSonicItemTranslations(new Vector3f(0f, 0f, 0f));
+       // AWT.GAMBLEBOX.setModel(new GambleBoxExterior()).toClient().register();
+       // AWT.GAMBLEBOX.toDoor().setModel(new GambleBoxDoor(GambleBoxDoor.getTexturedModelData().createModel())).toClient().register();
+      //  AWT.GAMBLEBOX.setSonicItemTranslations(new Vector3f(0f, 0f, 0f));
 
     }
 
