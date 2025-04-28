@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "bab",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:command_block"
+    },
+    "b": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+    "result": {
+      "item": "ait:skeleton_key",
+      "count": 1
+    }
+}
+
+
+
