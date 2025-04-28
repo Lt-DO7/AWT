@@ -6,7 +6,7 @@
   "item.awt.processing_unit": "Processing Unit",
   "item.awt.artrium_rifle": "Artrium Rifle",
   "item.awt.artrium_core": "Artrium Core",
-  "item.awt.energized_artrium": "Energized Artrium",
+  "item.awt.energized_artrium": "Energised Artrium",
 
 
 
@@ -82,6 +82,7 @@
   "sonic.awt.sonic_hammer": "Sonic Hammer",
   "sonic.awt.kenobi_sonic": "Sonic Kenobi Lightsaber",
   "sonic.awt.elegant_sonic": "Sonic Dooku Lightsaber",
+  "sonic.awt.laser_screwdriver": "Laser Screwdriver",
 
   "desktop.awt.hell": "Hell",
   "desktop.awt.fnaf4": "FNAF 4",

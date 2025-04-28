@@ -1,0 +1,13 @@
+{
+  "id": "awt:laser_screwdriver",
+  "models": {
+    "inactive": "awt:item/sonic/laser_screwdriver",
+    "interaction": "awt:item/sonic/laser_screwdriver_open",
+    "overload": "awt:item/sonic/laser_screwdriver_open",
+    "scanning": "awt:item/sonic/laser_screwdriver_open",
+    "tardis": "awt:item/sonic/laser_screwdriver_open"
+  },
+  "loyalty": {
+    "type": "OWNER"
+  }
+}
