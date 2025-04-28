@@ -1,0 +1,13 @@
+{
+  "id": "awt:elegant_sonic",
+  "models": {
+    "inactive": "awt:item/sonic/elegant_sonic_deactive",
+    "interaction": "awt:item/sonic/elegant_sonic_active",
+    "overload": "awt:item/sonic/elegant_sonic_active",
+    "scanning": "awt:item/sonic/elegant_sonic_active",
+    "tardis": "awt:item/sonic/elegant_sonic_active"
+  },
+  "loyalty": {
+    "type": "OWNER"
+  }
+}
