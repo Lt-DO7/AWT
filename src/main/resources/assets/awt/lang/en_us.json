@@ -1,12 +1,11 @@
 {
   "text.config.aitconfig.title": "Adventures With TARDISes",
 
-  "item.awt.artrium":"Artrium",
+  "item.awt.artrium":"Atrium",
   "item.awt.lightsaber":"Lightsaber",
   "item.awt.processing_unit": "Processing Unit",
-  "item.awt.artrium_rifle": "Artrium Rifle",
-  "item.awt.artrium_core": "Artrium Core",
-  "item.awt.energized_artrium": "Energised Artrium",
+  "item.awt.artrium_core": "Atrium Core",
+  "item.awt.energized_artrium": "Energised Atrium",
 
 
 
@@ -168,9 +167,9 @@
   "block.awt.exposed_copper_roundel": "Exposed Copper Roundel",
   "block.awt.copper_roundel": "Copper Roundel",
 
-  "block.awt.artrium_block": "Artrium Block",
-  "block.awt.artrium_ore": "Artrium Ore",
-  "block.awt.deepslate_artrium_ore": "Deepslate Artrium Ore",
+  "block.awt.artrium_block": "Atrium Block",
+  "block.awt.artrium_ore": "Atrium Ore",
+  "block.awt.deepslate_artrium_ore": "Deepslate Atrium Ore",
 
   "item_group.awt.Roundel": "Roundels"
 
