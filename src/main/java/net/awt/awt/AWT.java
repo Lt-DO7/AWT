@@ -19,7 +19,6 @@ public class AWT implements ModInitializer {
     public static AddonExterior BAKER;
     public static AddonExterior SECOND;
     public static AddonExterior THIRD;
-    public static AddonExterior TORCHWOODCAPSULE;
     public static AddonExterior REDONION;
     public static AddonExterior YELLOWONION;
     public static AddonExterior BLUEONION;
@@ -29,7 +28,6 @@ public class AWT implements ModInitializer {
     public static AddonExterior PINKONION;
     public static AddonExterior LIGHTBLUEONION;
     public static AddonExterior LIMEGREENONION;
-    public static AddonExterior GAMBLEBOX;
 
 
 
@@ -37,7 +35,7 @@ public class AWT implements ModInitializer {
 
     BAKER = new AddonExterior(new Identifier(MOD_ID, "awtboxes"), MOD_ID, "baker").register();
 
-        BAKER.setDoor(new AddonExterior.Door(BAKER, true, SoundEvents.BLOCK_IRON_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_IRON_DOOR_CLOSE)).toDoor().register();
+        BAKER.setDoor(new AddonExterior.Door(BAKER, true, SoundEvents.BLOCK_WOODEN_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_WOODEN_DOOR_CLOSE)).toDoor().register();
      //      .toDoor().register();
      //   BAKER.hasPortals();
      //   BAKER.setPortalTranslations((pos, b) -> {
@@ -66,14 +64,11 @@ public class AWT implements ModInitializer {
 
 
     SECOND = new AddonExterior(new Identifier(MOD_ID, "awtboxes"), MOD_ID, "second").register();
-        SECOND.setDoor(new AddonExterior.Door(SECOND, true, SoundEvents.BLOCK_IRON_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_IRON_DOOR_CLOSE)).toDoor().register();
+        SECOND.setDoor(new AddonExterior.Door(SECOND, true, SoundEvents.BLOCK_WOODEN_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_WOODEN_DOOR_CLOSE)).toDoor().register();
 
 
     THIRD = new AddonExterior(new Identifier(MOD_ID, "awtboxes"), MOD_ID, "third").register();
-        THIRD.setDoor(new AddonExterior.Door(THIRD, true, SoundEvents.BLOCK_IRON_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_IRON_DOOR_CLOSE)).toDoor().register();
-
-        //TORCHWOODCAPSULE = new AddonExterior(new Identifier(MOD_ID, "awtboxes"), MOD_ID, "torchwoodcapsule").register();
-        //TORCHWOODCAPSULE.setDoor(new AddonExterior.Door(TORCHWOODCAPSULE, true, SoundEvents.BLOCK_IRON_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_IRON_DOOR_CLOSE)).toDoor().register();
+        THIRD.setDoor(new AddonExterior.Door(THIRD, true, SoundEvents.BLOCK_WOODEN_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_WOODEN_DOOR_CLOSE)).toDoor().register();
 
         REDONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "redonion").register();
         REDONION.setDoor(new AddonExterior.Door(REDONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
@@ -101,10 +96,6 @@ public class AWT implements ModInitializer {
 
         LIMEGREENONION = new AddonExterior(new Identifier(MOD_ID, "onion"), MOD_ID, "limegreenonion").register();
         LIMEGREENONION.setDoor(new AddonExterior.Door(LIMEGREENONION, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
-
-       // GAMBLEBOX = new AddonExterior(new Identifier(MOD_ID, "awtboxes"), MOD_ID, "gamblebox").register();
-       // GAMBLEBOX.setDoor(new AddonExterior.Door(GAMBLEBOX, true, SoundEvents.BLOCK_WOODEN_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_WOODEN_DOOR_CLOSE)).toDoor().register();
-
     }
 
 
