@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    " a ",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:white_concrete"
+    }
+  },
+  "result": {
+    "item": "awt:white_concrete_roundel",
+    "count": 2
+  }
+}

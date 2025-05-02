@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    " a ",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "item": "awt:dirt_roundel",
+    "count": 2
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    " a ",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "result": {
+    "item": "awt:quartz_roundel",
+    "count": 2
+  }
+}
