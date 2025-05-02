@@ -27,7 +27,6 @@
   "exterior.awt.pinkonion": "Winged",
   "exterior.awt.lightblueonion": "Ice",
   "exterior.awt.limegreenonion": "Glow",
-  "exterior.awt.gamblebox": "GambleBox",
 
   "exterior.awt.billcipher": "Bill Cipher",
   "exterior.awt.toywardianbooth": "GambleBox Booth",
@@ -51,6 +50,7 @@
   "exterior.awt.tardimog": "OG TARDIM",
   "exterior.awt.tardim_gamblebox": "TARDIM GambleBox",
   "exterior.awt.tardim_nathan": "TARDIM Nathan",
+  "exterior.awt.2dbox": "2D Box",
 
   "sonic.awt.blunt": "Blunt",
   "sonic.awt.tardis": "Tardis",
