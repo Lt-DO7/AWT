@@ -2,13 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "   ",
-    " a ",
-    "   "
+    "bbb",
+    "bab",
+    "bbb"
   ],
   "key": {
     "a": {
       "item": "minecraft:dirt"
+    },
+    "b": {
+      "item": "awt:roundel_mold"
     }
   },
   "result": {

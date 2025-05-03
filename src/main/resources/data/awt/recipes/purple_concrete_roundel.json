@@ -2,13 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "   ",
-    " a ",
-    "   "
+    "bbb",
+    "bab",
+    "bbb"
   ],
   "key": {
     "a": {
       "item": "minecraft:purple_concrete"
+    },
+    "b": {
+      "item": "awt:roundel_mold"
     }
   },
   "result": {
