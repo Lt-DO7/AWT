@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    " a ",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:weathered_copper"
+    }
+  },
+  "result": {
+    "item": "awt:weathered_copper_roundel",
+    "count": 2
+  }
+}

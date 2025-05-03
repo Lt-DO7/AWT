@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    " a ",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:exposed_copper"
+    }
+  },
+  "result": {
+    "item": "awt:exposed_copper_roundel",
+    "count": 2
+  }
+}

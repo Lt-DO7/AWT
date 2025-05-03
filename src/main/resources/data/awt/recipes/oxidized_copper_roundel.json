@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    " a ",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:oxidized_copper"
+    }
+  },
+  "result": {
+    "item": "awt:oxidized_copper_roundel",
+    "count": 2
+  }
+}
