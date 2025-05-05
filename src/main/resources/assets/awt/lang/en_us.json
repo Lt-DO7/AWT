@@ -56,6 +56,7 @@
   "exterior.awt.2dgamblebox": "2D GambleBox",
   "exterior.awt.atrium_box": "Atrium Box",
   "exterior.awt.memorybox": "Memory Box",
+  "exterior.awt.memorybox_classic": "Classic Memory Box",
 
   "sonic.awt.blunt": "Blunt",
   "sonic.awt.tardis": "Tardis",

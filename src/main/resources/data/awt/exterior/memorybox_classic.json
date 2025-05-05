@@ -1,0 +1,7 @@
+{
+    "id": "awt:memorybox_classic",
+    "category": "ait:exterior/classic",
+    "parent": "ait:exterior/classic/prime",
+    "texture": "awt:textures/exterior/memorybox_classic.png",
+    "emission": "awt:textures/exterior/memorybox_classic_emission.png"
+  }
