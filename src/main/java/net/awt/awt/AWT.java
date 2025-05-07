@@ -30,6 +30,7 @@ public class AWT implements ModInitializer {
     public static AddonExterior LIMEGREENONION;
     public static AddonExterior MULTIONION;
     public static AddonExterior CUBE;
+    public static AddonExterior ATRIUM;
 
 
 
@@ -104,6 +105,9 @@ public class AWT implements ModInitializer {
 
         CUBE = new AddonExterior(new Identifier(MOD_ID, "awtboxes"), MOD_ID, "cube").register();
         CUBE.setDoor(new AddonExterior.Door(CUBE, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
+
+        ATRIUM = new AddonExterior(new Identifier(MOD_ID, "awtboxes"), MOD_ID, "atrium").register();
+        ATRIUM.setDoor(new AddonExterior.Door(ATRIUM, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
 
     }
 

@@ -72,6 +72,10 @@ public class AWTClient implements ClientModInitializer {
         AWT.CUBE.toDoor().setModel(new CubeDoor(CubeDoor.getTexturedModelData().createModel())).toClient().register();
         AWT.CUBE.setSonicItemTranslations(new Vector3f(0, 0, 0));
 
+        AWT.ATRIUM.setModel(new AtriumExterior()).toClient().register();
+        AWT.ATRIUM.toDoor().setModel(new AtriumDoor(AtriumDoor.getTexturedModelData().createModel())).toClient().register();
+        AWT.ATRIUM.setSonicItemTranslations(new Vector3f(0, 0, 0));
+
     }
 
     public static void blockEntityRendererRegister() {
