@@ -2,10 +2,10 @@
   "target": "mat",
   "id": "awt:paradoxmat",
   "sound": "awt:paradoxmat",
-  "timeLeft": 490,
-  "maxTime": 490,
-  "startTime": 340,
-  "length": 490,
+  "timeLeft": 1000,
+  "maxTime": 1000,
+  "startTime": 0,
+  "length": 1000,
   "frequency": 0.2,
   "intensity": 0.3
 }
