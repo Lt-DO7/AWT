@@ -142,6 +142,8 @@
   "desktop.awt.monk": "Monk",
   "desktop.awt.woodwork": "Woodwork",
 
+  "animation.awt.paradox_mat": "Paradox Mat",
+
   "block.awt.white_concrete_roundel": "White Concrete Roundel",
   "block.awt.black_concrete_roundel": "Black Concrete Roundel",
   "block.awt.dirt_roundel": "Dirt Roundel",
