@@ -144,6 +144,8 @@
 
   "animation.awt.paradox_mat": "Paradox Mat",
   "animation.awt.goofy_fall_demat": "Oops I Slipped",
+  "animation.awt.awt_mat": "AWT Mat",
+  "animation.awt.awt_demat": "AWT Demat",
 
   "block.awt.white_concrete_roundel": "White Concrete Roundel",
   "block.awt.black_concrete_roundel": "Black Concrete Roundel",
