@@ -65,14 +65,6 @@
 						"28.0": {
 							"post": [0, 0, 0],
 							"lerp_mode": "catmullrom"
-						},
-						"30.0": {
-							"post": [0, 0, 0],
-							"lerp_mode": "catmullrom"
-						},
-						"32.0": {
-							"post": [0, 720, 0],
-							"lerp_mode": "catmullrom"
 						}
 					},
 					"position": {
@@ -527,70 +519,6 @@
 						"28.0": {
 							"post": [0, 0, 0],
 							"lerp_mode": "catmullrom"
-						},
-						"28.25": {
-							"post": [28.5, 12.5, 9.5],
-							"lerp_mode": "catmullrom"
-						},
-						"28.5": {
-							"post": [35, 25, 39],
-							"lerp_mode": "catmullrom"
-						},
-						"28.75": {
-							"post": [23.5, 30.5, 60],
-							"lerp_mode": "catmullrom"
-						},
-						"29.0": {
-							"post": [2, 36, 71],
-							"lerp_mode": "catmullrom"
-						},
-						"29.25": {
-							"post": [-21.5, 30.5, 60],
-							"lerp_mode": "catmullrom"
-						},
-						"29.5": {
-							"post": [-34, 25, 39],
-							"lerp_mode": "catmullrom"
-						},
-						"29.75": {
-							"post": [-25.5, 12.5, 9.5],
-							"lerp_mode": "catmullrom"
-						},
-						"30.0": {
-							"post": [0, 0, 0],
-							"lerp_mode": "catmullrom"
-						},
-						"30.25": {
-							"post": [28.5, 12.5, 9.5],
-							"lerp_mode": "catmullrom"
-						},
-						"30.5": {
-							"post": [35, 25, 39],
-							"lerp_mode": "catmullrom"
-						},
-						"30.75": {
-							"post": [23.5, 30.5, 60],
-							"lerp_mode": "catmullrom"
-						},
-						"31.0": {
-							"post": [2, 36, 71],
-							"lerp_mode": "catmullrom"
-						},
-						"31.25": {
-							"post": [-21.5, 30.5, 60],
-							"lerp_mode": "catmullrom"
-						},
-						"31.5": {
-							"post": [-34, 25, 39],
-							"lerp_mode": "catmullrom"
-						},
-						"31.75": {
-							"post": [-25.5, 12.5, 9.5],
-							"lerp_mode": "catmullrom"
-						},
-						"32.0": {
-							"post": [0, 0, 0],
-							"lerp_mode": "catmullrom"
 						}
 					}
 				}
@@ -601,7 +529,22 @@
 				}
 			},
 			"timeline": {
-				"0.0": "1;"
+				"0.0": "0;",
+				"1.0": "1;",
+				"2.0": "0;",
+				"6.75": "1;",
+				"8.0": "0;",
+				"12.5": "1;",
+				"14.75": "0;",
+				"15.25": "1;",
+				"15.875": "0;",
+				"17.25": "1;",
+				"18.125": "0;",
+				"23.25": "1;",
+				"23.9583": "0;",
+				"25.75": "1;",
+				"27.25": "0;",
+				"28.0": "1;"
 			}
 		}
 	}
