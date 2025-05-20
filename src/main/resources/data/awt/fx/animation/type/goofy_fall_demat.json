@@ -2,5 +2,5 @@
   "id": "awt:goofy_fall_demat",
   "name": "goofy_fall_demat",
   "expected_state": "demat",
-  "sound": "ait:tardis/siege_enable"
+  "sound": "ait:tardis/groan"
 }
