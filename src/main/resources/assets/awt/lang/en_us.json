@@ -147,6 +147,7 @@
   "animation.awt.goofy_fall_demat": "Oops I Slipped",
   "animation.awt.awt_mat": "AWT Mat",
   "animation.awt.awt_demat": "AWT Demat",
+  "animation.awt.sliding_mat": "Sliding Mat",
 
   "block.awt.white_concrete_roundel": "White Concrete Roundel",
   "block.awt.black_concrete_roundel": "Black Concrete Roundel",
