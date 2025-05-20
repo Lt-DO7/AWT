@@ -150,6 +150,7 @@
   "animation.awt.sliding_mat": "Sliding Mat",
   "animation.awt.dramatic_demat": "Dramatic Demat",
   "animation.awt.rejected_mat": "Rejected Mat",
+  "animation.awt.aborted_mat": "Aborted Take Off Mat",
 
   "block.awt.white_concrete_roundel": "White Concrete Roundel",
   "block.awt.black_concrete_roundel": "Black Concrete Roundel",
