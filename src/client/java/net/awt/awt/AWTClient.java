@@ -16,6 +16,8 @@ public class AWTClient implements ClientModInitializer {
     private void registerClientAddonExteriors() {
         AWT.BAKER.setModel(new BakerExteriorModel()).toClient().register();
         AWT.BAKER.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
+        //AWT.BAKER.setPortalWidth(1f);
+       // AWT.BAKER.setPortalHeight(2f);
         AWT.BAKER.toDoor().setModel(new BakerDoorModel(BakerDoorModel.getTexturedModelData().createModel())).toClient().register();
 
         AWT.SECOND.setModel(new ThirdAndSecondBaseExterior()).toClient().register();
@@ -25,14 +27,6 @@ public class AWTClient implements ClientModInitializer {
         AWT.THIRD.setModel(new ThirdAndSecondBaseExterior()).toClient().register();
         AWT.THIRD.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
         AWT.THIRD.toDoor().setModel(new ThirdAndSecondBaseDoor(ThirdAndSecondBaseDoor.getTexturedModelData().createModel())).toClient().register();
-
-        AWT.TORCHWOODCAPSULE.setModel(new TorchwoodCapsuleExterior()).toClient().register();
-        AWT.TORCHWOODCAPSULE.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
-        AWT.TORCHWOODCAPSULE.toDoor().setModel(new TorchwoodCapsuleDoor(TorchwoodCapsuleDoor.getTexturedModelData().createModel())).toClient().register();
-
-        AWT.TYPEULTANDR.setModel(new TypeUltAndrExterior()).toClient().register();
-        AWT.TYPEULTANDR.toDoor().setModel(new TypeUltAndrDoor(TypeUltAndrDoor.getTexturedModelData().createModel())).toClient().register();
-        AWT.TYPEULTANDR.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
 
         AWT.REDONION.setModel(new OnionExterior()).toClient().register();
         AWT.REDONION.toDoor().setModel(new OnionDoor(OnionDoor.getTexturedModelData().createModel())).toClient().register();
@@ -70,9 +64,17 @@ public class AWTClient implements ClientModInitializer {
         AWT.LIMEGREENONION.toDoor().setModel(new OnionDoor(OnionDoor.getTexturedModelData().createModel())).toClient().register();
         AWT.LIMEGREENONION.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
 
-       // AWT.STEAMPUNK.setModel(new SteampunkExterior()).toClient().register();
-       // AWT.STEAMPUNK.toDoor().setModel(new SteampunkDoor(SteampunkDoor.getTexturedModelData().createModel())).toClient().register();
+        AWT.MULTIONION.setModel(new OnionExterior()).toClient().register();
+        AWT.MULTIONION.toDoor().setModel(new OnionDoor(OnionDoor.getTexturedModelData().createModel())).toClient().register();
+        AWT.MULTIONION.setSonicItemTranslations(new Vector3f(0.15f, 1.122f, 0.94f));
 
+        AWT.CUBE.setModel(new CubeExterior()).toClient().register();
+        AWT.CUBE.toDoor().setModel(new CubeDoor(CubeDoor.getTexturedModelData().createModel())).toClient().register();
+        AWT.CUBE.setSonicItemTranslations(new Vector3f(0, 0, 0));
+
+        AWT.ATRIUM.setModel(new AtriumExterior()).toClient().register();
+        AWT.ATRIUM.toDoor().setModel(new AtriumDoor(AtriumDoor.getTexturedModelData().createModel())).toClient().register();
+        AWT.ATRIUM.setSonicItemTranslations(new Vector3f(0, 0, 0));
 
     }
 

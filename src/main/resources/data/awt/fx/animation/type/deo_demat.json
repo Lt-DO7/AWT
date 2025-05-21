@@ -1,0 +1,6 @@
+{
+  "id": "awt:deo_demat",
+  "name": "deo_demat",
+  "expected_state": "demat",
+  "sound": "ait:tardis/engine_phasing_demat"
+}

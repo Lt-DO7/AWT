@@ -24,7 +24,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
 
-
+           //Roundels
         addDrop(ModBlocks.MOSS_ROUNDEL, drops(ModBlocks.MOSS_ROUNDEL));
         addDrop(ModBlocks.DIRT_ROUNDEL, drops(ModBlocks.DIRT_ROUNDEL));
         addDrop(ModBlocks.END_STONE_BRICKS_ROUNDEL, drops(ModBlocks.END_STONE_BRICKS_ROUNDEL));
@@ -55,7 +55,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BLACK_CONCRETE_ROUNDEL, drops(ModBlocks.BLACK_CONCRETE_ROUNDEL));
         addDrop(ModBlocks.CYAN_CONCRETE_ROUNDEL, drops(ModBlocks.CYAN_CONCRETE_ROUNDEL));
         addDrop(ModBlocks.LIGHT_BLUE_CONCRETE_ROUNDEL, drops(ModBlocks.LIGHT_BLUE_CONCRETE_ROUNDEL));
-
         addDrop(ModBlocks.LIME_CONCRETE_ROUNDEL, drops(ModBlocks.LIME_CONCRETE_ROUNDEL));
         addDrop(ModBlocks.MAGENTA_CONCRETE_ROUNDEL, drops(ModBlocks.MAGENTA_CONCRETE_ROUNDEL));
         addDrop(ModBlocks.BLUE_CONCRETE_ROUNDEL, drops(ModBlocks.BLUE_CONCRETE_ROUNDEL));
@@ -63,6 +62,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GRAY_CONCRETE_ROUNDEL, drops(ModBlocks.GRAY_CONCRETE_ROUNDEL));
         addDrop(ModBlocks.GREEN_CONCRETE_ROUNDEL, drops(ModBlocks.GREEN_CONCRETE_ROUNDEL));
         addDrop(ModBlocks.LIGHT_GRAY_CONCRETE_ROUNDEL, drops(ModBlocks.LIGHT_GRAY_CONCRETE_ROUNDEL));
+
+        //Artrium
+        addDrop(ModBlocks.ARTRIUM_BLOCK, drops(ModBlocks.ARTRIUM_BLOCK));
+        addDrop(ModBlocks.ARTRIUM_ORE, drops(ModItems.ARTRIUM));
+        addDrop(ModBlocks.DEEPSLATE_ARTRIUM_ORE, drops(ModItems.ARTRIUM));
 
     }
 

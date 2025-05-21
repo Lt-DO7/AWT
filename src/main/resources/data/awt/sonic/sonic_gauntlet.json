@@ -8,6 +8,6 @@
     "tardis": "awt:item/sonic/sonic_gauntlet_tardis"
   },
   "loyalty": {
-    "type": "NEUTRAL"
+    "type": "OWNER"
   }
 }

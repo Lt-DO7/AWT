@@ -1,0 +1,13 @@
+{
+  "id": "awt:sonic_emitter",
+  "models": {
+    "inactive": "awt:item/sonic/sonic_emitter_inactive",
+    "interaction": "awt:item/sonic/sonic_emitter_interactive",
+    "overload": "awt:item/sonic/sonic_emitter_overload",
+    "scanning": "awt:item/sonic/sonic_emitter_scanning",
+    "tardis": "awt:item/sonic/sonic_emitter_tardis"
+  },
+  "loyalty": {
+    "type": "COMPANION"
+  }
+}

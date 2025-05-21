@@ -1,6 +1,5 @@
 package net.awt.awt.tardis.model.exterior;
 
-import dev.amble.ait.AITMod;
 import dev.amble.ait.api.tardis.link.v2.Linkable;
 import dev.amble.ait.client.models.exteriors.ExteriorModel;
 import dev.amble.ait.client.tardis.ClientTardis;
@@ -16,50 +15,24 @@ import net.minecraft.entity.Entity;
 // Exported for Minecraft version 1.17+ for Yarn
 // Paste this class into your mod and generate all required imports
 public class OnionExterior extends ExteriorModel {
-	private ModelPart Root;
-	private ModelPart Body;
-	private ModelPart Hat;
-	private ModelPart OmgitsaUFO;
-	private ModelPart GetInLoserWereGoingShopping;
-	private ModelPart Petals;
-	private ModelPart Leg1;
-	private ModelPart Joint1;
-	private ModelPart Joint2;
-	private ModelPart Joint3;
-	private ModelPart Leg2;
-	private ModelPart Joint4;
-	private ModelPart Joint5;
-	private ModelPart Joint6;
-	private ModelPart Leg3;
-	private ModelPart Joint7;
-	private ModelPart Joint8;
-	private ModelPart Joint9;
-
-    public OnionExterior(ModelPart root, ModelPart body, ModelPart hat, ModelPart omgitsaUFO, ModelPart getInLoserWereGoingShopping, ModelPart petals, ModelPart leg1, ModelPart joint1, ModelPart joint2, ModelPart joint3, ModelPart leg2, ModelPart joint4, ModelPart joint5, ModelPart joint6, ModelPart leg3, ModelPart joint7, ModelPart joint8, ModelPart joint9) {
-        Root = root;
-        Body = body;
-        Hat = hat;
-        OmgitsaUFO = omgitsaUFO;
-        GetInLoserWereGoingShopping = getInLoserWereGoingShopping;
-        Petals = petals;
-        Leg1 = leg1;
-        Joint1 = joint1;
-        Joint2 = joint2;
-        Joint3 = joint3;
-        Leg2 = leg2;
-        Joint4 = joint4;
-        Joint5 = joint5;
-        Joint6 = joint6;
-        Leg3 = leg3;
-        Joint7 = joint7;
-        Joint8 = joint8;
-        Joint9 = joint9;
-    }
-
-	public OnionExterior() {
-		this(getTexturedModelData().createModel());
-	}
-
+	private final ModelPart Root;
+	private final ModelPart Body;
+	private final ModelPart Hat;
+	private final ModelPart OmgitsaUFO;
+	private final ModelPart GetInLoserWereGoingShopping;
+	private final ModelPart Petals;
+	private final ModelPart Leg1;
+	private final ModelPart Joint1;
+	private final ModelPart Joint2;
+	private final ModelPart Joint3;
+	private final ModelPart Leg2;
+	private final ModelPart Joint4;
+	private final ModelPart Joint5;
+	private final ModelPart Joint6;
+	private final ModelPart Leg3;
+	private final ModelPart Joint7;
+	private final ModelPart Joint8;
+	private final ModelPart Joint9;
 	public OnionExterior(ModelPart root) {
 		this.Root = root.getChild("Root");
 		this.Body = this.Root.getChild("Body");
@@ -79,12 +52,16 @@ public class OnionExterior extends ExteriorModel {
 		this.Joint7 = this.Leg3.getChild("Joint7");
 		this.Joint8 = this.Joint7.getChild("Joint8");
 		this.Joint9 = this.Joint8.getChild("Joint9");
-        return null;
-    }
+	}
+
+	public OnionExterior() {
+		this(getTexturedModelData().createModel());
+	}
+
 	public static TexturedModelData getTexturedModelData() {
 		ModelData modelData = new ModelData();
 		ModelPartData modelPartData = modelData.getRoot();
-		ModelPartData Root = modelPartData.addChild("Root", ModelPartBuilder.create().uv(0, 0).cuboid(-8.0F, 3.5F, -7.0F, 16.0F, 10.0F, 14.0F, new Dilation(0.0F)), ModelTransform.pivot(0.0F, -23.5F, 0.0F));
+		ModelPartData Root = modelPartData.addChild("Root", ModelPartBuilder.create().uv(0, 0).cuboid(-8.0F, 3.5F, -7.0F, 16.0F, 10.0F, 14.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, -47.5F, 0.0F, 0.0F, 3.1416F, 0.0F));
 
 		ModelPartData topbottom_r1 = Root.addChild("topbottom_r1", ModelPartBuilder.create().uv(0, 48).cuboid(-2.0F, -7.0F, -7.0F, 12.0F, 14.0F, 14.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, 12.5F, 0.0F, -1.5708F, 0.0F, -1.5708F));
 
@@ -106,7 +83,7 @@ public class OnionExterior extends ExteriorModel {
 
 		ModelPartData Arrow_r1 = GetInLoserWereGoingShopping.addChild("Arrow_r1", ModelPartBuilder.create().uv(0, -2).cuboid(0.0F, -4.0F, -3.5F, 0.0F, 8.0F, 7.0F, new Dilation(0.0F)), ModelTransform.of(-0.25F, 19.0F, 5.25F, 0.0F, -1.5708F, 0.0F));
 
-		ModelPartData Petals = Body.addChild("Petals", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, -12.5F, 0.0F));
+		ModelPartData Petals = Body.addChild("Petals", ModelPartBuilder.create(), ModelTransform.of(0.0F, -12.5F, 0.0F, 0.0F, 0.3054F, 0.0F));
 
 		ModelPartData petal3_r1 = Petals.addChild("petal3_r1", ModelPartBuilder.create().uv(0, 76).cuboid(0.0F, 1.0F, -3.0F, 0.0F, 8.0F, 6.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, 0.0F, 0.0F, -2.5133F, 0.0F, -1.5708F));
 

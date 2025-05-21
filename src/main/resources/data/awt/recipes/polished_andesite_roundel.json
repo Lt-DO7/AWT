@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "bab",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:polished_andesite"
+    },
+    "b": {
+      "item": "awt:roundel_mold"
+    }
+  },
+  "result": {
+    "item": "awt:polished_andesite_roundel",
+    "count": 2
+  }
+}

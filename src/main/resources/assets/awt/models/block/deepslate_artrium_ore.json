@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "awt:block/deepslate_artrium_ore",
+    "up": "awt:block/deepslate_artrium_ore",
+    "north": "awt:block/deepslate_artrium_ore",
+    "east": "awt:block/deepslate_artrium_ore",
+    "south": "awt:block/deepslate_artrium_ore",
+    "west": "awt:block/deepslate_artrium_ore",
+    "particle": "awt:block/deepslate_artrium_ore"
+  },
+  "render_type": "solid"
+}

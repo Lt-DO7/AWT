@@ -13,15 +13,15 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup ARTRIUM_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(AWT.MOD_ID, "artrium"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.artrium"))
+            FabricItemGroup.builder().displayName(Text.translatable("item_group.Artrium"))
                     .icon(() -> new ItemStack(ModItems.ARTRIUM)).entries((displayContext, entries) -> {
                         entries.add(ModItems.ARTRIUM);
                         entries.add(ModItems.PROCESSINGUNIT);
                         entries.add(ModItems.ARTRIUMCORE);
                         entries.add(ModItems.ENERGIZEDARTRIUM);
-
-
-
+                        entries.add(ModBlocks.ARTRIUM_BLOCK);
+                        entries.add(ModBlocks.ARTRIUM_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_ARTRIUM_ORE);
                     }).build());
 
 
@@ -67,6 +67,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RED_CONCRETE_ROUNDEL);
                         entries.add(ModBlocks.YELLOW_CONCRETE_ROUNDEL);
                         entries.add(ModBlocks.WEATHERED_COPPER_ROUNDEL);
+                        entries.add(ModItems.ROUNDELMOLD);
                     }).build());
 
 

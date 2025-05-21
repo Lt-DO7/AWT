@@ -22,6 +22,8 @@ repositories {
 			artifact() // Look directly for artifact
 		}
 	}
+// Scheduler, Queue, MultiDim, AutoJSON
+	maven { url "https://theo.is-a.dev/maven-repo/" }
 
 	maven { url "https://maven.shedaniel.me/" }
 	maven { url "https://maven.terraformersmc.com/releases/" }
@@ -64,27 +66,36 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
+	include (implementation "net.objecthunter:exp4j:0.4.8")
+
+	// Fabric API. This is technically optional, but you probably want it anyway.
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	implementation 'com.google.code.gson:gson:2.8.9'
+
+	modCompileOnlyApi("com.github.qouteall:GravityChanger:${project.gravity_version}") {
+		exclude(group: "net.fabricmc.fabric-api")
+	}
+
 	modApi("me.shedaniel.cloth:cloth-config-fabric:${project.cloth_version}") {
 		exclude(group: "net.fabricmc.fabric-api")
 	}
 
-	// Fabric API. This is technically optional, but you probably want it anyway.
-	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	modImplementation "maven.modrinth:ait:${project.ait_version}"
+	modApi("com.terraformersmc:modmenu:${project.modmenu_version}")
+
+	modCompileOnlyApi "maven.modrinth:k9-mod:${project.k9_version}"
+
+	include(modImplementation("dev.drtheo:multidim:${project.multidim_version}")) {
+		exclude(group: "net.fabricmc.fabric-api")
+	}
+	include(modImplementation("dev.drtheo:scheduler:${project.scheduler_version}")) {
+		exclude(group: "net.fabricmc.fabric-api")
+	}
+	include(modImplementation("dev.drtheo:queue:${project.queue_version}")) {
+		exclude(group: "net.fabricmc.fabric-api")
+	}
 	modImplementation("com.github.amblelabs:modkit:${project.amblekit_version}") {
 		exclude(group: "net.fabricmc.fabric-api")
 	}
-
-	include(modImplementation("com.github.DrTheodor:mc-multidim:${project.multidim_version}")) {
-		exclude(group: "net.fabricmc.fabric-api")
-	}
-	include(modImplementation("com.github.DrTheodor:mc-scheduler:${project.scheduler_version}")) {
-		exclude(group: "net.fabricmc.fabric-api")
-	}
-	include(modImplementation("com.github.DrTheodor:mc-queue:${project.queue_version}")) {
-		exclude(group: "net.fabricmc.fabric-api")
-	}
-
 }
 
 

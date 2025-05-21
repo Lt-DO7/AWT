@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "dcd",
+    "bab",
+    "dcd"
+  ],
+  "key": {
+    "a": {
+      "item": "awt:processing_unit"
+    },
+    "b": {
+      "item": "awt:energized_artrium"
+    },
+    "c": {
+      "item": "awt:artrium"
+    },
+    "d": {
+      "item": "awt:artrium_core"
+    }
+  },
+    "result": {
+      "item": "ait:sonic_screwdriver",
+      "count": 1
+    }
+}
+
+
+

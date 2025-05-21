@@ -1,6 +1,6 @@
 {
     "id": "awt:classic_purple",
-    "category":"ait:exterior/classic",
+    "category": "ait:exterior/classic",
     "parent": "ait:exterior/classic/prime",
     "texture": "awt:textures/exterior/classic_purple.png",
     "emission": "awt:textures/exterior/classic_purple_emission.png"

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "bab",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:moss_block"
+    },
+    "b": {
+      "item": "awt:roundel_mold"
+    }
+  },
+  "result": {
+    "item": "awt:moss_roundel",
+    "count": 2
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "id": "awt:paradox_mat",
+  "name": "paradox_mat",
+  "expected_state": "mat",
+  "sound": "awt:paradoxmat"
+}

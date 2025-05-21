@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "bab",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stripped_mangrove_log"
+    },
+    "b": {
+      "item": "awt:roundel_mold"
+    }
+  },
+  "result": {
+    "item": "awt:stripped_mangrove_log_roundel",
+    "count": 2
+  }
+}

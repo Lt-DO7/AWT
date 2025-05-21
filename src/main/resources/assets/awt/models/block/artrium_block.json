@@ -1,7 +1,13 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "awt:block/artrium_block"
+    "down": "awt:block/artrium_block",
+    "up": "awt:block/artrium_block",
+    "north": "awt:block/artrium_block",
+    "east": "awt:block/artrium_block",
+    "south": "awt:block/artrium_block",
+    "west": "awt:block/artrium_block",
+    "particle": "awt:block/artrium_block"
   },
-  "particle": "blocks/artrium_block"
+  "render_type": "solid"
 }

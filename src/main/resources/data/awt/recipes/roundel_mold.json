@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:quartz"
+    },
+    "b": {
+      "item": "ait:plasmic_material"
+    }
+  },
+    "result": {
+      "item": "awt:roundel_mold",
+      "count": 4
+    }
+  }

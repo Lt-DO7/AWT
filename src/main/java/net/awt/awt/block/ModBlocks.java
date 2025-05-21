@@ -17,7 +17,14 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     //AWT
 
+    public static final Block ARTRIUM_BLOCK = registerBlock("artrium_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK).sounds(BlockSoundGroup.COPPER).requiresTool().strength(1.5F, 3.0F)));
 
+    public static final Block ARTRIUM_ORE = registerBlock("artrium_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).sounds(BlockSoundGroup.STONE).requiresTool().strength(1.5F, 3.0F)));
+
+    public static final Block DEEPSLATE_ARTRIUM_ORE = registerBlock("deepslate_artrium_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE).sounds(BlockSoundGroup.DEEPSLATE).requiresTool().strength(1.5F, 3.0F)));
 
 
     //roundels
@@ -137,6 +144,8 @@ public class ModBlocks {
 
     public static final Block LIGHT_GRAY_CONCRETE_ROUNDEL = registerBlock("light_gray_concrete_roundel",
             new RoundelBlock(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+
+
 
 
 

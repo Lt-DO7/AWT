@@ -1,0 +1,13 @@
+{
+  "id": "awt:kenobi_sonic",
+  "models": {
+    "inactive": "awt:item/sonic/kenobi_sonic_deactive",
+    "interaction": "awt:item/sonic/kenobi_sonic_active",
+    "overload": "awt:item/sonic/kenobi_sonic_active",
+    "scanning": "awt:item/sonic/kenobi_sonic_active",
+    "tardis": "awt:item/sonic/kenobi_sonic_active"
+  },
+  "loyalty": {
+    "type": "OWNER"
+  }
+}

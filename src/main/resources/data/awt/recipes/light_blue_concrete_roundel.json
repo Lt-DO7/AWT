@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "bab",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:light_blue_concrete"
+    },
+    "b": {
+      "item": "awt:roundel_mold"
+    }
+  },
+  "result": {
+    "item": "awt:light_blue_concrete_roundel",
+    "count": 2
+  }
+}

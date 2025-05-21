@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "bab",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:polished_deepslate"
+    },
+    "b": {
+      "item": "awt:roundel_mold"
+    }
+  },
+  "result": {
+    "item": "awt:polished_deepslate_roundel",
+    "count": 2
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bcb",
+    "bab",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "awt:processing_unit"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "awt:artrium_core"
+    }
+  },
+    "result": {
+      "item": "ait:handles",
+      "count": 1
+    }
+}
+
+
+

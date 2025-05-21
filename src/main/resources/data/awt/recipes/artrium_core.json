@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "dcd",
+    "bab",
+    "dcd"
+  ],
+  "key": {
+    "a": {
+      "item": "awt:energized_artrium"
+    },
+    "b": {
+      "item": "awt:artrium"
+    },
+    "c": {
+      "item": "ait:charged_zeiton_crystal"
+    },
+    "d": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+    "result": {
+      "item": "awt:artrium_core",
+      "count": 1
+    }
+}
+
+
+

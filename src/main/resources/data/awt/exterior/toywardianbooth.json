@@ -1,7 +1,8 @@
 {
     "id": "awt:toywardianbooth",
-    "category":"ait:exterior/booth",
+    "category": "ait:exterior/booth",
     "parent": "ait:exterior/booth/default",
     "texture": "awt:textures/exterior/booth_toywardian.png",
-    "emission": "awt:textures/exterior/booth_toywardian_emission.png"
+    "emission": "awt:textures/exterior/booth_toywardian_emission.png",
+    "loyalty": "owner"
   }
