@@ -151,6 +151,8 @@
   "animation.awt.dramatic_demat": "Dramatic Demat",
   "animation.awt.rejected_mat": "Rejected Mat",
   "animation.awt.aborted_mat": "Aborted Take Off Mat",
+  "animation.awt.deo_mat": "AWT Phasing Mat",
+  "animation.awt.deo_demat": "AWT Phasing Demat",
 
   "block.awt.white_concrete_roundel": "White Concrete Roundel",
   "block.awt.black_concrete_roundel": "Black Concrete Roundel",
