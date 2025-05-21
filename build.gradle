@@ -96,6 +96,7 @@ dependencies {
 	modImplementation("com.github.amblelabs:modkit:${project.amblekit_version}") {
 		exclude(group: "net.fabricmc.fabric-api")
 	}
+	modImplementation "maven.modrinth:ait:${project.ait_version}"
 }
 
 
