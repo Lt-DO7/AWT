@@ -31,6 +31,7 @@ public class AWT implements ModInitializer {
     public static AddonExterior MULTIONION;
     public static AddonExterior CUBE;
     public static AddonExterior ATRIUM;
+    public static AddonExterior POLICEBOX;
 
 
 
@@ -108,6 +109,9 @@ public class AWT implements ModInitializer {
 
         ATRIUM = new AddonExterior(new Identifier(MOD_ID, "awtboxes"), MOD_ID, "atrium").register();
         ATRIUM.setDoor(new AddonExterior.Door(ATRIUM, false, net.awt.awt.sound.AWTSound.BLOOP, net.awt.awt.sound.AWTSound.BLOOP)).toDoor().register();
+
+        POLICEBOX = new AddonExterior(new Identifier(MOD_ID, "awtboxes"), MOD_ID, "policebox").register();
+        POLICEBOX.setDoor(new AddonExterior.Door(POLICEBOX, true, SoundEvents.BLOCK_WOODEN_DOOR_OPEN, net.minecraft.sound.SoundEvents.BLOCK_WOODEN_DOOR_CLOSE)).toDoor().register();
 
     }
 
